@@ -153,7 +153,7 @@ export const GlobalNavbar: React.FC<GlobalNavbarProps> = ({
                         <span className="text-[10px] text-emerald-700 bg-emerald-50 px-1.5 py-0.2 rounded font-mono">gi.bizgenix.ai</span>
                       </div>
                       <p className="text-[11px] text-slate-500 mt-0.5 leading-tight">
-                        Tally ERP intelligence, aging buckets, cash runway &amp; Virtual CFO.
+                        Tally ERP intelligence, aging buckets, cash runway &amp; your AI Chief Value Officer.
                       </p>
                     </div>
                   </button>
@@ -371,7 +371,7 @@ export const GlobalNavbar: React.FC<GlobalNavbarProps> = ({
                 </div>
                 <div className="mt-2.5 space-y-1.5 text-slate-600">
                   <div className="font-medium text-slate-800">Apex Synthetics &amp; Polymers Ltd</div>
-                  <div className="text-[11px] text-slate-500">TallyPrime 4.1 Gold · Real-Time Sync</div>
+                  <div className="text-[11px] text-slate-500">Demonstration company · Scheduled sync</div>
                   <div className="text-[11px] text-slate-500">Active across all 8 industry modules</div>
                   <div className="flex items-center gap-1.5 text-[#2E7D4E] pt-1 font-semibold text-[11px]">
                     <CheckCircle2 className="w-3.5 h-3.5" />

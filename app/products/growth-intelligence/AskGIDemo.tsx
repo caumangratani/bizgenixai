@@ -102,7 +102,7 @@ export const AskGIDemo: React.FC<AskGIDemoProps> = ({ onOpenWhatsApp }) => {
                 <div className="flex items-center gap-2">
                   <span className="font-bold text-sm text-white">Ask GI Engine</span>
                   <span className="text-[10px] bg-emerald-500/20 text-emerald-400 px-2 py-0.5 rounded font-mono border border-emerald-500/30">
-                    ODBC Ready
+                    Demo data
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-400">Context: Apex Synthetics (Surat Unit) · 1,842 Ledgers</p>

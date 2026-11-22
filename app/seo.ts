@@ -67,7 +67,7 @@ export const organizationJsonLd = {
       hasMap: 'https://www.google.com/maps/place/Bizgenix+AI+Solutions+Pvt+Ltd/@23.0767474,72.5080332,17z',
       areaServed: { '@type': 'Country', name: 'India' },
       founder: { '@id': `${SITE_URL}/#founder` },
-      sameAs: ['https://www.linkedin.com/company/bizgenix-ai-solutions/', 'https://www.instagram.com/bizgenix.ai/'],
+      sameAs: ['https://www.linkedin.com/company/bizgenix-ai-solutions/', 'https://www.instagram.com/bizgenix.ai/', 'https://www.crunchbase.com/organization/bizgenix-ai', 'https://clutch.co/profile/bizgenix-ai'],
       knowsAbout: ['AI automation', 'Custom AI solutions', 'AI consulting', 'AI agents', 'WhatsApp automation', 'Voice AI', 'AI CRM', 'Corporate AI training', 'Business analytics on Tally data', 'AI for textile manufacturing', 'AI for real estate and construction'],
     },
     {

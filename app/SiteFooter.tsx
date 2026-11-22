@@ -17,6 +17,7 @@ const services = [
   ['ScaleOS', '/products/scaleos'],
   ['AI Consultant in Ahmedabad', '/ai-consultant-ahmedabad'],
   ['Business Guides', '/guides'],
+  ['Tally & Finance Guides', '/tally'],
 ] as const;
 
 const founderSocials: readonly { name: string; icon: string; href: string }[] = [

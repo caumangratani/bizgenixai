@@ -159,7 +159,7 @@ export const ProblemSolution: React.FC = () => {
 
             <div className="mt-8 pt-4 border-t border-rose-200/60 flex items-center justify-between text-xs text-rose-700 font-medium">
               <span>Result: Working capital stuck in dead stock and aged debtors</span>
-              <span className="font-bold">Avg DSO: 68 Days</span>
+              <span className="font-bold">Illustration</span>
             </div>
           </div>
 
@@ -188,7 +188,7 @@ export const ProblemSolution: React.FC = () => {
                   <div className="w-5 h-5 rounded-full bg-emerald-100 text-[#2E7D4E] flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
                   <div>
                     <strong className="text-slate-900 font-semibold block text-sm">Instant Mobile &amp; Web Executive View</strong>
-                    <p className="text-slate-600 text-xs mt-0.5">Live receivables, bank balances, and supplier liabilities at your fingertips anywhere in the world on iOS, Android, or desktop.</p>
+                    <p className="text-slate-600 text-xs mt-0.5">Receivables, bank balances and supplier dues from your latest Tally sync, in the browser on your phone or laptop.</p>
                   </div>
                 </div>
 
@@ -196,14 +196,14 @@ export const ProblemSolution: React.FC = () => {
                   <div className="w-5 h-5 rounded-full bg-emerald-100 text-[#2E7D4E] flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
                   <div>
                     <strong className="text-slate-900 font-semibold block text-sm">Automated Aging Notifications &amp; WhatsApp Dispatch</strong>
-                    <p className="text-slate-600 text-xs mt-0.5">One-click WhatsApp statements with attached ledger PDFs and instant UPI / NEFT payment links. Recover funds 14 days faster.</p>
+                    <p className="text-slate-600 text-xs mt-0.5">Payment reminders drafted from your Tally outstanding and sent on WhatsApp or email on your rules, after your approval. A sent reminder is never counted as money collected.</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-emerald-100 text-[#2E7D4E] flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
                   <div>
-                    <strong className="text-slate-900 font-semibold block text-sm">Virtual CFO Decision Cards &amp; Rolling Runway</strong>
+                    <strong className="text-slate-900 font-semibold block text-sm">CVO Decision Cards &amp; 13-Week Cash View</strong>
                     <p className="text-slate-600 text-xs mt-0.5">Plain-English recommendations: which vendor discounts to capture, cash surplus/deficit flags, and dead stock liquidation alerts.</p>
                   </div>
                 </div>
@@ -221,9 +221,9 @@ export const ProblemSolution: React.FC = () => {
             <div className="mt-8 pt-4 border-t border-[#2E7D4E]/20 flex items-center justify-between text-xs text-[#25663F] font-semibold">
               <span className="flex items-center gap-1.5">
                 <Sparkles className="w-4 h-4 text-[#2E7D4E]" />
-                <span>Result: ₹80L+ Cash unlocked into bank balance</span>
+                <span>Every result is counted only after a later Tally sync shows it and you confirm it</span>
               </span>
-              <span className="font-extrabold text-sm">Avg DSO: 40 Days (-14 Days)</span>
+              <span className="font-extrabold text-sm">Illustration</span>
             </div>
           </div>
 

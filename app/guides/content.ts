@@ -4,6 +4,8 @@
 // beyond app/products/content.ts. Keep `answer` to two or three sentences: it is the
 // passage search engines and AI assistants are most likely to quote.
 
+import { tallyFinanceGuides } from './tally-finance';
+
 export type Guide = {
   slug: string;
   title: string;
@@ -405,6 +407,7 @@ export const guides: Guide[] = [
 <tr><td>Comparing this month with earlier periods</td><td>Judging whether a change is a problem or a plan</td></tr>
 <tr><td>Flagging unusual movements</td><td>Tax structuring and legal decisions</td></tr>
 </tbody></table></div>
+<p>The role is also changing. Finance leaders are moving from counting value to finding and moving it, which is why the term <a href="/guides/chief-value-officer">Chief Value Officer</a> is now used for the job.</p>
 <p>Many businesses use both: software for the daily view, and a finance professional for the review and the decisions. If the main gap is that you cannot see your numbers in time, start with the software. If you can see them but do not know what to do, you need the person.</p>
 `,
     faqs: [
@@ -413,7 +416,7 @@ export const guides: Guide[] = [
       ['How much do virtual CFO services cost in India?', 'There is no standard rate. Fees depend on the size of the business, the number of companies, the condition of the books and the hours agreed. Ask each firm for a written scope and compare what you receive each month, not only the fee.'],
       ['Can software replace a virtual CFO?', 'Software can replace the repetitive part: collecting data, preparing reports, tracking overdue payments and flagging changes. It does not replace judgement on funding, negotiations, tax structure or strategy. The two are commonly used together.'],
     ],
-    next: { eyebrow: 'GROWTH INTELLIGENCE', title: 'See your Tally numbers every day, not once a month', text: 'Growth Intelligence is software, not a virtual CFO service. It turns Tally data into answers on cash, receivables, payables and stock, with the next action for each.', primary: { label: 'Request a demo', href: '/contact?intent=product&product=growth-intelligence#contact-form' }, secondary: { label: 'See Growth Intelligence', href: '/products/growth-intelligence' } },
+    next: { eyebrow: 'GROWTH INTELLIGENCE', title: 'See your Tally numbers every day, not once a month', text: 'Growth Intelligence is software, not a virtual CFO service: an AI Chief Value Officer that reads your Tally, prepares the week’s decisions on cash, receivables, payables and stock, and waits for your approval.', primary: { label: 'Request a demo', href: '/contact?intent=product&product=growth-intelligence#contact-form' }, secondary: { label: 'See Growth Intelligence', href: '/products/growth-intelligence' } },
   },
   {
     slug: 'whatsapp-automation-for-business',
@@ -481,3 +484,6 @@ export const guides: Guide[] = [
     next: { eyebrow: 'BIZCHAT', title: 'Want WhatsApp connected to your own data?', text: 'BizChat is our WhatsApp automation product for customer communication, lead follow-ups, reminders, support conversations and internal notifications, connected to your business workflows.', primary: { label: 'Discuss your workflow', href: '/contact?intent=product&product=bizchat#contact-form' }, secondary: { label: 'See BizChat', href: '/products/bizchat' } },
   },
 ];
+
+// Tally, finance and Growth Intelligence cluster (Claude). Kept in its own file to avoid edit collisions.
+guides.push(...tallyFinanceGuides);

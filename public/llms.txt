@@ -11,7 +11,7 @@
 
 ## Products
 
-- [Growth Intelligence](https://bizgenix.ai/products/growth-intelligence): turns Tally data into answers on cash, receivables, payables and stock, with the next action for each. App: https://gi.bizgenix.ai/
+- [Growth Intelligence](https://bizgenix.ai/products/growth-intelligence): an AI Chief Value Officer for businesses on Tally. Reads Tally read-only, recomputes fourteen measures across cash, margin, stock, growth and risk, prepares three decisions a week and follows through on your approval. App: https://gi.bizgenix.ai/
 - [Bizgenix AI CRM](https://bizgenix.ai/products/ai-crm): captures leads from IndiaMART, Justdial, Facebook and Instagram ads and email, scores and assigns them, and keeps follow-ups, WhatsApp conversations, invoices and agreements in one workspace. App: https://crm.bizgenix.ai/
 - [Voice AI](https://bizgenix.ai/products/voice-ai): inbound and outbound AI calling in English, Hindi and Hinglish for lead qualification, bookings, reminders and follow-up, with outcomes written to the CRM.
 - [BizChat](https://bizgenix.ai/products/bizchat): WhatsApp automation for lead replies, follow-ups, reminders, support and broadcasts, connected to CRM and spreadsheets.
@@ -50,6 +50,17 @@ Answer-first guides by the Bizgenix AI team. Each opens with a short answer.
 - [Virtual CFO: what it is, what it does and when software helps](https://bizgenix.ai/guides/virtual-cfo)
 - [WhatsApp automation for business: what you can automate and what it takes](https://bizgenix.ai/guides/whatsapp-automation-for-business)
 - [All guides](https://bizgenix.ai/guides)
+
+## Tally, finance and Growth Intelligence
+
+Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tally
+
+- [Connect Tally to AI: the Tally API, connectors and MCP explained](https://bizgenix.ai/guides/connect-tally-to-ai-mcp)
+- [What is a Chief Value Officer (CVO)? CFO vs virtual CFO vs CVO](https://bizgenix.ai/guides/chief-value-officer)
+- [13-week cash flow forecast from Tally, step by step](https://bizgenix.ai/guides/cash-flow-forecast-from-tally)
+- [AI in accounting for Tally businesses: what works today](https://bizgenix.ai/guides/ai-in-accounting-for-tally-businesses)
+- [The owner's weekly Tally review: ten numbers to read every Monday](https://bizgenix.ai/guides/tally-weekly-owner-review)
+- [Growth Intelligence: an AI Chief Value Officer for businesses on Tally](https://bizgenix.ai/products/growth-intelligence). Reads Tally through a read-only connector, checks the data before advising, prepares three decisions a week, and counts a result only when a later Tally sync shows it. Not an MCP server; not accounting software; does not replace the CA.
 
 ## People
 

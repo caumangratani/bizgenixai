@@ -6,7 +6,7 @@ import { pageMeta, SITE_URL } from '../seo';
 import styles from '../blog/page.module.css';
 import { guides } from './content';
 
-const title = 'Business Guides: Tally MIS, Virtual CFO, WhatsApp Automation | Bizgenix AI';
+const title = 'Business Guides: Tally, Finance, AI Automation and Training | Bizgenix AI';
 const description = 'Plain, answer-first guides for Indian business owners on MIS reporting in Tally, virtual CFO services, WhatsApp automation and putting AI to work.';
 export const metadata: Metadata = pageMeta({ title, description, path: '/guides' });
 
@@ -28,6 +28,7 @@ export default function GuidesPage() {
           <p className={styles.eyebrow}>BIZGENIX GUIDES</p>
           <h1>Straight answers for business owners</h1>
           <p className={styles.byline}>Each guide starts with the answer, then shows the steps. Written by the Bizgenix AI team.</p>
+          <p className={styles.byline}><Link href="/tally">Tally, finance and AI library ↗</Link></p>
         </div>
       </div>
       <section className={`${styles.container} ${styles.section}`} aria-label="All guides">

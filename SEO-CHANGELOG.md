@@ -14,6 +14,14 @@ Rules that apply to every entry:
 
 ---
 
+## 22 Nov 2026 — Tally, finance and Growth Intelligence cluster (Claude)
+
+- **Growth Intelligence page aligned to the 20 Nov GI brochure.** Removed the unverified customer quote ("Recovered ₹84 Lakhs… Rajesh Shah, Vardhman Tex-Fab"), "Live in 15 minutes", "Encrypted AES-256", "Recover funds 14 days faster", "₹80L+ cash unlocked", DSO before/after figures, iOS/Android and real-time claims. "Virtual CFO" replaced by "Chief Value Officer" (owner rule; facts sheet line 85). Title now "Growth Intelligence | AI Chief Value Officer for Tally Businesses". Hero states that screens show a fictional demonstration company.
+- **Five new guides** in `app/guides/tally-finance.ts` (separate file to avoid edit collisions; appended to `guides` in `content.ts`): connect-tally-to-ai-mcp, chief-value-officer, cash-flow-forecast-from-tally, ai-in-accounting-for-tally-businesses, tally-weekly-owner-review.
+- **New hub `/tally`** ("Tally, finance and AI: the owner's library") grouping all Tally/finance guides with a GI call to action; linked from /guides, the footer, the GI page and llms.txt.
+- Organization `sameAs` adds Crunchbase and Clutch; GI `SoftwareApplication.sameAs` adds the G2 listing.
+- Old virtual-cfo guide links to the CVO guide; its GI call to action uses CVO wording.
+
 ## 15 Nov 2026 — Guides section, IndexNow and a friendlier phone rule (Claude)
 
 Built on Codex's `e788f84` (required phone field).

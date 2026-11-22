@@ -24,10 +24,10 @@ export const SetupFlow: React.FC = () => {
       time: "Continuous & Automated",
       summary: "Strict zero write-back architecture. Impossible to corrupt or alter vouchers.",
       details: [
-        "Connects via official Tally XML/ODBC read-only data channels.",
+        "A small connector on the Tally computer, or another PC on the same network, reads vouchers, ledgers, bills and stock. It never writes back to your books.",
         "Outbound-only 256-bit TLS connection (no open incoming ports in firewall).",
         "Pulls Master Ledgers, Closing Balances, Outstandings, and Stock Summaries.",
-        "Continuous 15-minute incremental sync keeps numbers fresh."
+        "Data is sent to GI on a schedule, and every screen shows the date of the last sync."
       ],
       icon: ShieldCheck
     },
@@ -35,12 +35,12 @@ export const SetupFlow: React.FC = () => {
       step: 3,
       title: "Instant Web & Mobile Dashboard",
       time: "Immediate Access",
-      summary: "Promoters & finance heads get real-time executive visibility on any phone or laptop.",
+      summary: "Owners and finance heads see the business as of the latest sync, on a phone or laptop.",
       details: [
         "Login from any mobile browser or desktop without remote desktop/AnyDesk.",
-        "Role-Based Access Control hides gross profit margins from field sales teams.",
+        "You decide who can view, who can approve and who can act.",
         "Automated aging alerts and WhatsApp reminder triggers ready out-of-the-box.",
-        "Virtual CFO weekly cash runway intelligence briefed every Monday."
+        "A weekly owner brief with the three decisions that matter, prepared by your AI Chief Value Officer."
       ],
       icon: MonitorSmartphone
     }
@@ -56,7 +56,7 @@ export const SetupFlow: React.FC = () => {
             Frictionless Implementation
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
-            Live in 15 Minutes. <br />
+            Live on your own books. <br />
             Zero Changes to Your Accounting Workflow.
           </h2>
           <p className="mt-4 text-base sm:text-lg text-[#475569] leading-relaxed">

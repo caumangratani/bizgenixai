@@ -1,0 +1,345 @@
+// Tally, finance and Growth Intelligence guides (owned by Claude; see seo-audit-nov-2026/COORDINATION.md).
+// Rules: general, verifiable guidance. Growth Intelligence facts only from the 20 Nov 2026 GI brochure
+// (Team-Brochure-Kit/Content-Library/04-Product-Growth-Intelligence.md). GI is an AI Chief Value Officer:
+// never "virtual CFO" or "AI CFO" for the product. No GI prices (not ruled). No client results.
+// GI is not an MCP server today: do not say it is.
+import type { Guide } from './content';
+
+const giNext = (title: string, text: string): Guide['next'] => ({
+  eyebrow: 'GROWTH INTELLIGENCE',
+  title,
+  text,
+  primary: { label: 'Book a 30-minute walkthrough', href: '/contact?intent=product&product=growth-intelligence#contact-form' },
+  secondary: { label: 'See Growth Intelligence', href: '/products/growth-intelligence' },
+});
+
+export const tallyFinanceGuides: Guide[] = [
+  {
+    slug: 'connect-tally-to-ai-mcp',
+    title: 'Connect Tally to AI: API, Connectors and MCP Explained',
+    h1: 'How to connect Tally to AI: the Tally API, connectors and MCP, explained for owners',
+    description: 'Does Tally have an API? How dashboards, connectors and MCP servers read TallyPrime data, what ChatGPT or Claude can safely do with it, and the questions to ask before you connect.',
+    answer: 'Tally has no hosted cloud API. Every tool that connects Tally to AI, whether a dashboard connector, a reporting add-on or an MCP server for ChatGPT or Claude, reads from the computer where Tally runs, usually through TallyPrime’s local data interface or ODBC. What matters is what the tool can read or change, where your data goes, and how you check the AI’s numbers against Tally.',
+    date: '2026-11-22',
+    updated: '2026-11-22',
+    tags: ['Tally', 'MCP', 'AI in Accounting', 'Growth Intelligence'],
+    minutes: 8,
+    html: `
+<h2>Why “Tally API” confuses people</h2>
+<p>Most business software today lives in the cloud and offers an API: a web address that another program can call with a key. Tally is different. TallyPrime runs on a Windows computer in your office, on a server, or on a hosted desktop. Its data lives with it. So when a vendor says “we integrate with Tally”, it almost always means a small program sits next to Tally and reads from it.</p>
+<p>That is not a weakness. It means your books stay where they are, and you decide what leaves the building. It also means every Tally integration has the same three parts: something that reads from Tally, somewhere the data goes, and something that uses it.</p>
+
+<h2>The ways data can leave Tally</h2>
+<div class="tableWrap"><table>
+<thead><tr><th>Route</th><th>What it is</th><th>Good for</th><th>Watch out for</th></tr></thead>
+<tbody>
+<tr><td>Local data interface (HTTP, usually port 9000)</td><td>TallyPrime can accept requests in XML, and in recent releases JSON, from programs on the same computer or network, and answer with ledgers, vouchers, bills and reports.</td><td>Connectors, dashboards, MCP servers</td><td>Tally must be open with the company loaded. Never expose this port to the internet.</td></tr>
+<tr><td>ODBC</td><td>A standard database connection that lets Excel or BI tools read Tally data.</td><td>Spreadsheets and reporting tools</td><td>Read-only in practice; slower on large books; needs set-up on each machine.</td></tr>
+<tr><td>TDL customisation</td><td>Tally’s own customisation language, used by Tally partners to add reports, fields or automatic sending.</td><td>Custom workflows inside Tally</td><td>Needs a partner who maintains it across Tally upgrades.</td></tr>
+<tr><td>Export (Alt+E)</td><td>Excel, PDF or XML files of any report.</td><td>One-off analysis, sharing with your CA</td><td>Manual, out of date the next day, easy to mix up versions.</td></tr>
+<tr><td>Hosted Tally</td><td>Tally running on a cloud server or remote desktop.</td><td>Access from anywhere</td><td>The connector or MCP server then has to run on that server too.</td></tr>
+</tbody></table></div>
+<p>Every serious connector, including the one Growth Intelligence uses, is a version of the first route: a program near Tally that reads on a schedule and sends the result somewhere else.</p>
+
+<h2>What MCP is, in plain words</h2>
+<p>MCP stands for Model Context Protocol. It is an open standard, introduced by Anthropic in November 2024, that lets an AI assistant use outside tools in a controlled way. An MCP server offers a short list of named actions, such as “get outstanding receivables” or “list sales for a month”. The assistant decides which action to call, the server runs it, and the assistant reads the answer back to you.</p>
+<p>Several AI assistants, including Claude and ChatGPT, can connect to MCP servers, though how you set it up depends on the assistant and your plan.</p>
+<p>For Tally, a typical MCP setup looks like this:</p>
+<ol>
+<li>An MCP server runs on the Tally computer or the same network.</li>
+<li>It talks to Tally through the local data interface.</li>
+<li>Your AI assistant connects to that server, directly or through a secure relay.</li>
+<li>You ask “Who owes us more than ₹5 lakh past 60 days?” and the assistant calls the right action and explains the result.</li>
+</ol>
+
+<h2>The five risks to manage</h2>
+<ul>
+<li><strong>Write access.</strong> Some setups can create or change vouchers. Start read-only. If you later allow writes, require a person to approve each one, and make sure it leaves the same audit trail as a manual entry. Companies in India have had to keep an audit trail of changes in their accounting software since 1 April 2023.</li>
+<li><strong>Where your data goes.</strong> Whatever the assistant reads is sent to the AI provider to produce the answer. Know which provider, which plan and what their data-use terms say before connecting real books.</li>
+<li><strong>Numbers made up by the model.</strong> An AI model is good at explaining and poor at adding. The total should come from Tally, through the tool, not from the model doing arithmetic in its head. Ask the assistant to show which records it used.</li>
+<li><strong>Wrong company or period.</strong> Many businesses keep several companies and financial years in Tally. Every answer should say which company and which dates it covers.</li>
+<li><strong>Open ports.</strong> The Tally data port should only be reachable inside your network. Remote access should go through a secured connection, never a port opened on the router.</li>
+</ul>
+
+<h2>Questions to ask any “Tally + AI” tool</h2>
+<ol>
+<li>Is access read-only, and can I keep it that way?</li>
+<li>Which Tally data does it read: ledgers, vouchers, bills, stock, cost centres?</li>
+<li>Does every answer show the company, the period and the time of the last sync?</li>
+<li>Does it compare what it received against Tally totals before it gives advice?</li>
+<li>Which AI provider sees my data, and is my data used to train their models?</li>
+<li>What happens when Tally is closed or the sync fails?</li>
+<li>Who in my team can see what, and can I stop a message before it reaches a customer?</li>
+</ol>
+
+<h2>Where Growth Intelligence fits</h2>
+<p>Growth Intelligence takes the careful route. Its connector runs beside Tally, reads vouchers, ledgers, bills and stock on a schedule, and never writes back to your books. Before it gives any advice, it checks the period, the coverage and how fresh the data is, and it shows “Not measured yet” when the books cannot support a figure. “Ask your CVO” answers questions from your connected books for a stated period and shows the records behind each answer, and nothing reaches a customer or supplier without your approval.</p>
+`,
+    faqs: [
+      ['Does Tally have an API?', 'Not a hosted cloud API. TallyPrime offers a local data interface that answers XML requests, and JSON in recent releases, from programs on the same computer or network, plus ODBC for reading data into tools such as Excel. Integrations are built on these.'],
+      ['Can I connect Tally to ChatGPT or Claude?', 'Yes, through a connector or an MCP server that runs near Tally and lets the assistant request specific data. Check that it is read-only, that you know where the data goes, and that totals come from Tally rather than from the model.'],
+      ['What is a Tally MCP server?', 'A small program that offers named actions on your Tally data, such as listing overdue bills, to an AI assistant using the Model Context Protocol. The assistant calls those actions to answer your questions.'],
+      ['Does Tally need to be open for AI tools to work?', 'For live answers, yes: the local data interface responds only while Tally is running with the company loaded. Tools that sync on a schedule work from the last successful sync and should show its date.'],
+      ['Can AI post entries in Tally?', 'Some tools can. Keep posting off until you have a clear approval step, a record of who approved what, and an audit trail equal to manual entry.'],
+    ],
+    next: giNext('See an AI Chief Value Officer read Tally, safely', 'Growth Intelligence reads your Tally with a read-only connector, checks the data before it advises, and prepares the week’s decisions for your approval.'),
+  },
+  {
+    slug: 'chief-value-officer',
+    title: 'What Is a Chief Value Officer (CVO)? CFO vs CVO',
+    h1: 'What is a Chief Value Officer, and why does an owner-led business need one?',
+    description: 'The Chief Value Officer explained: how the role grows out of the CFO, how it differs from a virtual CFO, what a CVO watches every week, and how AI can fill the seat in a growing Indian business.',
+    answer: 'A Chief Value Officer (CVO) is the finance leader whose job is to find where value is stuck, leaking or waiting in the business, and get it moving, not only to report what happened. The idea grew out of the CFO role: a 2023 report by ACCA and BDO describes CFOs moving towards a value-focused remit. Owner-led businesses rarely have anyone in that seat, which is the gap an AI CVO built on the company’s own books can fill.',
+    date: '2026-11-22',
+    updated: '2026-11-22',
+    tags: ['Chief Value Officer', 'CFO', 'Finance', 'Growth Intelligence'],
+    minutes: 7,
+    html: `
+<h2>Where the idea comes from</h2>
+<p>For decades the CFO was the person who counted value: closed the books, filed the returns, raised the money and reported to the board. The job has grown. In June 2023, ACCA and BDO published <em>Chief Value Officer: the important evolution of the CFO</em>, based on roundtables and interviews with more than 100 CFOs and business leaders. Its central point is that finance leaders are taking a value-centred approach, looking at what creates and protects value across the business rather than at the financial results alone.</p>
+<p>You do not need to agree on a job title to see the shift. The question a modern finance leader answers is no longer only “what were the numbers?” but “where is value stuck, and what do we do about it this week?”</p>
+
+<h2>CFO, virtual CFO and CVO compared</h2>
+<div class="tableWrap"><table>
+<thead><tr><th></th><th>CFO</th><th>Virtual CFO</th><th>Chief Value Officer</th></tr></thead>
+<tbody>
+<tr><td>Main question</td><td>Are the numbers right, funded and compliant?</td><td>The same, part-time and outsourced</td><td>Where is value stuck or leaking, and what moves it?</td></tr>
+<tr><td>Looks at</td><td>Financial results, funding, controls</td><td>Monthly results and plans</td><td>Cash, margin, stock, customers and risk together</td></tr>
+<tr><td>Rhythm</td><td>Monthly close, quarterly board</td><td>A few days a month</td><td>Every week, as the books change</td></tr>
+<tr><td>Output</td><td>Reports, budgets, funding</td><td>MIS and reviews</td><td>Ranked decisions with the money attached, and proof of what changed</td></tr>
+</tbody></table></div>
+<p>A CVO does not replace the CA, the auditor or the accountant. Clean, correct books remain the foundation. The CVO uses them.</p>
+
+<h2>Why owner-led businesses lack one</h2>
+<p>A business with ₹10–200 crore of sales usually has a good accountant, a CA who handles compliance, and an owner who carries everything else in their head. Nobody’s job is to read the books every week, rank what matters and follow it through. So the signals arrive late: the customer who stopped ordering in August is noticed in November; the stock that stopped moving is found at the annual count.</p>
+<p>A full-time CVO is expensive and hard to find. A part-time adviser helps but cannot watch every week. That gap is why the role is worth designing deliberately.</p>
+
+<h2>What a CVO watches every week</h2>
+<ol>
+<li><strong>Cash and capital.</strong> Who is paying late, which supplier to pay first, and the week the bank runs short.</li>
+<li><strong>Margin and cost.</strong> Costs growing faster than sales, and the items that sell a lot but earn little.</li>
+<li><strong>Stock.</strong> What has not moved in 90 days, and what must never run out.</li>
+<li><strong>Growth and retention.</strong> Why sales moved, and which regular customers have gone quiet.</li>
+<li><strong>Compliance and risk.</strong> How much rests on the top five customers, and what is overdue to suppliers or the government.</li>
+</ol>
+
+<h2>How AI can fill the seat, and where it cannot</h2>
+<p>Much of the CVO’s week is reading and ranking: going through receivables, stock, costs and sales after every update and deciding what matters most. Software does that well, every time the books change, without getting tired. It can also prepare the follow-up: a draft reminder, a supplier payment order, a question for the sales head.</p>
+<p>What AI should not do is guess numbers, act without approval, or take decisions that need judgement about people, lenders or strategy. The working model is simple: the books provide the facts, the AI prepares the decisions, the owner approves, and the result is checked in the next update of the books.</p>
+
+<h2>A weekly CVO routine you can start on Monday</h2>
+<ol>
+<li>Open the receivables ageing and list the ten largest overdue amounts.</li>
+<li>Compare cash in bank with what falls due in the next four weeks.</li>
+<li>Check the five largest cost heads against last month.</li>
+<li>List customers who bought every month and have not ordered in 45 days.</li>
+<li>Pick three actions, name an owner and a date for each, and check them next Monday.</li>
+</ol>
+<p>Done by hand, this takes an hour a week if the books are up to date. Done by software, it arrives prepared.</p>
+
+<h2>Growth Intelligence as your AI Chief Value Officer</h2>
+<p>Growth Intelligence is built around this seat. It reads your Tally, recomputes fourteen measures across five practice areas every time the books refresh, ranks what it finds by money and urgency, and brings you three prepared decisions a week. Follow-ups run through an AI team you approve, and a result counts only when a later Tally sync shows it and you confirm it. It is AI decision support built on your accounting records: not a human executive, and not a replacement for your CA or auditor.</p>
+`,
+    faqs: [
+      ['What does a Chief Value Officer do?', 'A CVO finds where value is stuck, leaking or waiting across cash, margin, stock, customers and risk, ranks it by money and urgency, and makes sure the right action is taken and its result checked.'],
+      ['Is a CVO the same as a CFO?', 'It grows out of the CFO role. A 2023 ACCA and BDO report describes CFOs moving towards a value-focused remit. In practice, the CVO puts more weight on weekly decisions and follow-through than on reporting.'],
+      ['Is a CVO the same as a virtual CFO?', 'No. A virtual CFO is a part-time, outsourced finance professional. A CVO is defined by the job, not by how it is staffed: it can be a person, a team, or AI decision support working with the owner.'],
+      ['Can software act as a Chief Value Officer?', 'Software can do the reading, ranking and preparing every week, and keep a record of what happened. Judgement, negotiation and accountability stay with people.'],
+      ['Does a CVO replace my CA?', 'No. Your CA keeps the books, audit and compliance correct. A CVO uses those books to decide what to do next.'],
+    ],
+    next: giNext('Put a Chief Value Officer on your Tally', 'Growth Intelligence reads your books every sync, prepares three decisions a week with the money attached, and counts only proved results.'),
+  },
+  {
+    slug: 'cash-flow-forecast-from-tally',
+    title: '13-Week Cash Flow Forecast from Tally: Step by Step',
+    h1: 'How to build a 13-week cash flow forecast from your Tally data',
+    description: 'A practical method for a rolling 13-week cash flow forecast using Tally receivables, payables and bank balances, with Indian statutory payment dates and a simple weekly review.',
+    answer: 'A 13-week cash flow forecast lists, week by week, the money you expect to receive and pay, starting from today’s bank and cash balance. Tally already holds most of it: bank balances, bills receivable and bills payable with due dates. Add salaries, rent, loan repayments and tax payments, adjust receipts for how your customers really pay, and update it every week.',
+    date: '2026-11-22',
+    updated: '2026-11-22',
+    tags: ['Cash Flow', 'Tally', 'Working Capital', 'Growth Intelligence'],
+    minutes: 8,
+    html: `
+<h2>Why 13 weeks</h2>
+<p>Thirteen weeks is one quarter. It is long enough to see a shortfall coming and short enough to forecast with real bills rather than guesses. Monthly forecasts hide the problem: a month can end in surplus while the third week runs the bank into overdraft because salaries and a large supplier fall due before customers pay.</p>
+
+<h2>What you need from Tally</h2>
+<div class="tableWrap"><table>
+<thead><tr><th>Item</th><th>Where it is</th><th>Note</th></tr></thead>
+<tbody>
+<tr><td>Opening bank and cash</td><td>Balance Sheet → Cash-in-Hand and Bank Accounts</td><td>Show an overdraft or cash credit balance as a negative figure</td></tr>
+<tr><td>Expected receipts</td><td>Outstandings → Receivables (bill-wise, with due dates)</td><td>Bill-wise details must be on for customer ledgers</td></tr>
+<tr><td>Payments due</td><td>Outstandings → Payables (bill-wise, with due dates)</td><td>Same setting for supplier ledgers</td></tr>
+<tr><td>Regular payments</td><td>Last three months of salary, rent and other expense ledgers</td><td>Use the usual date in the month</td></tr>
+<tr><td>Loans</td><td>Loan ledgers and repayment schedules</td><td>EMIs and interest dates</td></tr>
+<tr><td>Unused limits</td><td>Bank sanction letters</td><td>Headroom on cash credit or overdraft</td></tr>
+</tbody></table></div>
+
+<h2>Step by step</h2>
+<ol>
+<li><strong>Set up 13 weekly columns</strong>, each starting on a Monday, plus a row for opening balance, receipts, payments, net flow and closing balance.</li>
+<li><strong>Enter the opening balance</strong> as bank plus cash, with any overdraft as a negative.</li>
+<li><strong>Place receipts by when customers really pay, not when bills fall due.</strong> If a customer usually pays 20 days late, move their bills 20 days. Leave disputed and very old bills out, and list them separately.</li>
+<li><strong>Add regular receipts</strong> such as cash sales or advances, based on the recent weekly average.</li>
+<li><strong>Place supplier payments</strong> by due date, then mark which ones can move and which cannot.</li>
+<li><strong>Add fixed outflows:</strong> salaries, rent, EMIs, insurance and utilities.</li>
+<li><strong>Add statutory payments.</strong> For many businesses these include TDS deposits around the 7th, PF and ESI around the 15th, and GST with the monthly return around the 20th. Confirm the dates that apply to you with your CA.</li>
+<li><strong>Add one-off items:</strong> capital purchases, advance tax, bonuses, festival payments.</li>
+<li><strong>Draw a minimum-balance line</strong>, the least cash you are comfortable holding, and mark every week that falls below it.</li>
+</ol>
+
+<h2>Reading the forecast</h2>
+<ul>
+<li><strong>The lowest week matters more than the total.</strong> Find it first.</li>
+<li><strong>Two levers fix most gaps:</strong> bringing specific receipts forward and moving flexible payments back. The forecast tells you which customers to call and which supplier to talk to, weeks ahead.</li>
+<li><strong>Keep three versions</strong> when the outlook is uncertain: base, slower collections, and a large order or loss.</li>
+</ul>
+
+<h2>The weekly update</h2>
+<p>Every Monday, replace last week’s forecast with what actually happened, roll a new week onto the end, and note the biggest difference between forecast and actual. After a few weeks you will know which customers and which cost lines your forecast keeps getting wrong, and the forecast becomes more accurate.</p>
+
+<h2>Where it usually goes wrong</h2>
+<ul>
+<li>Bills without due dates or bill-wise details, so receivables cannot be placed in weeks.</li>
+<li>Books updated once a month, so the opening balance is already stale.</li>
+<li>Counting a reminder sent as money received.</li>
+<li>Mixing planned borrowing into the forecast as if it were already sanctioned.</li>
+</ul>
+
+<h2>Doing it without the spreadsheet</h2>
+<p>Growth Intelligence includes a 13-week cash and commitment view built from your Tally balances and open bills. It shows week by week whether bank and cash cover what falls due, sequences supplier dues against expected collections, and lists the customers who can change the picture, with a follow-up ready for your approval. Forecasts are planning scenarios, not a guarantee, and a sent reminder is never shown as cash collected.</p>
+`,
+    faqs: [
+      ['Can Tally make a cash flow forecast?', 'Tally holds the inputs: bank balances and bills receivable and payable with due dates. You can build a 13-week forecast from those reports in a spreadsheet, or use a tool that reads Tally and builds it for you.'],
+      ['Why weekly and not monthly?', 'Because a month can end in surplus while one week inside it runs short. Salaries, tax payments and large supplier bills often fall in the same week.'],
+      ['How do I forecast customer receipts accurately?', 'Use each customer’s actual payment behaviour, not the invoice due date. If a customer pays 20 days late on average, place their receipts 20 days after the due date.'],
+      ['How often should the forecast be updated?', 'Weekly. Replace last week with actuals, add a new week at the end, and note the largest difference between forecast and actual.'],
+    ],
+    next: giNext('See your next 13 weeks from Tally', 'Growth Intelligence builds a 13-week cash view from your Tally balances and open bills, and prepares the follow-ups that close the gap.'),
+  },
+  {
+    slug: 'ai-in-accounting-for-tally-businesses',
+    title: 'AI in Accounting for Tally Users: What Works Today',
+    h1: 'AI in accounting for Tally businesses: what works today, what does not, and where to start',
+    description: 'A practical guide to AI in accounting for Indian businesses on Tally: the tasks AI does well, the ones it should not do, the guardrails to keep, and a three-step start for owners and CAs.',
+    answer: 'AI is useful in accounting today where it reads, explains, drafts and flags: answering questions from your books, drafting reminders and commentary, reading documents for review, and spotting unusual entries. It should not invent numbers or post entries without a person approving them. The safe pattern is: books supply the facts, AI explains and prepares, a person approves.',
+    date: '2026-11-22',
+    updated: '2026-11-22',
+    tags: ['AI in Accounting', 'Tally', 'Finance', 'Growth Intelligence'],
+    minutes: 7,
+    html: `
+<h2>What AI does well in accounting today</h2>
+<div class="tableWrap"><table>
+<thead><tr><th>Task</th><th>What AI does</th><th>Who stays responsible</th></tr></thead>
+<tbody>
+<tr><td>Questions on the books</td><td>“Who owes us more than ₹5 lakh past 60 days?” answered from connected data, with the records shown</td><td>The person who acts on the answer</td></tr>
+<tr><td>Commentary</td><td>Explains why sales, margin or a cost moved this month, in plain language</td><td>Accounts head or CA reviews before it goes in the MIS</td></tr>
+<tr><td>Follow-up drafts</td><td>Payment reminders, supplier messages, notes for the sales team</td><td>Owner or accounts head approves before sending</td></tr>
+<tr><td>Document reading</td><td>Reads invoices, bills and statements and proposes the entry</td><td>Accountant checks and posts</td></tr>
+<tr><td>Reconciliation help</td><td>Lists unmatched bank or GST items and suggests likely matches</td><td>Accountant decides each match</td></tr>
+<tr><td>Unusual entries</td><td>Flags duplicate bills, odd amounts, entries outside normal patterns</td><td>Accountant or auditor investigates</td></tr>
+</tbody></table></div>
+
+<h2>What AI should not do</h2>
+<ul>
+<li><strong>Produce totals by itself.</strong> Language models explain well and add badly. Totals must come from the books.</li>
+<li><strong>Post or change entries without approval.</strong> Every change should be approved by a person and leave the same audit trail as a manual entry.</li>
+<li><strong>Decide tax positions or audit judgements.</strong> It can prepare and point out; the CA decides.</li>
+<li><strong>Answer when the data is missing.</strong> A good system says what is missing instead of filling the gap.</li>
+</ul>
+
+<h2>The guardrails that make it safe</h2>
+<ol>
+<li><strong>Read-only first.</strong> Start with tools that read Tally and never write back.</li>
+<li><strong>Every answer is dated and scoped:</strong> which company, which period, which sync.</li>
+<li><strong>Show the source.</strong> One click from any figure to the vouchers or bills behind it.</li>
+<li><strong>Approval before action.</strong> Nothing reaches a customer, supplier or the books without a named person approving it.</li>
+<li><strong>Know where data goes.</strong> Which AI provider sees the data, and on what terms.</li>
+</ol>
+
+<h2>A three-step start for owners</h2>
+<ol>
+<li><strong>Clean the basics.</strong> Bill-wise details on, credit periods entered, books updated weekly. AI on messy books gives confident wrong answers.</li>
+<li><strong>Start with one question you ask every week</strong>, such as overdue receivables or cash for the next four weeks, and let software answer it from the books.</li>
+<li><strong>Add one approved action</strong>, such as payment reminders, and measure it in money received, not messages sent.</li>
+</ol>
+
+<h2>A three-step start for CA firms</h2>
+<ol>
+<li>Use AI for first drafts of commentary, client queries and checklists, always reviewed.</li>
+<li>Agree a written rule on what client data may go into which AI tools.</li>
+<li>Offer clients a monthly review built on dated, checked numbers, so the meeting is about decisions rather than whose figure is right.</li>
+</ol>
+<p>For training teams inside a CA or accounting firm, see our guide to <a href="/guides/ai-training-for-ca-accounting-firms">AI training for CA and accounting firms</a>.</p>
+
+<h2>Where Growth Intelligence fits</h2>
+<p>Growth Intelligence applies these rules to Tally businesses. Its connector is read-only. Before advising, it checks period, coverage and freshness. Its CVO works out fourteen measures from your books, answers questions from the same records, prepares follow-ups that wait for your approval, and shows “Not measured yet” when your books cannot support a figure.</p>
+`,
+    faqs: [
+      ['How is AI used in accounting?', 'To answer questions from the books, explain movements, draft reminders and commentary, read documents for review, help with reconciliations and flag unusual entries. Posting and judgement stay with people.'],
+      ['Will AI replace accountants?', 'It removes repetitive reading, drafting and matching. Keeping the books correct, judging tax and audit questions and advising the owner remain human work, and become more valuable.'],
+      ['Is it safe to use AI with Tally data?', 'It can be, with a read-only connection, clear knowledge of where the data goes, answers that show their source records, and approval before any action.'],
+      ['What should a business on Tally automate first?', 'A question asked every week, such as overdue receivables or the next four weeks of cash, followed by one approved action such as payment reminders.'],
+    ],
+    next: giNext('AI on your Tally, with the guardrails built in', 'Growth Intelligence reads Tally read-only, checks the data first, and prepares actions that wait for your approval.'),
+  },
+  {
+    slug: 'tally-weekly-owner-review',
+    title: 'Tally Dashboard for Owners: 10 Numbers to Read Weekly',
+    h1: 'The owner’s weekly Tally review: ten numbers to read every Monday, and what to do about each',
+    description: 'A 30-minute Monday routine for business owners on Tally: the ten numbers to check, where each sits in TallyPrime, the warning signs, and the action each one should trigger.',
+    answer: 'Read ten numbers every Monday: revenue, receivables, overdue receivables, payables, overdue payables, bank, cash, closing stock, active customers and products sold. Compare each with last week and last month, look for the warning sign listed below, and leave the review with three actions, each with an owner and a date.',
+    date: '2026-11-22',
+    updated: '2026-11-22',
+    tags: ['Tally', 'Dashboard', 'Business Intelligence', 'Growth Intelligence'],
+    minutes: 6,
+    html: `
+<h2>Why ten numbers, every week</h2>
+<p>An owner does not need fifty reports. Ten figures, read at the same time every week, show almost every problem early: cash pressure, slow collections, stock piling up, customers drifting away. The habit matters more than the format.</p>
+
+<h2>The ten numbers</h2>
+<div class="tableWrap"><table>
+<thead><tr><th>#</th><th>Number</th><th>Where in Tally</th><th>Warning sign</th><th>Action</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Revenue this month to date</td><td>Sales Register / Profit &amp; Loss</td><td>Behind the same point last month</td><td>Ask which customers and products are behind</td></tr>
+<tr><td>2</td><td>Total receivables</td><td>Outstandings → Receivables</td><td>Growing faster than sales</td><td>Review credit given in the last month</td></tr>
+<tr><td>3</td><td>Overdue receivables</td><td>Receivables, age-wise (F6)</td><td>Share past 60 days rising</td><td>Top ten overdue customers get a call this week</td></tr>
+<tr><td>4</td><td>Total payables</td><td>Outstandings → Payables</td><td>Rising while stock is flat</td><td>Check purchases against sales plan</td></tr>
+<tr><td>5</td><td>Overdue payables</td><td>Payables, age-wise</td><td>Key suppliers overdue</td><td>Agree dates before supply is affected</td></tr>
+<tr><td>6</td><td>Bank balances</td><td>Balance Sheet → Bank Accounts</td><td>Overdraft used more than usual</td><td>Open the 13-week cash view</td></tr>
+<tr><td>7</td><td>Cash in hand</td><td>Cash-in-Hand</td><td>Unusually high or low</td><td>Check deposits and cash expenses</td></tr>
+<tr><td>8</td><td>Closing stock</td><td>Stock Summary</td><td>Rising while sales are flat</td><td>List items with no sale in 90 days</td></tr>
+<tr><td>9</td><td>Active customers</td><td>Sales Register, by party</td><td>Regular buyers missing</td><td>Sales head calls quiet customers</td></tr>
+<tr><td>10</td><td>Products sold</td><td>Sales Register / Stock Item movement</td><td>Top seller changed</td><td>Check whether the new top seller earns as well</td></tr>
+</tbody></table></div>
+<p>Compare periods like for like. Half a month is not a decline; compare the first fifteen days with the first fifteen days of last month.</p>
+
+<h2>The 30-minute Monday routine</h2>
+<ol>
+<li><strong>Five minutes:</strong> check the books are updated to Saturday. If not, everything else is guesswork.</li>
+<li><strong>Ten minutes:</strong> read the ten numbers against last week and last month. Circle anything that crossed a warning sign.</li>
+<li><strong>Ten minutes:</strong> for each circled number, open the detail: which customers, which items, which ledgers.</li>
+<li><strong>Five minutes:</strong> write three actions, each with a person and a date. Check last week’s three first.</li>
+</ol>
+
+<h2>Making the numbers trustworthy</h2>
+<ul>
+<li>Bill-wise details on for every customer and supplier, with credit periods.</li>
+<li>Stock items and godowns maintained, if you hold stock.</li>
+<li>Bank entries made at least weekly, and reconciled monthly.</li>
+<li>One person responsible for the books being current by Monday morning.</li>
+</ul>
+<p>If you are comparing dashboard tools rather than building the routine yourself, use our <a href="/guides/tally-receivables-dashboard-checklist">Tally receivables dashboard checklist</a>, and for the monthly pack see <a href="/guides/mis-report-in-tally">MIS report in Tally</a>.</p>
+
+<h2>Getting the review prepared for you</h2>
+<p>Growth Intelligence puts these ten figures under its weekly brief, for the same period and the same sync, each traceable to its Tally entries. Above them sit the three decisions that deserve your attention this week, with the money involved and a first step ready for your approval.</p>
+`,
+    faqs: [
+      ['What should a Tally dashboard show an owner?', 'Ten figures: revenue, receivables, overdue receivables, payables, overdue payables, bank, cash, closing stock, active customers and products sold, each compared with last week and last month.'],
+      ['How often should an owner review Tally numbers?', 'Weekly, at a fixed time. Monthly MIS is still useful, but most problems can be acted on only if they are seen within a week.'],
+      ['Does TallyPrime have a dashboard?', 'TallyPrime has reports for every one of these figures, and recent releases add a built-in dashboard view. Many businesses still use a separate tool to combine the figures, compare periods and prepare actions.'],
+      ['What if my books are not updated weekly?', 'Fix that first. A weekly review on month-old books gives confident wrong answers.'],
+    ],
+    next: giNext('Get the Monday review prepared from your Tally', 'Growth Intelligence lays out these figures under a weekly brief with three prepared decisions, each traceable to its Tally entries.'),
+  },
+];
