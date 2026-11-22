@@ -11,6 +11,7 @@
 .hero h1{max-width:1000px;font-size:clamp(38px,5vw,72px);line-height:1.04;font-weight:500}
 .heroPhoto{margin:48px auto 0}
 .heroPhoto img{display:block;width:100%;height:auto;max-height:620px;object-fit:cover;border-radius:14px}
+.heroPortrait img{width:min(420px,100%);max-height:none;object-fit:contain}
 .heroPhoto figcaption{margin-top:12px;color:#4a4a4a;font:13px/1.6 Arial,sans-serif}
 .lead{max-width:760px;margin:28px 0 0;font-size:18px;line-height:1.75}
 .actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-top:36px}

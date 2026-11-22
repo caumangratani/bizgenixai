@@ -345,4 +345,66 @@ export const tallyFinanceGuides: Guide[] = [
     ],
     next: giNext('Get the Monday review prepared from your Tally', 'Growth Intelligence lays out these figures under a weekly brief with three prepared decisions, each traceable to its Tally entries.'),
   },
+  {
+    slug: 'ai-audit-automation-for-ca-firms',
+    title: 'How to Implement AI Audit Automation in Your CA Firm',
+    h1: 'How to implement AI audit automation in your CA firm: where to start and what to keep human',
+    description: 'A practical plan for chartered accountant firms adding AI to audit work: which audit tasks AI helps with, data and confidentiality rules, documentation, Tally data checks, and a 60-day rollout.',
+    answer: 'Start AI audit automation with the high-volume, rule-based steps around the audit, not the judgement: extracting data from documents, matching ledgers to bank and GST data, flagging unusual entries for review, and drafting working-paper summaries. Keep the partner’s judgement, sampling decisions and sign-off human, document what the tool did, and use only approved accounts for client data.',
+    date: '2026-11-23',
+    updated: '2026-11-23',
+    tags: ['AI for CA Firms', 'Audit', 'Tally'],
+    minutes: 8,
+    html: `
+<h2>Where AI helps in an audit, and where it does not</h2>
+<p>AI is good at reading large volumes of documents and data quickly and pointing at what looks wrong. It is not a substitute for professional judgement, and the auditor remains responsible for the opinion and for the audit documentation. Plan around that line.</p>
+<table>
+<thead><tr><th>Good first uses</th><th>Keep human</th></tr></thead>
+<tbody>
+<tr><td>Extracting data from invoices, bills and bank statements</td><td>Materiality, risk assessment and sampling decisions</td></tr>
+<tr><td>Matching books to bank, GST returns and TDS data</td><td>Evaluating explanations from management</td></tr>
+<tr><td>Flagging unusual journal entries, round amounts, weekend or year-end postings</td><td>Concluding whether something is an error or fraud</td></tr>
+<tr><td>Drafting summaries of ledgers and working papers</td><td>The final working papers and the opinion</td></tr>
+<tr><td>Preparing query lists for the client</td><td>Sign-off</td></tr>
+</tbody>
+</table>
+
+<h2>Step 1: set the data rules first</h2>
+<ul>
+<li>Use company accounts on AI tools with data-use terms your firm accepts, never personal accounts, for client data.</li>
+<li>Decide what never goes to a cloud tool (for example, unredacted personal data), and use redaction or a local model for those files.</li>
+<li>Agree with the engagement partner where AI may be used on each engagement, and record it.</li>
+</ul>
+
+<h2>Step 2: pick two tasks and build a repeatable routine</h2>
+<p>Most firms get value fastest from two routines:</p>
+<ol>
+<li><strong>Ledger scrutiny:</strong> export the ledgers from Tally, have AI list entries that need a question (unusual amounts, parties, narrations or dates), and review the list. Check the sign convention of the export first: in raw Tally exports, debits and credits may appear with opposite signs to what a reviewer expects.</li>
+<li><strong>Reconciliations:</strong> books versus bank, and purchase register versus the supplier data in GST returns. AI drafts the matching and the exceptions; the team clears the exceptions.</li>
+</ol>
+
+<h2>Step 3: document what the tool did</h2>
+<p>For every AI-assisted step, keep the input file, the instruction used, the output, and who reviewed it and what they concluded. This makes the work reviewable and keeps your documentation complete.</p>
+
+<h2>Step 4: train the team on one method</h2>
+<p>Results vary most between people, not tools. Give articles and staff the same tested instructions for each routine, and review their first outputs closely.</p>
+
+<h2>A 60-day rollout</h2>
+<ul>
+<li><strong>Weeks 1–2:</strong> data rules, approved tools, two routines chosen.</li>
+<li><strong>Weeks 3–6:</strong> run both routines on two live engagements alongside the normal procedures and compare results.</li>
+<li><strong>Weeks 7–8:</strong> keep what worked, write the instructions into the firm’s audit manual, train the rest of the team.</li>
+</ul>
+
+<h2>Where Bizgenix AI fits</h2>
+<p>Bizgenix AI was founded by a chartered accountant, and our <a href="/corporate-ai-training">corporate AI training</a> has included sessions for CA firms in Gujarat. For firms whose clients keep books in TallyPrime, <a href="/products/growth-intelligence">Growth Intelligence</a> reads Tally data read-only and flags receivables, cost and cash issues that often become audit questions. See also <a href="/guides/ai-training-for-ca-accounting-firms">AI training for CA and accounting firms</a> and <a href="/guides/ai-in-accounting-for-tally-businesses">AI in accounting for Tally users</a>.</p>
+`,
+    faqs: [
+      ['Can AI do an audit?', 'No. AI can speed up data extraction, matching and flagging unusual entries, but the auditor remains responsible for judgement, the audit documentation and the opinion.'],
+      ['Which audit tasks should a CA firm automate first?', 'Ledger scrutiny of Tally exports and reconciliations of books with bank and GST data. Both are high-volume, rule-based and easy to review.'],
+      ['Is it safe to put client data into ChatGPT or Claude?', 'Only on company accounts whose data-use terms your firm accepts, within an agreed policy. Redact personal data or use a local model where needed.'],
+      ['How should AI use be documented in audit files?', 'Keep the input file, the instruction used, the output, and the reviewer’s name and conclusion for every AI-assisted step.'],
+    ],
+    next: giNext('See your clients’ Tally data the way an auditor would', 'Growth Intelligence reads TallyPrime read-only and surfaces receivables, cost and cash issues with the entries behind them.'),
+  },
 ];

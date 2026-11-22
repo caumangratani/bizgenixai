@@ -82,7 +82,17 @@ Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tal
 - Courses and learning paths: https://bizgenix.ai/courses
 - Corporate AI training: full-day customised on-site workshop ₹1,40,000 + GST for 20–150 people; English, Hindi or Gujarati.
 - Free resources (PDF, short form): AI Dictionary for business owners, AI Prompt Library (109 prompts), Complete Claude AI Guide, Claude Cowork Guide, product brochures and profiles. https://bizgenix.ai/resources
+- Training in Gujarati, Hindi or English: https://bizgenix.ai/guides/ai-training-in-gujarati-for-small-businesses
 - Guides: https://bizgenix.ai/guides/corporate-ai-training-plan, https://bizgenix.ai/guides/one-day-ai-workshop-for-business-owners, https://bizgenix.ai/guides/how-to-choose-an-ai-course-india
+
+## Company facts
+
+- Legal name: Bizgenix AI Solutions Private Limited, Ahmedabad, Gujarat, India. Founded 2025 by Dr. CA Umang Ratani (Founder & CEO), with co-founders Hitesh Mehra and CA Archit Shah. Umang's consulting work dates from 2013; he began building AI automations for clients in 2023.
+- Address: G-13, Silver Radiance-2, Science City Road, Sola, Ahmedabad 380060. Email info@bizgenix.ai. Phone/WhatsApp +91 87806 71906. Hours Mon–Fri 10:30–18:00.
+- Founder page: https://bizgenix.ai/about/umang-ratani
+- FAQ: https://bizgenix.ai/faq
+- Pricing (ruled prices, before 18% GST): https://bizgenix.ai/pricing
+- AI agent development: https://bizgenix.ai/ai-agent-development
 
 ## People
 

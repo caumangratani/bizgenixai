@@ -56,7 +56,7 @@ export default function TermsPage() {
             <h2>11. Changes to Terms</h2>
             <p>We may modify these Terms of Service at any time. Updated versions will be posted on this page with the revised effective date.</p>
             <h2>12. Contact Information</h2>
-            <p>Bizgenix Ai Solution Pvt Ltd<br/>G 13, Silver Radience-2, Science City Rd,<br/>Sola, Ahmedabad, Gujarat 380060<br/>Email: info@bizgenix.ai<br/>Phone: +91 87806 71906<br/>Website: https://bizgenix.ai/</p>
+            <p>Bizgenix AI Solutions Pvt. Ltd.<br/>G-13, Silver Radiance-2, Science City Road,<br/>Sola, Ahmedabad, Gujarat 380060<br/>Email: info@bizgenix.ai<br/>Phone: +91 87806 71906<br/>Website: https://bizgenix.ai/</p>
           </article>
         </div>
       </main>

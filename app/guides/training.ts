@@ -228,4 +228,108 @@ export const trainingGuides: Guide[] = [
     ],
     next: trainingNext('Training a team rather than yourself?', 'We adapt the Scale With AI method to your organisation: leadership sessions and hands-on workshops for each department.'),
   },
+  {
+    slug: 'ai-training-in-gujarati-for-small-businesses',
+    title: 'AI Training in Gujarati for Small Businesses: How to Choose',
+    h1: 'AI training in Gujarati for small businesses: how to choose it and what your team should learn',
+    description: 'How to find practical AI training in Gujarati for a small business or team in Gujarat: what to check, what to learn first, how ChatGPT, Claude and Gemini handle Gujarati, and where Bizgenix AI trains in Gujarati.',
+    answer: 'Choose Gujarati AI training by what your team will build, not by the language alone. Look for a trainer who runs hands-on sessions on your own work, can teach in Gujarati, Hindi or English as the room prefers, and covers prompting, AI for sales and follow-up, safe use of company data and a 30-day plan. Bizgenix AI delivers corporate AI training in English, Hindi or Gujarati.',
+    date: '2026-11-23',
+    updated: '2026-11-23',
+    tags: ['AI Training', 'Gujarati', 'Small Business'],
+    minutes: 6,
+    html: `
+<h2>Why the language of the training matters</h2>
+<p>Many owners and teams in Gujarat think, sell and keep accounts in Gujarati. Training in English alone loses part of the room: people nod along, then go back to work without trying anything. When the explanations, examples and practice happen in the language people use with customers, they try the tools on their own tasks during the session, and that is when habits change.</p>
+
+<h2>What to check before you book</h2>
+<ul>
+<li><strong>Can the trainer switch language with the room?</strong> Most teams in Gujarat mix Gujarati, Hindi and English. The best sessions explain in Gujarati and keep tool names and prompts in the form people will actually type.</li>
+<li><strong>Is it hands-on?</strong> Participants should work on their own laptop or phone for at least half the time, on their own tasks.</li>
+<li><strong>Are the examples local?</strong> GST, Tally, WhatsApp-first customers, dealers and family businesses, not generic global examples.</li>
+<li><strong>Does it cover safe use?</strong> What must never be pasted into an AI tool, and when a person must check the output.</li>
+<li><strong>What do people leave with?</strong> Tested prompts for their own role and a short plan for the next 30 days.</li>
+</ul>
+
+<h2>What a small-business team should learn first</h2>
+<ol>
+<li><strong>Prompting with context:</strong> telling the AI who you are, who the customer is and what format you want, so answers stop being generic.</li>
+<li><strong>Customer communication:</strong> replies, follow-ups, quotations and reminders drafted with AI and checked by the salesperson, in Gujarati or English as the customer prefers.</li>
+<li><strong>Reports and data:</strong> turning Excel or Tally exports into summaries the owner can read in two minutes.</li>
+<li><strong>Content:</strong> posts, product descriptions and short video scripts for local customers.</li>
+<li><strong>Safe use:</strong> which tool and account to use for company data, and what stays out of AI altogether.</li>
+</ol>
+
+<h2>How the main AI tools handle Gujarati</h2>
+<p>ChatGPT, Claude and Gemini all read and write Gujarati, and accept Gujarati typed in Gujarati script or in English letters. Voice input in Gujarati works on phones for most everyday requests. Two cautions from our sessions: always check numbers, names and legal or tax terms in a Gujarati answer, and for anything that goes to a customer, ask the AI to produce both the Gujarati text and an English version so a second person can check it.</p>
+
+<h2>Where Bizgenix AI trains in Gujarati</h2>
+<p>Bizgenix AI is based in Ahmedabad. Our <a href="/corporate-ai-training">corporate AI training</a> is delivered in English, Hindi or Gujarati, whichever the team is most comfortable in, at your office, online or hybrid. Our public <a href="/scale-with-ai">Scale With AI</a> workshops have run in Ahmedabad, Surat and Vadodara as well as Mumbai. The recorded Scale With AI programme is taught in simple Hinglish.</p>
+<p>A good first read for your team is our free <a href="/resources/ai-dictionary-for-business-owners">AI Dictionary for Business Owners</a>.</p>
+`,
+    faqs: [
+      ['Is AI training available in Gujarati?', 'Yes. Bizgenix AI in Ahmedabad delivers corporate AI training in English, Hindi or Gujarati, at your office, online or hybrid, built around your team’s own work.'],
+      ['Can ChatGPT and Claude understand Gujarati?', 'Yes. ChatGPT, Claude and Gemini read and write Gujarati, in Gujarati script or typed in English letters. Check numbers, names and legal or tax terms before sending anything to a customer.'],
+      ['What should a small business learn first about AI?', 'Prompting with business context, AI-drafted customer replies and follow-ups, turning Excel or Tally data into short summaries, and the rules for using company data safely.'],
+      ['Where are AI workshops held in Gujarat?', 'Scale With AI by Bizgenix AI has held one-day workshops in Ahmedabad, Surat and Vadodara. Upcoming dates are announced on event.bizgenix.ai.'],
+    ],
+    next: trainingNext('Want your team trained in Gujarati?', 'Tell us who will attend and what they work on. We will propose an agenda in the language your team prefers.'),
+  },
+  {
+    slug: 'claude-projects-vs-cowork',
+    title: 'Claude Projects vs Cowork: Which One to Use for What',
+    h1: 'Claude Projects vs Claude Cowork: which one should you use, and for what?',
+    description: 'The difference between Claude Projects and Claude Cowork for business users: where each works, what each can touch, examples for owners and teams, and how to use both together.',
+    answer: 'Use a Claude Project when you want a conversation that already knows your context: instructions and reference files for one area of work, used in chat. Use Claude Cowork when you want Claude to do a multi-step job on files on your own computer, such as building a spreadsheet from a folder of PDFs or preparing a report. Many teams use Projects for thinking and drafting, and Cowork for finished work on files.',
+    date: '2026-11-23',
+    updated: '2026-11-23',
+    tags: ['Claude', 'AI Tools', 'Productivity'],
+    minutes: 6,
+    html: `
+<h2>The short answer</h2>
+<table>
+<thead><tr><th></th><th>Claude Projects</th><th>Claude Cowork</th></tr></thead>
+<tbody>
+<tr><td>What it is</td><td>A workspace in Claude chat with your own instructions and reference files</td><td>An agentic mode in the Claude desktop app that carries out multi-step tasks on your files</td></tr>
+<tr><td>Where the work happens</td><td>In the conversation</td><td>In a folder on your computer, plus connected tools</td></tr>
+<tr><td>Best for</td><td>Drafting, thinking, answering from a fixed knowledge base</td><td>Finished outputs: spreadsheets, documents, organised files, recurring reports</td></tr>
+<tr><td>You get back</td><td>Answers and drafts to copy</td><td>Files saved to your folder</td></tr>
+</tbody>
+</table>
+
+<h2>When a Project is the right tool</h2>
+<p>A Project is a conversation with memory of a job. Put in the instructions once (who you are, your tone, your rules) and the reference files the job needs (price list, SOPs, past proposals), and every chat in that Project starts from them.</p>
+<ul>
+<li>A sales Project with your price list and proposal template, for drafting quotations and replies</li>
+<li>An HR Project with your policies, for answering staff questions and drafting letters</li>
+<li>A finance Project with your chart of accounts and MIS format, for explaining variances</li>
+</ul>
+
+<h2>When Cowork is the right tool</h2>
+<p>Cowork does the work rather than describing it. Point it at a folder and describe the outcome; it reads the files, makes a plan, and saves the result back to the folder.</p>
+<ul>
+<li>Turn a folder of supplier invoices into one reconciled spreadsheet</li>
+<li>Read a month of sales exports and produce the owner’s summary in your format</li>
+<li>Rename, sort and file a folder of documents by client and date</li>
+<li>Run the same report every Monday as a scheduled task</li>
+</ul>
+
+<h2>Cautions</h2>
+<ul>
+<li>Cowork works on real files: start on copies, in a dedicated folder, until you trust the result.</li>
+<li>Keep confidential client or salary data out of any AI tool unless your company account and policy allow it.</li>
+<li>Check numbers in any finished file before it leaves the business.</li>
+</ul>
+
+<h2>Using both together</h2>
+<p>A pattern we teach in <a href="/scale-with-ai">Scale With AI</a>: build the thinking in a Project (the format, the rules, the examples), then hand the repetitive production to Cowork with the same instructions saved in a context file in its folder.</p>
+<p>Both are covered in depth in our free guides: the <a href="/resources/complete-claude-ai-guide">Complete Claude AI Guide</a> and the <a href="/resources/claude-cowork-guide">Complete Claude Cowork Guide</a>.</p>
+`,
+    faqs: [
+      ['What is the difference between Claude Projects and Cowork?', 'Projects are chat workspaces with your instructions and reference files, for drafting and answering. Cowork carries out multi-step tasks on files on your computer and saves finished outputs to a folder.'],
+      ['Do I need Cowork if I already use Projects?', 'Only if you want finished files produced from your documents, such as spreadsheets or reports, or recurring jobs run on a schedule. For drafting and questions, Projects are enough.'],
+      ['Is Claude Cowork safe for business files?', 'Start with copies in a dedicated folder, keep confidential data out unless your company policy allows it, and check outputs before they leave the business.'],
+    ],
+    next: trainingNext('Want your team using Claude properly?', 'Our corporate AI training covers Projects, Cowork and safe use on your own workflows.'),
+  },
 ];

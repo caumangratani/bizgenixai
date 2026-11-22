@@ -22,6 +22,10 @@ const services = [
   ['Corporate AI Training', '/corporate-ai-training'],
   ['Scale With AI Events', '/scale-with-ai'],
   ['Free AI Guides & Brochures', '/resources'],
+  ['AI Agent Development', '/ai-agent-development'],
+  ['Pricing', '/pricing'],
+  ['FAQ', '/faq'],
+  ['Founder: Dr. CA Umang Ratani', '/about/umang-ratani'],
 ] as const;
 
 const founderSocials: readonly { name: string; icon: string; href: string }[] = [
@@ -80,7 +84,7 @@ export default function SiteFooter() {
             <address className={styles.contactList}>
                 <a href="mailto:info@bizgenix.ai"><span className={styles.contactIcon}><img src="/footer/mail.svg" alt="" width={20} height={20} /></span><span>info@bizgenix.ai</span></a>
                 <a href="tel:+918780671906"><span className={styles.contactIcon}><img src="/footer/phone.svg" alt="" width={20} height={20} /></span><span>+91 87806 71906</span></a>
-                <a href={mapUrl} target="_blank" rel="noopener noreferrer"><span className={styles.contactIcon}><img src="/footer/map-pin.svg" alt="" width={20} height={20} /></span><span>G 13, Silver Radience-2, Science City Rd, Sola, Ahmedabad, Gujarat 380060</span></a>
+                <a href={mapUrl} target="_blank" rel="noopener noreferrer"><span className={styles.contactIcon}><img src="/footer/map-pin.svg" alt="" width={20} height={20} /></span><span>G-13, Silver Radiance-2, Science City Road, Sola, Ahmedabad, Gujarat 380060</span></a>
               </address>
           </details>
 

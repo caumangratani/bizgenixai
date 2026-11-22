@@ -21,7 +21,8 @@ export type ServiceContent = {
   /** Links to proof: a case-study slug, or any href. */
   proof?: { label: string; slug?: string; href?: string }[];
   secondaryCta?: { label: string; href: string };
-  schemaType?: 'Service' | 'SoftwareApplication';
+  /** 'none' leaves out the Service node, for profile, FAQ and pricing pages. */
+  schemaType?: 'Service' | 'SoftwareApplication' | 'none';
   /** Breadcrumb parent, e.g. Products. */
   parent?: { name: string; href: string };
   /** City served, for local pages. Defaults to India. */
@@ -52,7 +53,7 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
-      content.schemaType === 'SoftwareApplication'
+      ...(content.schemaType === 'none' ? [] : [content.schemaType === 'SoftwareApplication'
         ? {
           '@type': 'SoftwareApplication',
           name: content.serviceType,
@@ -70,7 +71,7 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
           url,
           provider: { '@id': `${SITE_URL}/#organization` },
           areaServed: content.areaServedCountries ? content.areaServedCountries.map(name => ({ '@type': 'Country', name })) : content.areaServedCity ? { '@type': 'City', name: content.areaServedCity } : { '@type': 'Country', name: 'India' },
-        },
+        }]),
       {
         '@type': 'FAQPage',
         mainEntity: content.faqs.map(({ q, a }) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
@@ -103,7 +104,7 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
         </div>
       </header>
 
-      {content.photo && <figure className={`${styles.container} ${styles.heroPhoto}`}>
+      {content.photo && <figure className={`${styles.container} ${styles.heroPhoto} ${content.photo.height > content.photo.width ? styles.heroPortrait : ''}`}>
         <Image src={content.photo.src} alt={content.photo.alt} width={content.photo.width} height={content.photo.height} sizes="(max-width: 900px) 92vw, 1400px" priority />
         <figcaption>{content.photo.caption}</figcaption>
       </figure>}
