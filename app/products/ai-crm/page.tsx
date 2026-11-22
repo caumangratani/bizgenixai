@@ -16,7 +16,7 @@ const content: ServiceContent = {
   h1: 'AI CRM for lead ownership, sales stages and follow-up.',
   lead: 'Leads arrive from ads, IndiaMART, Justdial, WhatsApp and email. Bizgenix AI CRM brings them into one workspace, scores them, assigns an owner and keeps the next action visible, so enquiries stop slipping between people and spreadsheets.',
   primaryCta: 'Book a free CRM demo',
-  secondaryCta: { label: 'Open Bizgenix AI CRM', href: 'https://crm.bizgenix.ai/' },
+  secondaryCta: { label: 'Download the brochure', href: '/resources/bizgenix-ai-crm-brochure' },
   whatTitle: 'What the CRM does.',
   whatIntro: 'Lead management, sales pipeline and follow-up in one place, with AI doing the parts that get skipped when the team is busy.',
   items: [
@@ -61,6 +61,7 @@ const content: ServiceContent = {
     { q: 'Can our workflow be customised?', a: 'Share your requirements. Our team reviews scope, feasibility and commercial terms before any commitment.' },
   ],
   related: [
+    { label: 'Open Bizgenix AI CRM', href: 'https://crm.bizgenix.ai/' },
     { label: 'Compare CRM, WhatsApp and voice automation costs', href: '/guides/compare-ai-sales-automation-costs' },
     { label: 'WhatsApp CRM buyer guide', href: '/guides/whatsapp-crm-for-indian-sales-teams' },
     { label: 'AI pilot acceptance checklist', href: '/guides/evaluate-ai-automation-pilot' },

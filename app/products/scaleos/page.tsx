@@ -19,10 +19,7 @@ const content: ServiceContent = {
   h1: 'One system for tasks, approvals and what is actually happening across your teams.',
   lead: 'ScaleOS is designed to help growing organisations bring tasks, people, processes, approvals and operational visibility into one connected system. It reduces scattered communication and gives management a clearer view of what is happening across teams.',
   primaryCta: 'Request a workflow assessment',
-  secondaryCta: {
-    label: 'Read the ScaleOS case study',
-    href: '/case-studies/sanjay-jain-scaleos',
-  },
+  secondaryCta: { label: 'Download the brochure', href: '/resources/scaleos-brochure' },
   whatTitle: 'What ScaleOS does.',
   whatIntro: 'Task management and workflow management for owner-led businesses that have outgrown spreadsheets and WhatsApp groups.',
   items: [
@@ -68,6 +65,7 @@ const content: ServiceContent = {
     { q: 'Do you provide training and support?', a: 'Yes. Product onboarding, user training and ongoing support can be included in the engagement.' },
   ],
   related: [
+    { label: 'Read the ScaleOS case study', href: '/case-studies/sanjay-jain-scaleos' },
     { label: 'All products', href: '/products' },
     { label: 'Growth Intelligence', href: '/products/growth-intelligence' },
     { label: 'Bizgenix AI CRM', href: '/products/ai-crm' },
