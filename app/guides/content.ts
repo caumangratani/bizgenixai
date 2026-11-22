@@ -22,6 +22,49 @@ export type Guide = {
 
 export const guides: Guide[] = [
 {
+  "slug": "evaluate-corporate-ai-training",
+  "title": "Corporate AI Training: A Buyer Checklist | Bizgenix AI",
+  "h1": "How should you evaluate corporate AI training?",
+  "description": "Choose corporate AI training by role, workflow, safe practice and assessment. A practical checklist for business owners and learning teams.",
+  "answer": "Choose corporate AI training around a specific work task and the people responsible for it. Agree the practice exercise, safe data rules, output-quality checks and post-training assessment before comparing providers or booking a programme.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Corporate AI training",
+    "AI adoption",
+    "Buyer guide"
+  ],
+  "minutes": 4,
+  "html": "<h2>Start with the task, not the tool list</h2><p>A sales team preparing meeting notes, a finance team explaining a variance and an operations team drafting a standard procedure need different exercises. Write down the task, its current inputs, who reviews the result and what a useful output looks like. A long list of tools does not establish that participants will be able to complete that work.</p><h2>Prepare a short training brief</h2><ul><li>Roles attending and their current level of familiarity with AI.</li><li>One representative workflow and an anonymised example.</li><li>Approved tools, account access and any restrictions on business data.</li><li>Expected output and the person who will check it.</li><li>Delivery format, time available and accessibility needs.</li></ul><p>Provide sample material without confidential client details. Agree a secure process before any sensitive information is used.</p><h2>Ask the provider to demonstrate the exercise</h2><p>Request a sample agenda showing time for instruction, practice and review. Ask how an instructor handles an incorrect answer, missing source or unsuitable recommendation. Participants should learn how to verify outputs and decide when not to use AI, as well as how to write a prompt.</p><h2>Use an assessment that reflects the work</h2><p>Give participants a comparable task before and after the programme. Review accuracy, completeness, appropriate source use and required corrections. Record time only when the start and end conditions are comparable. Faster completion is not a useful improvement if it introduces errors or creates more review work.</p><h2>Separate training from implementation</h2><p>A workshop can teach a process, but a production integration may also need software development, access controls, data preparation and testing. Ask which deliverables belong to the training engagement and which require a separate implementation scope. Avoid treating a classroom demonstration as a deployed system.</p><h2>Plan adoption before the session</h2><p>Choose an internal owner, maintain approved examples and schedule a review of actual work samples. Record questions and failure cases so the team can improve its instructions. Agree any follow-up support with the provider explicitly rather than assuming it is included.</p><h2>Seven questions to ask before booking</h2><ol><li>Which roles and tasks does this programme address?</li><li>What will each participant produce during practice?</li><li>Which accounts or licences must we arrange?</li><li>How will confidential data be handled?</li><li>How will output quality be checked?</li><li>What is included in follow-up support?</li><li>What would require a separate implementation project?</li></ol><h2>Discuss your requirements with Bizgenix AI</h2><p>Bizgenix AI offers corporate AI training and practical workshops alongside AI consulting and custom solutions. Umang Ratani is the founder of Bizgenix AI. Use the <a href=\"/courses#corporate-training\">training page</a> to explore formats and real session photographs, or read the <a href=\"/guides/ai-training-for-ca-accounting-firms\">guide for CA and accounting firms</a>. Scope, timing and commercial terms are agreed after reviewing your requirements.</p>",
+  "faqs": [
+    [
+      "How do we measure whether AI training worked?",
+      "Compare representative work samples before and after training using agreed checks for accuracy, completeness, review effort and appropriate data handling. Attendance alone does not demonstrate adoption."
+    ],
+    [
+      "Does a workshop include production automation?",
+      "Not necessarily. Confirm the training deliverables and separately scope any integration, software development or production deployment."
+    ],
+    [
+      "Can teams practise without client data?",
+      "Yes. Use fictional or anonymised examples and approved tools. Agree a secure process before sharing confidential information."
+    ]
+  ],
+  "next": {
+    "eyebrow": "PLAN YOUR TEAM PROGRAMME",
+    "title": "Discuss corporate AI training",
+    "text": "Tell us the roles attending, your current tools and one workflow you want to improve.",
+    "primary": {
+      "label": "Discuss team training",
+      "href": "/contact?intent=training#contact-form"
+    },
+    "secondary": {
+      "label": "Explore training formats",
+      "href": "/courses"
+    }
+  }
+},
+{
   "slug": "whatsapp-crm-for-indian-sales-teams",
   "title": "WhatsApp CRM for Indian Sales Teams: A Practical Guide",
   "h1": "How should an Indian sales team choose a WhatsApp CRM?",

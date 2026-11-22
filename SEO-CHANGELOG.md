@@ -1,3 +1,7 @@
+# 22 November 2026
+
+Added corporate AI training evaluation guide and links from courses. Replaced unsubstantiated training totals with delivery formats. Preserved original training photography.
+
 # SEO change log — bizgenix.ai
 
 Every SEO / AI-search change to this site, newest first. Add an entry whenever you change titles, redirects, structured data, the sitemap, `llms.txt`, or add a page.
