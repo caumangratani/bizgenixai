@@ -7,7 +7,7 @@
 - [AI automation](https://bizgenix.ai/ai-automation): WhatsApp workflows, reminders, document checking, email triage, sales call analysis and reporting, built on the tools a business already uses.
 - [AI consulting](https://bizgenix.ai/ai-consulting): use-case assessment, data readiness and a 90-day implementation plan with pass/fail gates, for owner-led businesses.
 - [Custom AI solutions](https://bizgenix.ai/custom-solutions): AI applications, AI CRM, AI ERP, web and mobile platforms, business intelligence and system integrations.
-- [AI training and corporate AI workshops](https://bizgenix.ai/courses): in-house workshops for teams and the Scale With AI programme for business owners.
+- [Corporate AI training](https://bizgenix.ai/corporate-ai-training): hands-on AI workshops for leadership and departments. [Scale With AI](https://bizgenix.ai/scale-with-ai): one-day AI workshops and the recorded AI course for business owners. [All courses](https://bizgenix.ai/courses).
 
 ## Products
 
@@ -73,9 +73,20 @@ Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tal
 - [Finance dashboard for Tally businesses: owner checklist](https://bizgenix.ai/guides/finance-dashboard-owner-review)
 - [Growth Intelligence: an AI Chief Value Officer for businesses on Tally](https://bizgenix.ai/products/growth-intelligence). Reads Tally through a read-only connector, checks the data before advising, prepares three decisions a week, and counts a result only when a later Tally sync shows it. Offers a read-only MCP connection for Claude and ChatGPT (company-scoped, expiring, revocable; answers from the latest sync, never posts). Not accounting software; does not replace the CA.
 
+## AI education and corporate AI training
+
+- Corporate AI training: hands-on AI training for leadership teams and departments, led by Dr. CA Umang Ratani; online, at the client's office or hybrid, in India and abroad. https://bizgenix.ai/corporate-ai-training
+- Scale With AI: the AI education programme of Bizgenix AI. One-day in-person AI workshops held in Ahmedabad, Surat, Mumbai and Vadodara (22 Aug 2026), with a fifth edition at Hyatt Ahmedabad on 31 Oct 2026; Surat 28 Feb 2026, Mumbai 2 May 2026; 600+ participants in the first three cities. https://bizgenix.ai/scale-with-ai
+- Event page (current and next edition): https://event.bizgenix.ai/
+- Scale With AI recorded programme: 12 modules from the live Cohort 1 classroom (June–September 2026, 35 members), simple Hinglish, ₹15,000 + GST, 12 months' access. https://course.bizgenix.ai/
+- Courses and learning paths: https://bizgenix.ai/courses
+- Corporate AI training: full-day customised on-site workshop ₹1,40,000 + GST for 20–150 people; English, Hindi or Gujarati.
+- Free resources (PDF, short form): AI Dictionary for business owners, AI Prompt Library (109 prompts), Complete Claude AI Guide, Claude Cowork Guide, product brochures and profiles. https://bizgenix.ai/resources
+- Guides: https://bizgenix.ai/guides/corporate-ai-training-plan, https://bizgenix.ai/guides/one-day-ai-workshop-for-business-owners, https://bizgenix.ai/guides/how-to-choose-an-ai-course-india
+
 ## People
 
-- Founder: Dr. CA Umang Ratani, AI and business consultant, Chartered Accountant, TEDx speaker. https://www.umangratani.com/
+- Founder: Dr. CA Umang Ratani, AI and business consultant, Chartered Accountant, TEDx speaker, and lead trainer of Scale With AI. Has trained 2,000+ business owners on AI and 20,000+ professionals across his career; addressed 800+ professionals at CMAI Mumbai (3 Jun 2026) and spoke at the AI Summit, Gurugram (Sep 2026). https://www.umangratani.com/
 
 ## Contact
 

@@ -77,6 +77,8 @@ export const organizationJsonLd = {
       alternateName: ['Dr. CEO Umang Ratani', 'CEO Umang Ratani', 'Dr. CA Umang Ratani'],
       honorificPrefix: 'Dr.',
       jobTitle: 'Founder and CEO, Bizgenix AI',
+      description: 'Chartered accountant, TEDx speaker and AI trainer. Founder and CEO of Bizgenix AI and lead trainer of Scale With AI, which has run one-day AI workshops in Ahmedabad, Surat, Mumbai and Vadodara.',
+      knowsAbout: ['AI implementation for business', 'Corporate AI training', 'AI education', 'AI agents', 'AI automation', 'Business strategy', 'Finance and accounting'],
       worksFor: { '@id': `${SITE_URL}/#organization` },
       url: 'https://www.umangratani.com/',
       sameAs: ['https://www.linkedin.com/in/umangratani/', 'https://www.umangratani.com/'],

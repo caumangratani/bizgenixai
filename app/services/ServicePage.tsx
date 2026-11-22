@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from '../InternalLink';
 import Navigation from '../custom-solutions/Navigation';
 import ContactSection from '../ContactSection';
@@ -32,12 +33,20 @@ export type ServiceContent = {
   faqs: { q: string; a: string }[];
   related: { label: string; href: string }[];
   serviceType: string;
+  /** Enquiry link for the primary button. Defaults to the custom or product enquiry form. */
+  contactHref?: string;
+  /** One photo under the hero, only where it shows the real thing. */
+  photo?: { src: string; alt: string; caption: string; width: number; height: number };
+  /** Extra schema.org nodes, e.g. Course or Event. */
+  extraJsonLd?: Record<string, unknown>[];
+  /** Heading for the FAQ block. */
+  faqTitle?: string;
 };
 
 export default function ServicePage({ content }: { content: ServiceContent }) {
-  const contactHref = content.path.startsWith('/products/')
+  const contactHref = content.contactHref ?? (content.path.startsWith('/products/')
     ? `/contact?intent=product&product=${encodeURIComponent(content.path.split('/').pop() || '')}#contact-form`
-    : '/contact?intent=custom#contact-form';
+    : '/contact?intent=custom#contact-form');
   const url = `${SITE_URL}${content.path}`;
   const secondary = content.secondaryCta ?? { label: 'See 18 implementations', href: '/case-studies' };
   const jsonLd = {
@@ -74,6 +83,7 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
           { '@type': 'ListItem', position: content.parent ? 3 : 2, name: content.eyebrow, item: url },
         ],
       },
+      ...(content.extraJsonLd ?? []),
     ],
   };
 
@@ -92,6 +102,11 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
           </div>
         </div>
       </header>
+
+      {content.photo && <figure className={`${styles.container} ${styles.heroPhoto}`}>
+        <Image src={content.photo.src} alt={content.photo.alt} width={content.photo.width} height={content.photo.height} sizes="(max-width: 900px) 92vw, 1400px" priority />
+        <figcaption>{content.photo.caption}</figcaption>
+      </figure>}
 
       <section className={styles.section} aria-labelledby="what-title">
         <div className={styles.container}>
@@ -134,7 +149,7 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
 
       <section className={`${styles.section} ${styles.ruled}`} aria-labelledby="faq-title">
         <div className={`${styles.container} ${styles.faqLayout}`}>
-          <h2 id="faq-title">Questions owners ask</h2>
+          <h2 id="faq-title">{content.faqTitle ?? 'Questions owners ask'}</h2>
           <div className={styles.faqList}>{content.faqs.map(({ q, a }) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}</div>
         </div>
       </section>

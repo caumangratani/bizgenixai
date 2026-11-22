@@ -19,6 +19,9 @@ const services = [
   ['Business Guides', '/guides'],
   ['Tally & Finance Guides', '/tally'],
   ['Clients Outside India', '/global'],
+  ['Corporate AI Training', '/corporate-ai-training'],
+  ['Scale With AI Events', '/scale-with-ai'],
+  ['Free AI Guides & Brochures', '/resources'],
 ] as const;
 
 const founderSocials: readonly { name: string; icon: string; href: string }[] = [

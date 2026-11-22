@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { caseStudies } from './case-studies/content';
 import { articles } from './blog/articles';
 import { guides } from './guides/content';
+import { resources } from './resources/content';
 
 const BASE = 'https://bizgenix.ai';
 
@@ -25,6 +26,10 @@ const routes: { path: string; priority: number }[] = [
   { path: '/guides', priority: 0.7 },
   { path: '/tally', priority: 0.8 },
   { path: '/global', priority: 0.8 },
+  { path: '/corporate-ai-training', priority: 0.9 },
+  { path: '/scale-with-ai', priority: 0.9 },
+  { path: '/resources', priority: 0.8 },
+  ...resources.map(r => ({ path: `/resources/${r.slug}`, priority: 0.6 })),
   { path: '/about', priority: 0.6 },
   { path: '/contact', priority: 0.6 },
   { path: '/privacy-policy', priority: 0.2 },

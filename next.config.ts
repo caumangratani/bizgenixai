@@ -24,10 +24,9 @@ const nextConfig: NextConfig = {
       { source: '/careers', destination: '/about', permanent: true },
       { source: '/ai-course-india', destination: '/courses', permanent: true },
       { source: '/ai-training', destination: '/courses', permanent: true },
-      { source: '/corporate-training', destination: '/courses', permanent: true },
+      { source: '/corporate-training', destination: '/corporate-ai-training', permanent: true },
       { source: '/learning', destination: '/courses', permanent: true },
       { source: '/learning/:path*', destination: '/courses', permanent: true },
-      { source: '/corporate-ai-training', destination: '/courses', permanent: true },
       // Short names people type for products and local pages.
       { source: '/products/crm', destination: '/products/ai-crm', permanent: true },
       { source: '/products/whatsapp-automation', destination: '/products/bizchat', permanent: true },
@@ -36,7 +35,11 @@ const nextConfig: NextConfig = {
     ];
   },
   async headers() {
-    return [{ source: '/(.*)', headers: securityHeaders }];
+    return [
+      { source: '/(.*)', headers: securityHeaders },
+      // PDFs are reached through /resources/<slug> forms; keep the raw files out of search results.
+      { source: '/downloads/:path*', headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] },
+    ];
   },
 };
 

@@ -6,6 +6,7 @@
 
 import { tallyFinanceGuides } from './tally-finance';
 import { globalGuides } from './global';
+import { trainingGuides } from './training';
 
 export type Guide = {
   slug: string;
@@ -662,3 +663,4 @@ export const guides: Guide[] = [
 guides.push(...tallyFinanceGuides);
 // Guides for clients outside India (Claude).
 guides.push(...globalGuides);
+guides.push(...trainingGuides);
