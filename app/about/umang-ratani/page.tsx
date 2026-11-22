@@ -54,7 +54,7 @@ const content: ServiceContent = {
   proofTitle: 'Read more.',
   proofIntro: 'His work, in documents and on the record.',
   proof: [
-    { label: 'Download his speaker and consultant profile (PDF)', href: '/resources/dr-ca-umang-ratani-profile' },
+    { label: 'Download the Bizgenix AI company profile (PDF)', href: '/resources/bizgenix-ai-company-profile' },
     { label: 'Scale With AI events', href: '/scale-with-ai' },
     { label: 'Bizgenix AI case studies', href: '/case-studies' },
     { label: 'umangratani.com', href: 'https://www.umangratani.com/' },
