@@ -60,7 +60,11 @@ Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tal
 - [13-week cash flow forecast from Tally, step by step](https://bizgenix.ai/guides/cash-flow-forecast-from-tally)
 - [AI in accounting for Tally businesses: what works today](https://bizgenix.ai/guides/ai-in-accounting-for-tally-businesses)
 - [The owner's weekly Tally review: ten numbers to read every Monday](https://bizgenix.ai/guides/tally-weekly-owner-review)
-- [Growth Intelligence: an AI Chief Value Officer for businesses on Tally](https://bizgenix.ai/products/growth-intelligence). Reads Tally through a read-only connector, checks the data before advising, prepares three decisions a week, and counts a result only when a later Tally sync shows it. Not an MCP server; not accounting software; does not replace the CA.
+- [Tally with MCP: AI assistant access through Growth Intelligence](https://bizgenix.ai/guides/tally-mcp-ai-assistant)
+- [Tally connector to business dashboard: setup checklist](https://bizgenix.ai/guides/tally-connector-business-dashboard)
+- [Chief Value Officer vs CFO: AI decision support](https://bizgenix.ai/guides/chief-value-officer-ai-finance)
+- [Finance dashboard for Tally businesses: owner checklist](https://bizgenix.ai/guides/finance-dashboard-owner-review)
+- [Growth Intelligence: an AI Chief Value Officer for businesses on Tally](https://bizgenix.ai/products/growth-intelligence). Reads Tally through a read-only connector, checks the data before advising, prepares three decisions a week, and counts a result only when a later Tally sync shows it. Offers a read-only MCP connection for Claude and ChatGPT (company-scoped, expiring, revocable; answers from the latest sync, never posts). Not accounting software; does not replace the CA.
 
 ## People
 

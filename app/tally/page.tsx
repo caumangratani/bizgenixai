@@ -11,10 +11,11 @@ const description = 'Everything an owner or CA needs on Tally and AI: MIS report
 export const metadata: Metadata = pageMeta({ title, description, path: '/tally' });
 
 const groups: { heading: string; intro: string; slugs: string[] }[] = [
-  { heading: 'Start here', intro: 'The weekly habit and the monthly pack every owner on Tally should have.', slugs: ['tally-weekly-owner-review', 'mis-report-in-tally', 'chief-value-officer'] },
+  { heading: 'Start here', intro: 'The weekly habit and the monthly pack every owner on Tally should have.', slugs: ['tally-weekly-owner-review', 'finance-dashboard-owner-review', 'mis-report-in-tally'] },
   { heading: 'Cash and working capital', intro: 'See shortfalls weeks ahead and get paid sooner.', slugs: ['cash-flow-forecast-from-tally', 'tally-receivables-dashboard-checklist'] },
-  { heading: 'AI, connectors and MCP', intro: 'How Tally data reaches AI safely, and what AI should and should not do in accounting.', slugs: ['connect-tally-to-ai-mcp', 'ai-in-accounting-for-tally-businesses', 'ai-training-for-ca-accounting-firms'] },
-  { heading: 'Finance leadership', intro: 'From virtual CFO to Chief Value Officer: who reads the books and decides.', slugs: ['virtual-cfo', 'chief-value-officer'] },
+  { heading: 'Connecting Tally', intro: 'Connectors, dashboards and how Tally data reaches other software.', slugs: ['tally-connector-business-dashboard', 'connect-tally-to-ai-mcp'] },
+  { heading: 'AI, connectors and MCP', intro: 'How Tally data reaches AI safely, and what AI should and should not do in accounting.', slugs: ['tally-mcp-ai-assistant', 'ai-in-accounting-for-tally-businesses', 'ai-training-for-ca-accounting-firms'] },
+  { heading: 'Finance leadership', intro: 'From virtual CFO to Chief Value Officer: who reads the books and decides.', slugs: ['chief-value-officer', 'chief-value-officer-ai-finance', 'virtual-cfo'] },
 ];
 
 export default function TallyHubPage() {

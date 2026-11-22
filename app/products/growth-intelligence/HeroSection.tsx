@@ -93,14 +93,20 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDemo, onOpenWhat
               </div>
               <div className="flex items-center gap-1.5 text-slate-700">
                 <Clock className="w-4 h-4 text-[#2E7D4E] shrink-0" />
-                <span>Set up with your accountant</span>
+                <span>Guided setup and reconciliation</span>
               </div>
             </div>
 
-            {/* Demonstration data notice */}
-            <p className="text-[11px] text-slate-500 leading-snug">
-              Screens on this page show a fictional demonstration company, not a customer. GI does not promise a recovery figure: it shows where the money is and prepares the action.
-            </p>
+            {/* Promoter Quote Snippet */}
+            <div className="p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-xs flex items-center gap-3">
+              <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-[#2E7D4E] font-bold text-xs shrink-0">
+                GI
+              </div>
+              <div className="text-xs text-slate-600 leading-snug">
+                <span className="font-semibold text-slate-900">Bring one business question to your demo.</span> Review the source records, refresh date and next action before relying on a dashboard.
+                <span className="block text-[11px] text-slate-500 mt-0.5">Growth Intelligence by Bizgenix AI</span>
+              </div>
+            </div>
 
           </div>
 
@@ -340,7 +346,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDemo, onOpenWhat
 
                     <div className="p-2.5 bg-emerald-50 rounded-xl border border-emerald-200 text-[11px] text-emerald-900 flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-[#2E7D4E] shrink-0" />
-                      <span><strong>CVO note (demonstration):</strong> Week 2 GST challan creates temporary dip. Accelerate ₹15L debtor recovery from Krystal to maintain safety cushion.</span>
+                      <span><strong>Illustrative CVO insight:</strong> Week 2 GST challan creates temporary dip. Accelerate ₹15L debtor recovery from Krystal to maintain safety cushion.</span>
                     </div>
                   </div>
                 )}
@@ -394,9 +400,9 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDemo, onOpenWhat
               <div className="px-5 py-3 bg-slate-100/70 border-t border-slate-200 flex items-center justify-between text-[11px] text-slate-500">
                 <span className="flex items-center gap-1.5">
                   <Database className="w-3.5 h-3.5 text-[#2E7D4E]" />
-                  <span>Read-only Tally connector</span>
+                  <span>Sync engine: Read-only ODBC loop</span>
                 </span>
-                <span className="font-semibold text-slate-700">Demonstration company</span>
+                <span className="font-semibold text-slate-700">Encrypted AES-256</span>
               </div>
 
             </div>

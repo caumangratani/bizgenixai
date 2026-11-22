@@ -2,7 +2,8 @@
 // Rules: general, verifiable guidance. Growth Intelligence facts only from the 20 Nov 2026 GI brochure
 // (Team-Brochure-Kit/Content-Library/04-Product-Growth-Intelligence.md). GI is an AI Chief Value Officer:
 // never "virtual CFO" or "AI CFO" for the product. No GI prices (not ruled). No client results.
-// GI is not an MCP server today: do not say it is.
+// GI MCP: read-only tools at gi.bizgenix.ai/api/mcp for Claude and ChatGPT, company-scoped, expiring, revocable;
+// answers from the latest synced snapshot, not live Tally; drafts never post (GI-Next docs/OPENAI-MCP.md, Nov 2026).
 import type { Guide } from './content';
 
 const giNext = (title: string, text: string): Guide['next'] => ({
@@ -74,6 +75,7 @@ export const tallyFinanceGuides: Guide[] = [
 
 <h2>Where Growth Intelligence fits</h2>
 <p>Growth Intelligence takes the careful route. Its connector runs beside Tally, reads vouchers, ledgers, bills and stock on a schedule, and never writes back to your books. Before it gives any advice, it checks the period, the coverage and how fresh the data is, and it shows “Not measured yet” when the books cannot support a figure. “Ask your CVO” answers questions from your connected books for a stated period and shows the records behind each answer, and nothing reaches a customer or supplier without your approval.</p>
+<p>GI also offers an MCP connection, so Claude or ChatGPT can ask GI about your synced company. It uses read-only tools, is limited to the companies you grant, expires, can be revoked at any time and is logged. Answers come from the latest GI sync, not a live query on the Tally computer, so the Tally data port never has to be opened. A voucher drafted through it is only a draft: nothing is posted. Confirm availability for your plan and assistant in a demo. For the step-by-step workflow, see <a href="/guides/tally-mcp-ai-assistant">Tally with MCP: AI assistant access explained</a>.</p>
 `,
     faqs: [
       ['Does Tally have an API?', 'Not a hosted cloud API. TallyPrime offers a local data interface that answers XML requests, and JSON in recent releases, from programs on the same computer or network, plus ODBC for reading data into tools such as Excel. Integrations are built on these.'],
@@ -81,12 +83,13 @@ export const tallyFinanceGuides: Guide[] = [
       ['What is a Tally MCP server?', 'A small program that offers named actions on your Tally data, such as listing overdue bills, to an AI assistant using the Model Context Protocol. The assistant calls those actions to answer your questions.'],
       ['Does Tally need to be open for AI tools to work?', 'For live answers, yes: the local data interface responds only while Tally is running with the company loaded. Tools that sync on a schedule work from the last successful sync and should show its date.'],
       ['Can AI post entries in Tally?', 'Some tools can. Keep posting off until you have a clear approval step, a record of who approved what, and an audit trail equal to manual entry.'],
+      ['Does Growth Intelligence work with ChatGPT and Claude?', 'Yes, through GI’s MCP connection: read-only tools, limited to the companies you grant, with expiry and revocation. Answers come from the latest GI sync rather than a live Tally query, and drafts are never posted. Confirm availability for your plan in a demo.'],
     ],
-    next: giNext('See an AI Chief Value Officer read Tally, safely', 'Growth Intelligence reads your Tally with a read-only connector, checks the data before it advises, and prepares the week’s decisions for your approval.'),
+    next: giNext('Connect Claude or ChatGPT to your Tally, safely', 'Growth Intelligence reads your Tally with a read-only connector, checks the data before it advises, and offers a read-only MCP connection for Claude and ChatGPT.'),
   },
   {
     slug: 'chief-value-officer',
-    title: 'What Is a Chief Value Officer (CVO)? CFO vs CVO',
+    title: 'What Is a Chief Value Officer (CVO)? Meaning and Role',
     h1: 'What is a Chief Value Officer, and why does an owner-led business need one?',
     description: 'The Chief Value Officer explained: how the role grows out of the CFO, how it differs from a virtual CFO, what a CVO watches every week, and how AI can fill the seat in a growing Indian business.',
     answer: 'A Chief Value Officer (CVO) is the finance leader whose job is to find where value is stuck, leaking or waiting in the business, and get it moving, not only to report what happened. The idea grew out of the CFO role: a 2023 report by ACCA and BDO describes CFOs moving towards a value-focused remit. Owner-led businesses rarely have anyone in that seat, which is the gap an AI CVO built on the company’s own books can fill.',
@@ -108,7 +111,7 @@ export const tallyFinanceGuides: Guide[] = [
 <tr><td>Rhythm</td><td>Monthly close, quarterly board</td><td>A few days a month</td><td>Every week, as the books change</td></tr>
 <tr><td>Output</td><td>Reports, budgets, funding</td><td>MIS and reviews</td><td>Ranked decisions with the money attached, and proof of what changed</td></tr>
 </tbody></table></div>
-<p>A CVO does not replace the CA, the auditor or the accountant. Clean, correct books remain the foundation. The CVO uses them.</p>
+<p>A CVO does not replace the CA, the auditor or the accountant. Clean, correct books remain the foundation. The CVO uses them. For how Bizgenix applies the idea in software, see <a href="/guides/chief-value-officer-ai-finance">Chief Value Officer vs CFO: AI decision support</a>.</p>
 
 <h2>Why owner-led businesses lack one</h2>
 <p>A business with ₹10–200 crore of sales usually has a good accountant, a CA who handles compliance, and an owner who carries everything else in their head. Nobody’s job is to read the books every week, rank what matters and follow it through. So the signals arrive late: the customer who stopped ordering in August is noticed in November; the stock that stopped moving is found at the annual count.</p>
@@ -285,7 +288,7 @@ export const tallyFinanceGuides: Guide[] = [
   },
   {
     slug: 'tally-weekly-owner-review',
-    title: 'Tally Dashboard for Owners: 10 Numbers to Read Weekly',
+    title: 'Weekly Tally Review: 10 Numbers Every Owner Should Read',
     h1: 'The owner’s weekly Tally review: ten numbers to read every Monday, and what to do about each',
     description: 'A 30-minute Monday routine for business owners on Tally: the ten numbers to check, where each sits in TallyPrime, the warning signs, and the action each one should trigger.',
     answer: 'Read ten numbers every Monday: revenue, receivables, overdue receivables, payables, overdue payables, bank, cash, closing stock, active customers and products sold. Compare each with last week and last month, look for the warning sign listed below, and leave the review with three actions, each with an owner and a date.',
@@ -329,7 +332,7 @@ export const tallyFinanceGuides: Guide[] = [
 <li>Bank entries made at least weekly, and reconciled monthly.</li>
 <li>One person responsible for the books being current by Monday morning.</li>
 </ul>
-<p>If you are comparing dashboard tools rather than building the routine yourself, use our <a href="/guides/tally-receivables-dashboard-checklist">Tally receivables dashboard checklist</a>, and for the monthly pack see <a href="/guides/mis-report-in-tally">MIS report in Tally</a>.</p>
+<p>If you are comparing dashboard tools rather than building the routine yourself, use our <a href="/guides/finance-dashboard-owner-review">finance dashboard owner checklist</a>, the <a href="/guides/tally-receivables-dashboard-checklist">Tally receivables dashboard checklist</a> and the <a href="/guides/tally-connector-business-dashboard">Tally connector setup checklist</a>, and for the monthly pack see <a href="/guides/mis-report-in-tally">MIS report in Tally</a>.</p>
 
 <h2>Getting the review prepared for you</h2>
 <p>Growth Intelligence puts these ten figures under its weekly brief, for the same period and the same sync, each traceable to its Tally entries. Above them sit the three decisions that deserve your attention this week, with the money involved and a first step ready for your approval.</p>

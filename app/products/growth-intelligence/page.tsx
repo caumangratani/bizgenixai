@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import Link from 'next/link';
 import { HeroSection } from './HeroSection';
 import { ProblemSolution } from './ProblemSolution';
 import { ValuePillars } from './ValuePillars';
@@ -101,6 +102,8 @@ const GIProductPage = () => {
           </div>
         </div>
       </section>
+
+      <section id="tally-learning-centre" className="border-t border-slate-200 bg-white py-16"><div className="mx-auto max-w-6xl px-6"><h2 className="text-3xl font-bold text-slate-900">Tally, finance and AI: the Growth Intelligence learning centre</h2><p className="mt-4 max-w-3xl text-slate-600">Growth Intelligence by Bizgenix AI supports owner and finance-team decisions around Tally data. Explore the connector, reporting checks, MCP and our Chief Value Officer (CVO) approach. Umang Ratani and the team can help you evaluate the supported setup for your business.</p><div className="mt-8 grid gap-4 md:grid-cols-2"><Link className="rounded-xl border border-emerald-100 p-5 font-semibold text-emerald-900 hover:bg-emerald-50" href="/guides/tally-connector-business-dashboard">From Tally connector to business dashboard: what should you verify?</Link><Link className="rounded-xl border border-emerald-100 p-5 font-semibold text-emerald-900 hover:bg-emerald-50" href="/guides/tally-mcp-ai-assistant">Tally with MCP: how an AI assistant can work with accounting context</Link><Link className="rounded-xl border border-emerald-100 p-5 font-semibold text-emerald-900 hover:bg-emerald-50" href="/guides/chief-value-officer-ai-finance">What is an AI Chief Value Officer, and how does it support a CFO?</Link><Link className="rounded-xl border border-emerald-100 p-5 font-semibold text-emerald-900 hover:bg-emerald-50" href="/guides/finance-dashboard-owner-review">What should a business owner review in a finance dashboard?</Link><Link className="rounded-xl border border-emerald-100 p-5 font-semibold text-emerald-900 hover:bg-emerald-50" href="/guides/tally-receivables-dashboard-checklist">Receivables and collection review</Link><Link className="rounded-xl border border-emerald-100 p-5 font-semibold text-emerald-900 hover:bg-emerald-50" href="/guides/mis-report-in-tally">MIS reporting with Tally</Link><Link className="rounded-xl border border-emerald-100 p-5 font-semibold text-emerald-900 hover:bg-emerald-50" href="/guides/virtual-cfo">Working with a virtual CFO</Link></div><p className="mt-6 text-sm text-slate-600">GI is decision-support software, not a human CFO or a replacement for your CA or auditor. Confirm current capabilities and access requirements in a demonstration.</p></div></section>
 
       {/* Bottom CTA & Contact Form + FAQ Accordion */}
       <DemoFormSection />

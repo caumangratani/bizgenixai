@@ -26,13 +26,13 @@ export const ValuePillars: React.FC<ValuePillarsProps> = ({ onOpenWhatsApp }) =>
   const pillars = [
     {
       id: 0,
-      title: "Chief Value Officer Guidance",
+      title: "CVO Decision Support",
       kicker: "Strategic Capital Protection",
       icon: Compass,
       summary: "Plain-English recommendations on working capital, cash runway alerts, and supplier early-payment cash discounts.",
       description: "Bizgenix continuously scans your Tally vouchers to identify high-impact financial moves. It calculates whether taking a 2% 10-day cash discount from your chemical supplier beats keeping cash in a 7% bank deposit, and flags dangerous cash troughs 3 weeks ahead.",
       scenario: {
-        title: "CVO recommendation (demonstration):",
+        title: "Illustrative CVO review question:",
         details: [
           "Supplier 'Reliance Petrochem' offers 2% discount if paid within 7 days (by Oct 21).",
           "Bill Value: ₹24,50,000 → Net Discount Captured: ₹49,000.",
@@ -55,7 +55,7 @@ export const ValuePillars: React.FC<ValuePillarsProps> = ({ onOpenWhatsApp }) =>
           "Rule: When overdue exceeds 45 days AND amount > ₹5 Lakhs.",
           "Debtor: Maruti Polyblend Processors (₹19,80,000 overdue by 64 days).",
           "Previous touchpoint: Automated reminder sent on Day 30 (Opened & Viewed).",
-          "Next Action: Send the ledger statement and reminder after your approval."
+          "Next Action: Trigger Formal Ledger Statement with UPI Payment Link."
         ],
         actionText: "Simulate WhatsApp Statement Dispatch",
         isWhatsAppAction: true
@@ -92,7 +92,7 @@ export const ValuePillars: React.FC<ValuePillarsProps> = ({ onOpenWhatsApp }) =>
           "Connected Entities: Apex Synthetics (Surat) + Apex Polymer Trading (Mumbai).",
           "Combined Receivables: ₹11.42 Cr | Inter-company Contra Cleared: ₹1.85 Cr.",
           "Net Group Liquidity: ₹1.64 Cr across 4 bank accounts.",
-          "Feature: Roles for who can view, approve and act, in each company workspace."
+          "Feature: Single sign-on with role-based restriction per company entity."
         ],
         actionText: "Switch Group Entity View"
       }
@@ -113,7 +113,7 @@ export const ValuePillars: React.FC<ValuePillarsProps> = ({ onOpenWhatsApp }) =>
             Into Cash Flow Dominance
           </h2>
           <p className="mt-4 text-base sm:text-lg text-[#475569] leading-relaxed">
-            Built from the ground up for Indian promoters, MDs, and finance heads who want the week’s decisions from their own books, without replacing Tally.
+            Built from the ground up for Indian promoters, MDs, and finance heads who demand real-time visibility without replacing their beloved Tally.
           </p>
         </div>
 

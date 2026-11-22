@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { pageMeta, SITE_URL } from '../../seo';
 
-const title = 'Growth Intelligence | AI Chief Value Officer for Tally Businesses';
-const description = "Growth Intelligence reads your Tally like a Chief Value Officer: business analytics on cash, receivables, payables and stock, three prepared decisions a week, and follow-ups you approve.";
+const title = 'Growth Intelligence | Tally Analytics and AI Decision Support';
+const description = "Growth Intelligence by Bizgenix AI connects Tally data with business dashboards and AI decision support. Explore receivables, cash, stock and the CVO approach.";
 
 export const metadata: Metadata = pageMeta({ title, description, path: '/products/growth-intelligence' });
 
@@ -15,7 +15,7 @@ const jsonLd = {
   operatingSystem: 'Web',
   description,
   url: `${SITE_URL}/products/growth-intelligence`,
-  sameAs: ['https://gi.bizgenix.ai/', 'https://www.g2.com/products/bizgenix-ai-growth-intelligence/reviews'],
+  sameAs: ['https://gi.bizgenix.ai/'],
   publisher: { '@id': `${SITE_URL}/#organization` },
 };
 
