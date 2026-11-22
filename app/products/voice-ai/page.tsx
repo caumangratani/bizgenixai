@@ -19,10 +19,7 @@ const content: ServiceContent = {
   h1: 'Voice AI that talks to your customers and records what happens next.',
   lead: 'Voice AI helps a business handle large volumes of inbound and outbound calls without depending entirely on a manual calling team. It speaks with customers, understands the response, captures the information you need and triggers the next business action.',
   primaryCta: 'Schedule a live demo',
-  secondaryCta: {
-    label: 'Open Voice AI',
-    href: 'https://voice.bizgenix.ai/',
-  },
+  secondaryCta: { label: 'Download the brochure', href: '/resources/ai-voice-agent-brochure' },
   whatTitle: 'What Voice AI does.',
   whatIntro: 'An AI voice bot for the calls that get delayed or skipped when the team is busy: first response, qualification, reminders and follow-up.',
   items: [
@@ -63,6 +60,7 @@ const content: ServiceContent = {
     { q: 'Can we hear it before deciding?', a: 'Yes. Schedule a live demo and we will show a conversation for a use case close to yours.' },
   ],
   related: [
+    { label: 'Open Voice AI', href: 'https://voice.bizgenix.ai/' },
     { label: 'Compare CRM, WhatsApp and voice automation costs', href: '/guides/compare-ai-sales-automation-costs' },
     { label: 'All products', href: '/products' },
     { label: 'Bizgenix AI CRM', href: '/products/ai-crm' },

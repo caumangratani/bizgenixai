@@ -14,7 +14,7 @@ const stories = [
 
 // Keep the source's stacked-photo animation and final overview, with equal
 // scroll time for every photo as new cities are added.
-export default function ScaleWithAI() {
+export default function ScaleWithAI({ overviewHref = 'https://scalewithai.in/' }: { overviewHref?: string }) {
   const sectionRef = useRef<HTMLElement>(null);
   const sceneRef = useRef<HTMLDivElement>(null);
   const headerRef = useRef<HTMLElement>(null);
@@ -163,7 +163,7 @@ export default function ScaleWithAI() {
 
       <div className={styles.container}>
         <div className={styles.actions}>
-          <a className={styles.exploreButton} href="https://scalewithai.in/" target="_blank" rel="noopener noreferrer">Explore Scale with AI <span aria-hidden="true">↗</span></a>
+          <a className={styles.exploreButton} href={overviewHref}>Explore Scale with AI <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>

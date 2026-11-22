@@ -1,3 +1,4 @@
+// Personal profile PDF temporarily withdrawn: unresolved client starting figure; preserve original Team-Brochure-Kit source.
 // Free downloads: Scale With AI guides and the Team-Brochure-Kit PDFs (owned by Claude; see
 // seo-audit-nov-2026/COORDINATION.md). Each file is behind a short form so the team gets the lead.
 // Held back on purpose (22 Nov 2026), do not add until Umang rules on them:
@@ -183,20 +184,6 @@ export const resources: Resource[] = [
     pages: 12,
     sizeMb: 6.2,
     related: [{ label: 'About Bizgenix AI', href: '/about' }, { label: 'Case studies', href: '/case-studies' }],
-  },
-  {
-    slug: 'dr-ca-umang-ratani-profile',
-    kind: 'Profile',
-    title: 'Dr. CA Umang Ratani: Speaker & Consultant Profile (PDF)',
-    h1: 'Dr. CA Umang Ratani: business consultant, AI Business Architect and speaker',
-    description: 'Download the profile of Dr. CA Umang Ratani, Founder and CEO of Bizgenix AI: chartered accountant, Virtual CEO to 350+ companies, TEDx speaker and lead trainer of Scale With AI.',
-    summary: 'A business consultant who ships working AI. The profile covers his journey, 13+ years inside owner-run businesses, the Virtual CEO model, speaking and training, and today’s work across Bizgenix AI, Scale With AI and Growth Intelligence.',
-    inside: ['Qualifications and journey', 'Virtual CEO work and client growth', 'Speaking, training and Scale With AI'],
-    forWho: 'Event organisers, associations, HR and L&D teams, and media.',
-    file: '/downloads/dr-ca-umang-ratani-profile.pdf',
-    pages: 13,
-    sizeMb: 10.2,
-    related: [{ label: 'Scale With AI', href: '/scale-with-ai' }, { label: 'Corporate AI training', href: '/corporate-ai-training' }],
   },
 ];
 
