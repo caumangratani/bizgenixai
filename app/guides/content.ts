@@ -22,6 +22,49 @@ export type Guide = {
 
 export const guides: Guide[] = [
 {
+  "slug": "compare-ai-sales-automation-costs",
+  "title": "CRM, WhatsApp and Voice AI Costs: Buyer Checklist | Bizgenix AI",
+  "h1": "How do you compare the full cost of AI sales automation?",
+  "description": "Compare CRM subscriptions, WhatsApp messaging, voice AI usage, integrations and support. Build a realistic sales-automation pilot budget.",
+  "answer": "Compare AI sales automation using the same team size, workflow and expected usage. Separate the software subscription from setup, integration, support, calling and messaging charges, then test whether the workflow produces correctly recorded and human-qualified opportunities.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "AI CRM",
+    "WhatsApp automation",
+    "Voice AI"
+  ],
+  "minutes": 4,
+  "html": "<h2>Start with one sales workflow</h2><p>Write down where an enquiry arrives, who owns it, how it is followed up and where its outcome is recorded. A shared inbox, an AI calling workflow and a CRM may solve different parts of that process. Compare the configuration you need rather than the longest feature list.</p><h2>Ask for six separate cost lines</h2><ol><li>Software: users, subscription term and package.</li><li>Setup: migration, number setup, scripts and team onboarding.</li><li>Integrations: which sources and systems are included.</li><li>Usage: calling minutes, message categories and any other metered services.</li><li>Support: included period, ongoing support scope and renewal terms.</li><li>Other charges: number rental, applicable taxes and optional services.</li></ol><p>Ask what changes if the team grows or usage exceeds the pilot estimate. Get the billing unit and exclusions in writing.</p><h2>Build a usage estimate you can inspect</h2><p>For calling, estimate connected calls multiplied by average billable minutes and the confirmed minute rate. Check how partial minutes, retries and unsuccessful calls are treated. For messaging, list the expected message types and destinations, then use the applicable provider rates. Keep subscription and rental separate from variable usage.</p><h2>Compare the pilot with a baseline</h2><p>Record unassigned enquiries, missed next actions and time spent reviewing records before the pilot. During the pilot, inspect a sample from each source and confirm that duplicates, failed messages and hand-offs are visible. A successful demonstration is not proof that every integration is ready for production.</p><h2>Measure qualified opportunities separately</h2><p>Use a consistent sales-review definition: a business that fits your offering, a specific requirement and an agreed next step. Track enquiry, human qualification, meeting, proposal and won customer as different stages. Keep test submissions and spam out of the sales totals. Calculate cost per qualified lead only when the relevant spend and qualification records are available for the same scope.</p><h2>Choose the right starting point</h2><p>Explore <a href=\"/products/ai-crm\">Bizgenix AI CRM</a> for lead ownership and sales stages, <a href=\"/products/bizchat\">BizChat</a> for shared WhatsApp workflows, and <a href=\"/products/voice-ai\">Voice AI</a> for calling workflows. Bizgenix AI, founded by Umang Ratani, can review whether a standard configuration or <a href=\"/custom-solutions\">custom solution</a> fits the process. Confirm current pricing and included scope in a written quote.</p><p>Use the <a href=\"/guides/evaluate-ai-automation-pilot\">AI pilot acceptance checklist</a> to define the evidence you need before expanding.</p>",
+  "faqs": [
+    [
+      "Does an annual subscription include unlimited usage?",
+      "Do not assume it does. Confirm calling, messaging, rental, integrations and support separately in the written quote."
+    ],
+    [
+      "Is an AI lead score the same as a qualified lead?",
+      "No. A score is a prioritisation signal. A salesperson should confirm fit, a real requirement and the next step before marking an enquiry qualified."
+    ],
+    [
+      "Which numbers should we review after a pilot?",
+      "Review data capture, assignment, failed actions, human-qualified opportunities and actual usage charges. Keep meetings, proposals and wins as separate outcomes."
+    ]
+  ],
+  "next": {
+    "eyebrow": "Plan your pilot",
+    "title": "Bring one sales workflow.",
+    "text": "Share team size, lead sources and the follow-up problem you want to solve.",
+    "primary": {
+      "label": "Discuss the right configuration",
+      "href": "/contact"
+    },
+    "secondary": {
+      "label": "Explore products",
+      "href": "/products"
+    }
+  }
+},
+{
   "slug": "evaluate-corporate-ai-training",
   "title": "Corporate AI Training: A Buyer Checklist | Bizgenix AI",
   "h1": "How should you evaluate corporate AI training?",

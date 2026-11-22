@@ -46,7 +46,7 @@ const content: ServiceContent = {
     ],
   },
   proofTitle: 'WhatsApp automation we have built.',
-  proofIntro: 'Published implementations where WhatsApp carries the reminder, the alert or the customer follow-up.',
+  proofIntro: 'Examples of custom WhatsApp workflows built by Bizgenix. These demonstrate implementation experience; they do not mean every workflow is included in the standard BizChat subscription.',
   proof: [
     { label: 'Automated cheque reminder system', slug: 'cheque-reminder-system' },
     { label: 'Dispatch OCR and customer follow-up', slug: 'dispatch-ocr-follow-up' },
@@ -60,6 +60,8 @@ const content: ServiceContent = {
     { title: 'Tracked follow-up', text: 'Reminders and next steps are sent and recorded until the matter is closed.' },
   ],
   faqs: [
+    { q: 'How much does BizChat cost?', a: 'The annual BizChat software subscription is ₹50,000 + GST. Messaging usage and any separately agreed implementation, integration or support charges should be itemised in the quote. Ask for the current applicable messaging rates for your account and use case before launch.' },
+    { q: 'What should we test before launching a WhatsApp workflow?', a: 'Test an incoming enquiry, team assignment, a follow-up, an unanswered question and a request to stop messages. Confirm that a person can take over with conversation history and that failed messages are visible to the team. Use an agreed sample before expanding the workflow.' },
     { q: 'What is WhatsApp automation?', a: 'WhatsApp automation sends and answers business messages by rule instead of by hand: replies to new enquiries, reminders, order updates and follow-ups, with each conversation recorded against a customer and an owner.' },
     { q: 'Can BizChat automate WhatsApp follow-ups?', a: 'Yes. It supports structured reminders, lead journeys, customer updates and workflow-triggered messages, subject to the WhatsApp account and template setup.' },
     { q: 'Do we need the WhatsApp Business API?', a: 'Automated journeys, templates and broadcasts run on a WhatsApp Business account set up for API use. We confirm the account and template requirements with you before the build.' },
@@ -68,6 +70,7 @@ const content: ServiceContent = {
     { q: 'Can we start with one workflow?', a: 'Yes. Many businesses begin with one use case, such as payment reminders or lead response, and expand after it proves its value.' },
   ],
   related: [
+    { label: 'Compare CRM, WhatsApp and voice automation costs', href: '/guides/compare-ai-sales-automation-costs' },
     { label: 'All products', href: '/products' },
     { label: 'Bizgenix AI CRM', href: '/products/ai-crm' },
     { label: 'Voice AI', href: '/products/voice-ai' },

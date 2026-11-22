@@ -20,7 +20,7 @@ const content: ServiceContent = {
   whatTitle: 'What the CRM does.',
   whatIntro: 'Lead management, sales pipeline and follow-up in one place, with AI doing the parts that get skipped when the team is busy.',
   items: [
-    { title: 'Lead capture from every source', text: 'Facebook and Instagram ad leads, IndiaMART and Justdial enquiries, and enquiry emails read by AI arrive in the CRM without copy-paste.' },
+    { title: 'Capture from connected lead sources', text: 'Facebook and Instagram ad leads, IndiaMART and Justdial enquiries, and enquiry emails read by AI arrive in the CRM without copy-paste.' },
     { title: 'Lead scoring and assignment', text: 'Each new lead is checked for duplicates, scored Hot, Warm or Cold, and assigned to a salesperson, so the team knows whom to call first.' },
     { title: 'Sales pipeline and follow-ups', text: 'See every opportunity by stage. Callbacks and next actions stay visible to the whole team, not in one person’s notebook.' },
     { title: 'WhatsApp CRM', text: 'A shared WhatsApp inbox, campaigns, product catalogue and orders, where the WhatsApp integration is enabled for your account.' },
@@ -46,6 +46,8 @@ const content: ServiceContent = {
     { title: 'Follow up and convert', text: 'Reminders, conversations and next actions are tracked until the deal is won or closed.' },
   ],
   faqs: [
+    { q: 'Are calling and WhatsApp usage included in the subscription?', a: 'Separate software subscription from usage and support in your comparison. Request an itemised quote for AI calling minutes, WhatsApp messaging, phone-number rental, integrations and support. Do not treat a complete-system subscription as unlimited calling or messaging.' },
+    { q: 'How should we measure qualified leads?', a: 'Keep source, campaign, owner and next action on each enquiry. A salesperson should confirm business fit, a real requirement and an agreed next step before marking it qualified. Record meetings, proposals and wins separately; an AI score or submitted form is not proof of a sale.' },
     { q: 'What should we bring to a CRM demo?', a: 'Bring your team size, lead sources, current stages and one missed-follow-up example. Use anonymised sample records. Confirm supported integrations and access requirements before connecting production accounts.' },
     { q: 'How do we know a pilot is working?', a: 'Test source capture, duplicate handling, assignment, next actions and failed-message recovery. Compare unassigned enquiries and review effort with your baseline. Count qualified opportunities separately from messages or submissions.' },
     { q: 'Who is behind Bizgenix AI CRM?', a: 'Bizgenix AI is founded by Umang Ratani. The team provides AI consulting, custom solutions, products and training; discuss the delivery and support scope for your proposed CRM configuration.' },
@@ -54,11 +56,12 @@ const content: ServiceContent = {
     { q: 'Does it capture IndiaMART and Justdial leads?', a: 'Yes. Once connected, enquiries from IndiaMART and Justdial and leads from Facebook and Instagram ads arrive in the CRM automatically.' },
     { q: 'Does it work with WhatsApp?', a: 'Yes, where the WhatsApp integration is enabled for your account: a shared inbox, campaigns, your product catalogue and orders.' },
     { q: 'Is AI calling included?', a: 'Availability, activation and usage charges depend on the confirmed configuration. Our team clarifies this before purchase.' },
-    { q: 'How is it priced?', a: 'Plans are by team size: 5 users, 10 users and unlimited users. Ask for plan details and we will share the current terms for your use case.' },
+    { q: 'How is it priced?', a: 'CRM-only pricing is ₹1,700 per user per month on monthly billing, ₹1,450 per user per month on a six-month term, or ₹1,300 per user per month on an annual term. The complete-system rates are ₹2,500, ₹2,150 and ₹1,900 respectively. All prices are + GST. Confirm the package, billing commitment, implementation scope and usage charges in your written quote.' },
     { q: 'Can I see the CRM before buying?', a: 'Yes. Book a free live walkthrough and we will show a workflow based on your team size and sales process.' },
     { q: 'Can our workflow be customised?', a: 'Share your requirements. Our team reviews scope, feasibility and commercial terms before any commitment.' },
   ],
   related: [
+    { label: 'Compare CRM, WhatsApp and voice automation costs', href: '/guides/compare-ai-sales-automation-costs' },
     { label: 'WhatsApp CRM buyer guide', href: '/guides/whatsapp-crm-for-indian-sales-teams' },
     { label: 'AI pilot acceptance checklist', href: '/guides/evaluate-ai-automation-pilot' },
     { label: 'All products', href: '/products' },
