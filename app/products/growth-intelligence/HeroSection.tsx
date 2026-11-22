@@ -402,7 +402,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDemo, onOpenWhat
                   <Database className="w-3.5 h-3.5 text-[#2E7D4E]" />
                   <span>Sync engine: Read-only ODBC loop</span>
                 </span>
-                <span className="font-semibold text-slate-700">Encrypted AES-256</span>
+                <span className="font-semibold text-slate-700">Demonstration company</span>
               </div>
 
             </div>
