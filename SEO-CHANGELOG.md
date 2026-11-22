@@ -14,6 +14,13 @@ Rules that apply to every entry:
 
 ---
 
+## 22 Nov 2026 (night) — Clients outside India (Claude)
+
+- New page `/global`: custom AI solutions, automation, agents, CRM/WhatsApp, voice AI and online training for the US, UK, UAE, Singapore, Australia and Canada; region-by-region time overlap; pricing from USD/EUR 500 (owner-confirmed); data and ownership; FAQ. Service schema `areaServed` lists the countries.
+- Two guides in `app/guides/global.ts`: hire-ai-development-company-india, ai-agents-for-small-business.
+- Organisation schema `areaServed` now lists India plus the six target countries. `ServicePage` gains optional `areaServedCountries`.
+- Footer "Clients Outside India"; sitemap; llms.txt section.
+
 ## 22 Nov 2026 — Tally, finance and Growth Intelligence cluster (Claude)
 
 - **Growth Intelligence page aligned to the 20 Nov GI brochure.** Removed the unverified customer quote ("Recovered ₹84 Lakhs… Rajesh Shah, Vardhman Tex-Fab"), "Live in 15 minutes", "Encrypted AES-256", "Recover funds 14 days faster", "₹80L+ cash unlocked", DSO before/after figures, iOS/Android and real-time claims. "Virtual CFO" replaced by "Chief Value Officer" (owner rule; facts sheet line 85). Title now "Growth Intelligence | AI Chief Value Officer for Tally Businesses". Hero states that screens show a fictional demonstration company.

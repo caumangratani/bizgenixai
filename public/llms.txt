@@ -51,6 +51,13 @@ Answer-first guides by the Bizgenix AI team. Each opens with a short answer.
 - [WhatsApp automation for business: what you can automate and what it takes](https://bizgenix.ai/guides/whatsapp-automation-for-business)
 - [All guides](https://bizgenix.ai/guides)
 
+## Clients outside India
+
+Bizgenix AI works remotely with businesses in the United States, United Kingdom, UAE, Singapore, Australia and Canada: AI automation, custom AI solutions and agents, CRM and WhatsApp workflows, voice AI and online corporate AI training. International projects start from USD 500 or EUR 500 depending on scope; systems run on the client's own accounts. https://bizgenix.ai/global
+
+- [Hiring an AI development company in India: buyer guide for US, UK, UAE and Singapore businesses](https://bizgenix.ai/guides/hire-ai-development-company-india)
+- [AI agents for small business: what they can do today](https://bizgenix.ai/guides/ai-agents-for-small-business)
+
 ## Tally, finance and Growth Intelligence
 
 Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tally

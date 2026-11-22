@@ -18,6 +18,7 @@ const services = [
   ['AI Consultant in Ahmedabad', '/ai-consultant-ahmedabad'],
   ['Business Guides', '/guides'],
   ['Tally & Finance Guides', '/tally'],
+  ['Clients Outside India', '/global'],
 ] as const;
 
 const founderSocials: readonly { name: string; icon: string; href: string }[] = [

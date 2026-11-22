@@ -25,6 +25,8 @@ export type ServiceContent = {
   parent?: { name: string; href: string };
   /** City served, for local pages. Defaults to India. */
   areaServedCity?: string;
+  /** Countries served, for international pages. Overrides the India default. */
+  areaServedCountries?: string[];
   processTitle: string;
   steps: { title: string; text: string }[];
   faqs: { q: string; a: string }[];
@@ -58,7 +60,7 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
           description: content.lead,
           url,
           provider: { '@id': `${SITE_URL}/#organization` },
-          areaServed: content.areaServedCity ? { '@type': 'City', name: content.areaServedCity } : { '@type': 'Country', name: 'India' },
+          areaServed: content.areaServedCountries ? content.areaServedCountries.map(name => ({ '@type': 'Country', name })) : content.areaServedCity ? { '@type': 'City', name: content.areaServedCity } : { '@type': 'Country', name: 'India' },
         },
       {
         '@type': 'FAQPage',

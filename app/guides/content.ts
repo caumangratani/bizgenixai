@@ -5,6 +5,7 @@
 // passage search engines and AI assistants are most likely to quote.
 
 import { tallyFinanceGuides } from './tally-finance';
+import { globalGuides } from './global';
 
 export type Guide = {
   slug: string;
@@ -659,3 +660,5 @@ export const guides: Guide[] = [
 
 // Tally, finance and Growth Intelligence cluster (Claude). Kept in its own file to avoid edit collisions.
 guides.push(...tallyFinanceGuides);
+// Guides for clients outside India (Claude).
+guides.push(...globalGuides);
