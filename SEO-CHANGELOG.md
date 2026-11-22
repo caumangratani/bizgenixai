@@ -1,3 +1,10 @@
+# 22 November 2026 (late night, Claude) — AI education pillar and free downloads
+
+- New `/corporate-ai-training` (ServicePage; old 301 to /courses removed; `/corporate-training` now points here) and `/scale-with-ai` (EventSeries + Course schema). Three guides in `app/guides/training.ts`.
+- New `/resources` + `/resources/[slug]`: gated free PDFs (`public/downloads/`, served with `X-Robots-Tag: noindex`). Form posts enquiry type `Resource Download` (added in `lib/enquiries.mjs`, test added).
+- `ServicePage`: optional `contactHref`, `photo`, `extraJsonLd`, `faqTitle`. Person schema description/knowsAbout. llms.txt, footer, sitemap (89 URLs).
+- Numbers follow Team-Brochure-Kit `03-Facts-Numbers-and-Rules.md`. PDFs with unruled prices are held back (list at the top of `app/resources/content.ts`).
+
 # 22 November 2026
 
 Added corporate AI training evaluation guide and links from courses. Replaced unsubstantiated training totals with delivery formats. Preserved original training photography.
