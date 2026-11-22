@@ -21,6 +21,11 @@ export type Resource = {
   pages: number;
   sizeMb: number;
   related: { label: string; href: string }[];
+  /** Chapters or sections, copied from the PDF. */
+  toc?: string[];
+  /** A few real entries from inside the PDF. */
+  sample?: { title: string; text: string }[];
+  faqs?: [string, string][];
 };
 
 export const resources: Resource[] = [
@@ -41,6 +46,9 @@ export const resources: Resource[] = [
     file: '/downloads/ai-dictionary-50-concepts-bizgenix.pdf',
     pages: 32,
     sizeMb: 1,
+    toc: ["Module 1 · Foundations: what AI really is (concepts 01–07)", "Module 2 · Talking to AI: the input layer (08–14)", "Module 3 · Giving AI knowledge: memory (15–21)", "Module 4 · Giving AI hands: tools and building (22–29)", "Module 5 · Agents: AI that acts (30–36)", "Module 6 · Teams of agents: orchestration and scale (37–41)", "Module 7 · Trust, safety and control (42–46)", "Module 8 · Strategy and money (47–50)"],
+    sample: [{"title": "Large Language Model (LLM)", "text": "In one line: a genius autocomplete that has read most of the internet."}, {"title": "Hallucination", "text": "In one line: when AI says something wrong with a totally straight face."}, {"title": "Context engineering", "text": "In one line: putting the right papers on the AI’s desk before it works."}, {"title": "RAG (retrieval-augmented generation)", "text": "In one line: AI that checks your files before it speaks."}, {"title": "Connectors / MCP", "text": "In one line: one universal plug that fits all your tools."}, {"title": "AI agent", "text": "In one line: a worker, not just an advisor."}],
+    faqs: [["Is the AI Dictionary free?", "Yes. Fill in the short form on this page and the 32-page PDF downloads straight away."], ["Who is it written for?", "Business owners and managers who are not technical. Each concept is explained with an analogy first and a business use second."], ["What is new in the second edition?", "Sixteen 2026 concepts, including open and local models, deep research, vibe coding, webhooks and scheduled tasks, voice agents, shadow AI and AEO/GEO, plus “the trap” for all 50 concepts."]],
     related: [
       { label: 'Scale With AI programme', href: '/scale-with-ai' },
       { label: 'AI agents for small business', href: '/guides/ai-agents-for-small-business' },
@@ -63,6 +71,9 @@ export const resources: Resource[] = [
     file: '/downloads/ai-prompt-library-for-business-bizgenix.pdf',
     pages: 77,
     sizeMb: 0.9,
+    toc: ["01 Sales & Business Development (9 prompts)", "02 Marketing & Content (9)", "03 Finance & Accounting (10)", "04 HR & People Operations (9)", "05 Operations & Execution (9)", "06 Customer Success & Support (9)", "07 Leadership & Strategy (9)", "08 Personal Productivity (9)", "09 AI Deployment & Agent Design (9)", "10 Compliance & Legal, Indian (9)", "11 Vibe Coding & App Building (9)", "12 WhatsApp Playbooks (9)"],
+    sample: [{"title": "#001 Lead Qualifier Agent", "text": "When a new enquiry arrives on WhatsApp, a form or email and you want it scored in 60 seconds on budget, timing, authority and problem fit."}, {"title": "#003 Weekly Pipeline Review", "text": "Every Monday morning: prioritise the week in 20 minutes, with one next action per deal and a WhatsApp opener to break the ice."}, {"title": "#004 Objection Handler", "text": "When a prospect pushes back on price, timing or trust: the real objection underneath, three response styles and the next message in under 80 words."}, {"title": "#008 Lost-Deal Autopsy", "text": "A deal just died and you want the truth, not comfort."}],
+    faqs: [["How many prompts are in the library?", "109 prompts across 12 departments, each with when to use it, the best model, the prompt and a tweak tip."], ["Do I need coding knowledge?", "No. Every prompt is copy-paste ready; you fill in the parts in [BRACKETS]."], ["Which AI tools does it work with?", "Claude, ChatGPT, Gemini and Perplexity. Each prompt is tagged with the model it works best in."]],
     related: [
       { label: 'Corporate AI training', href: '/corporate-ai-training' },
       { label: 'Business processes to automate with AI', href: '/blog/business-processes-to-automate-with-ai' },
@@ -85,6 +96,8 @@ export const resources: Resource[] = [
     file: '/downloads/complete-claude-ai-guide-bizgenix.pdf',
     pages: 25,
     sizeMb: 0.4,
+    toc: ["What is Claude, and why it matters", "Claude products: chat, desktop, mobile, API", "Claude models: Opus, Sonnet, Haiku", "Pricing plans: free to enterprise", "Claude chat: the starting point", "Extended thinking", "Projects: organised workspaces", "Artifacts: live, interactive outputs", "Memory", "Web search and deep research", "Connectors: link your tools", "Custom styles", "Skills: reusable instruction packs", "Prompting mastery: the complete framework", "Claude for Indian MSMEs and consultants", "30 unusual things you can do with Claude", "Claude vs ChatGPT vs Gemini", "Pro tips and power-user shortcuts", "Anthropic Academy: free courses", "Your 7-day Claude mastery plan"],
+    faqs: [["Is the Claude guide free?", "Yes. It is a free 25-page PDF; the download starts after the short form."], ["Is it for beginners?", "Yes. It starts from your first chat and ends with Projects, connectors, skills and a 7-day plan."], ["Does it compare Claude with ChatGPT and Gemini?", "Yes, chapter 17 compares the three for everyday business work."]],
     related: [
       { label: 'Claude Cowork guide', href: '/resources/claude-cowork-guide' },
       { label: 'Connect Tally to AI', href: '/guides/connect-tally-to-ai-mcp' },
@@ -107,6 +120,8 @@ export const resources: Resource[] = [
     file: '/downloads/claude-cowork-guide-bizgenix.pdf',
     pages: 26,
     sizeMb: 0.4,
+    toc: ["What is Claude Cowork?", "Chat vs Cowork vs Code", "Getting started: requirements and installation", "The folder structure that changes everything", "The three context files", "Global instructions", "Stop Claude from guessing", "Connectors", "Plugins", "Scheduled tasks", "Cowork projects", "Dispatch: control from your phone", "Computer use", "Real-world use cases and workflows", "Use cases for Indian MSMEs and consultants", "Limitations and what to watch out for", "Pricing and plans", "Security and privacy", "Tips, tricks and power-user moves", "Quick-start checklist"],
+    faqs: [["What is Claude Cowork?", "An agentic mode of the Claude desktop app that carries out multi-step work on files in a folder on your computer and saves the results back to it."], ["How is it different from Claude Projects?", "Projects are chat workspaces for drafting and answering; Cowork produces finished files. See our guide on Claude Projects vs Cowork."], ["Is the guide free?", "Yes, a free 26-page PDF after the short form."]],
     related: [
       { label: 'Complete Claude AI guide', href: '/resources/complete-claude-ai-guide' },
       { label: 'Scale With AI programme', href: '/scale-with-ai' },
@@ -124,6 +139,8 @@ export const resources: Resource[] = [
     file: '/downloads/custom-ai-solutions-brochure.pdf',
     pages: 13,
     sizeMb: 2.5,
+    toc: ["Ready-made software asks you to change; ours changes to fit you", "Sheets beside the software, modules nobody opens, tools that do not talk", "Nine kinds of system, each running at a client today: LMS, business operating system, task management, CRM and sales, ERP and inventory and more", "How AI agents work inside the system", "The method: study the business, prototype in 7–10 working days, build with your team"],
+    faqs: [["What does the custom solutions brochure cover?", "The nine kinds of system Bizgenix AI builds, how AI agents run inside them, and the prototype-first method."], ["How much does a custom AI solution cost?", "Custom work is quoted after a written scope; see our pricing page for how quotes work."]],
     related: [
       { label: 'Custom AI solutions', href: '/custom-solutions' },
       { label: 'Case studies', href: '/case-studies' },
@@ -141,6 +158,8 @@ export const resources: Resource[] = [
     file: '/downloads/bizgenix-ai-crm-brochure.pdf',
     pages: 11,
     sizeMb: 2.2,
+    toc: ["An enquiry is worth the most in its first hour", "Why leads go cold: scattered, slow, forgotten, invisible", "From first contact to closed deal: capture, AI calls first, qualify, route, follow up", "Plans and prices (CRM only and complete system)", "Add-ons: Biz Chat on WhatsApp and the AI Voice Agent"],
+    faqs: [["How much does Bizgenix AI CRM cost?", "CRM only is ₹1,700 a user a month (₹1,300 on a yearly plan); the complete system is ₹2,500 a user a month (₹1,900 yearly), before 18% GST."], ["Does it work with WhatsApp?", "Yes, with Biz Chat as an add-on at ₹50,000 a year."]],
     related: [{ label: 'Bizgenix AI CRM', href: '/products/ai-crm' }, { label: 'WhatsApp AI lead follow-up', href: '/blog/whatsapp-ai-lead-follow-up' }],
   },
   {
@@ -155,6 +174,8 @@ export const resources: Resource[] = [
     file: '/downloads/ai-voice-agent-brochure.pdf',
     pages: 11,
     sizeMb: 1.8,
+    toc: ["The phone still brings the serious buyers, and it is where they are lost", "A phone call handled from hello to CRM entry: call, listen, understand, reply, act", "Unlimited agents, one for each job", "Inbound: every call answered, even after hours", "Outbound: upload a list and the agent calls every number", "One price for the agent; call usage at cost"],
+    faqs: [["Which languages does the AI Voice Agent speak?", "Hindi, Gujarati and English; other languages on request."], ["How much does it cost?", "₹1,20,000 a year for the agent, with call minutes and number rental at actuals, before 18% GST."]],
     related: [{ label: 'Voice AI', href: '/products/voice-ai' }, { label: 'AI voice agents for Indian businesses', href: '/blog/ai-voice-agents-indian-businesses' }],
   },
   {
@@ -169,6 +190,8 @@ export const resources: Resource[] = [
     file: '/downloads/scaleos-brochure.pdf',
     pages: 10,
     sizeMb: 1.2,
+    toc: ["A growing business runs on sheets, group chats and the owner’s memory", "One record from first enquiry to money in the bank: prospect, commit, deliver, retain, collect", "Who is doing what, by when, and how well", "What is billed, what is due, and what needs you today", "Ask your business a question", "Subscribe to it, or own it"],
+    faqs: [["What is ScaleOS?", "A business operating system that puts sales, tasks, delivery, payments and people on one record and one screen."], ["How is ScaleOS priced?", "As a subscription or as a system you own; pricing is shared after a walkthrough."]],
     related: [{ label: 'ScaleOS', href: '/products/scaleos' }, { label: 'All products', href: '/products' }],
   },
   {
@@ -183,6 +206,8 @@ export const resources: Resource[] = [
     file: '/downloads/bizgenix-ai-company-profile.pdf',
     pages: 12,
     sizeMb: 6.2,
+    toc: ["The most expensive work in a business is the work between its systems", "One partner to advise, build and train", "Eight things we build, again and again", "Growth Intelligence and four more platforms built and owned by us", "Proof first: systems in production, with numbers", "Business, finance and technology at one table", "Start small, scale on results"],
+    faqs: [["What is in the company profile?", "Bizgenix AI’s four practices, five products, method, production systems with numbers, and leadership."], ["Who should download it?", "Procurement teams, partners and anyone evaluating Bizgenix AI as a vendor."]],
     related: [{ label: 'About Bizgenix AI', href: '/about' }, { label: 'Case studies', href: '/case-studies' }],
   },
 ];

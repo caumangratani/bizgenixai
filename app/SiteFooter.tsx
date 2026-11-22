@@ -23,6 +23,7 @@ const services = [
   ['Scale With AI Events', '/scale-with-ai'],
   ['Free AI Guides & Brochures', '/resources'],
   ['AI Agent Development', '/ai-agent-development'],
+  ['Free Tool: Where Is My Money Stuck?', '/tools/where-is-my-money-stuck'],
   ['Pricing', '/pricing'],
   ['FAQ', '/faq'],
   ['Founder: Dr. CA Umang Ratani', '/about/umang-ratani'],

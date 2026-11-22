@@ -39,6 +39,7 @@ export default function TallyHubPage() {
           <h1>Tally, finance and AI: the owner’s library</h1>
           <p className={styles.byline}>Practical guides by the Bizgenix AI team for owners, accounts heads and CAs whose books are in Tally.</p>
           <p style={{ fontSize: 17, lineHeight: 1.8, maxWidth: 760 }}>Your Tally already knows where cash is stuck, which costs are creeping up and which customers have gone quiet. These guides show how to read it every week, how to forecast cash from it, how to connect it to AI safely, and how the finance seat is changing from counting value to moving it.</p>
+          <p style={{ fontSize: 17, lineHeight: 1.8 }}><Link href="/tools/where-is-my-money-stuck"><strong>Free tool: where is my money stuck? →</strong></Link> Five numbers from Tally show your debtor, stock and creditor days and the cash locked in your business.</p>
         </div>
       </div>
       {groups.map(group => {

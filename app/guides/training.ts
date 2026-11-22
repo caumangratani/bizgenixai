@@ -234,8 +234,8 @@ export const trainingGuides: Guide[] = [
     h1: 'AI training in Gujarati for small businesses: how to choose it and what your team should learn',
     description: 'How to find practical AI training in Gujarati for a small business or team in Gujarat: what to check, what to learn first, how ChatGPT, Claude and Gemini handle Gujarati, and where Bizgenix AI trains in Gujarati.',
     answer: 'Choose Gujarati AI training by what your team will build, not by the language alone. Look for a trainer who runs hands-on sessions on your own work, can teach in Gujarati, Hindi or English as the room prefers, and covers prompting, AI for sales and follow-up, safe use of company data and a 30-day plan. Bizgenix AI delivers corporate AI training in English, Hindi or Gujarati.',
-    date: '2026-11-23',
-    updated: '2026-11-23',
+    date: '2026-11-22',
+    updated: '2026-11-22',
     tags: ['AI Training', 'Gujarati', 'Small Business'],
     minutes: 6,
     html: `
@@ -281,8 +281,8 @@ export const trainingGuides: Guide[] = [
     h1: 'Claude Projects vs Claude Cowork: which one should you use, and for what?',
     description: 'The difference between Claude Projects and Claude Cowork for business users: where each works, what each can touch, examples for owners and teams, and how to use both together.',
     answer: 'Use a Claude Project when you want a conversation that already knows your context: instructions and reference files for one area of work, used in chat. Use Claude Cowork when you want Claude to do a multi-step job on files on your own computer, such as building a spreadsheet from a folder of PDFs or preparing a report. Many teams use Projects for thinking and drafting, and Cowork for finished work on files.',
-    date: '2026-11-23',
-    updated: '2026-11-23',
+    date: '2026-11-22',
+    updated: '2026-11-22',
     tags: ['Claude', 'AI Tools', 'Productivity'],
     minutes: 6,
     html: `

@@ -93,6 +93,7 @@ Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tal
 - FAQ: https://bizgenix.ai/faq
 - Pricing (ruled prices, before 18% GST): https://bizgenix.ai/pricing
 - AI agent development: https://bizgenix.ai/ai-agent-development
+- Free tool for Tally users: "Where is my money stuck?" working-capital calculator (debtor, stock and creditor days, cash cycle, money locked up; runs in the browser): https://bizgenix.ai/tools/where-is-my-money-stuck
 
 ## People
 

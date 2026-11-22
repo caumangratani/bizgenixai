@@ -40,3 +40,5 @@
 .small{font-size:12px !important;color:#4a4a4a}
 .trap{position:absolute;left:-9999px;width:1px;height:1px}
 @media (max-width:900px){.detail{grid-template-columns:1fr;gap:32px}.formCard{position:static}.hero{padding:44px 0 40px}}
+.detail ol{margin:0 0 28px;padding-left:22px;line-height:1.8;font-size:16px}
+.faqQ{font-size:18px;font-weight:600;margin:18px 0 6px}

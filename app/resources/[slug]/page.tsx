@@ -27,6 +27,7 @@ export default async function ResourcePage({ params }: { params: Promise<{ slug:
     '@graph': [
       { '@type': 'DigitalDocument', name: r.h1, description: r.description, url, encodingFormat: 'application/pdf', numberOfPages: r.pages, inLanguage: 'en-IN',
         isAccessibleForFree: true, author: { '@id': `${SITE_URL}/#organization` }, publisher: { '@id': `${SITE_URL}/#organization` } },
+      ...(r.faqs ? [{ '@type': 'FAQPage', mainEntity: r.faqs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : []),
       { '@type': 'BreadcrumbList', itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
         { '@type': 'ListItem', position: 2, name: 'Resources', item: `${SITE_URL}/resources` },
@@ -48,8 +49,11 @@ export default async function ResourcePage({ params }: { params: Promise<{ slug:
         <div>
           <h2>What is inside</h2>
           <ul>{r.inside.map(item => <li key={item}>{item}</li>)}</ul>
+          {r.toc && <><h2>Contents</h2><ol>{r.toc.map(item => <li key={item}>{item}</li>)}</ol></>}
+          {r.sample && <><h2>A few entries from inside</h2><ul>{r.sample.map(s => <li key={s.title}><strong>{s.title}.</strong> {s.text}</li>)}</ul></>}
           <h2>Who it is for</h2>
           <p>{r.forWho}</p>
+          {r.faqs && <><h2>Questions</h2>{r.faqs.map(([q, a]) => <div key={q}><h3 className={styles.faqQ}>{q}</h3><p>{a}</p></div>)}</>}
           <h2>Related</h2>
           <div className={styles.related}>{r.related.map(l => <Link key={l.href} href={l.href}>{l.label} ↗</Link>)}<Link href="/resources">All free resources ↗</Link></div>
         </div>

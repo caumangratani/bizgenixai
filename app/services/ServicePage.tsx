@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import Image from 'next/image';
 import Link from '../InternalLink';
 import Navigation from '../custom-solutions/Navigation';
@@ -40,6 +41,8 @@ export type ServiceContent = {
   photo?: { src: string; alt: string; caption: string; width: number; height: number };
   /** Extra schema.org nodes, e.g. Course or Event. */
   extraJsonLd?: Record<string, unknown>[];
+  /** Interactive block shown right under the hero, e.g. a calculator. */
+  tool?: ReactNode;
   /** Heading for the FAQ block. */
   faqTitle?: string;
 };
@@ -103,6 +106,8 @@ export default function ServicePage({ content }: { content: ServiceContent }) {
           </div>
         </div>
       </header>
+
+      {content.tool && <section className={`${styles.section} ${styles.container}`} aria-label="Tool">{content.tool}</section>}
 
       {content.photo && <figure className={`${styles.container} ${styles.heroPhoto} ${content.photo.height > content.photo.width ? styles.heroPortrait : ''}`}>
         <Image src={content.photo.src} alt={content.photo.alt} width={content.photo.width} height={content.photo.height} sizes="(max-width: 900px) 92vw, 1400px" priority />

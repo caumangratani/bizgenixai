@@ -351,8 +351,8 @@ export const tallyFinanceGuides: Guide[] = [
     h1: 'How to implement AI audit automation in your CA firm: where to start and what to keep human',
     description: 'A practical plan for chartered accountant firms adding AI to audit work: which audit tasks AI helps with, data and confidentiality rules, documentation, Tally data checks, and a 60-day rollout.',
     answer: 'Start AI audit automation with the high-volume, rule-based steps around the audit, not the judgement: extracting data from documents, matching ledgers to bank and GST data, flagging unusual entries for review, and drafting working-paper summaries. Keep the partner’s judgement, sampling decisions and sign-off human, document what the tool did, and use only approved accounts for client data.',
-    date: '2026-11-23',
-    updated: '2026-11-23',
+    date: '2026-11-22',
+    updated: '2026-11-22',
     tags: ['AI for CA Firms', 'Audit', 'Tally'],
     minutes: 8,
     html: `
