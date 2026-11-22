@@ -1,3 +1,10 @@
+# 23 November 2026 (Claude) — audit fixes and new pages
+
+- Removed `app/loading.tsx` (+ css): the root loading fallback wrapped every page body in a hidden `S:0` block with "Preparing your next view" in raw HTML. Do not re-add a root loading file.
+- HSTS (`max-age=31536000`); "Radiance-2" address in footer and terms; Organization `legalName`, `foundingDate: 2025`; founder Person `url` → `/about/umang-ratani`, `image`, extra `sameAs`; `lastModified` on every sitemap URL.
+- New pages: `/about/umang-ratani`, `/faq`, `/pricing` (ruled prices only), `/ai-agent-development`. Guides: Gujarati AI training, Claude Projects vs Cowork, AI audit automation for CA firms.
+- `ServicePage`: `schemaType: 'none'`; tall photos render uncropped.
+
 # 22 November 2026 (late night, Claude) — AI education pillar and free downloads
 
 - New `/corporate-ai-training` (ServicePage; old 301 to /courses removed; `/corporate-training` now points here) and `/scale-with-ai` (EventSeries + Course schema). Three guides in `app/guides/training.ts`.
