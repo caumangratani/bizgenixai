@@ -14,11 +14,10 @@ const description = 'Meet Bizgenix, an AI implementation and business automation
 export const metadata: Metadata = pageMeta({ title, description, path: '/about' });
 
 const journey = [
-  ['2021', 'The idea took shape', 'A practical vision for connecting business expertise with intelligent technology.'],
-  ['2022', 'First systems deployed', 'Automation and analytics moved from concepts into day-to-day business operations.'],
-  ['2023', 'AI learning expanded', 'Workshops and programs helped owners and professionals apply AI with confidence.'],
-  ['2024', 'Products took form', 'Focused platforms for conversations, operations and business intelligence emerged.'],
-  ['Today', 'Building what comes next', 'Products, custom solutions and education now work together as one ecosystem.'],
+  ['Before 2025', 'Business consulting foundations', 'Umang Ratani’s consulting work with owner-led businesses shaped the problems the team would later address with software.'],
+  ['2023–2025', 'Clients ask for automation', 'Client requests led to work on WhatsApp agents, voice agents and operating dashboards. This is the founder’s journey before the company was established.'],
+  ['2025', 'Bizgenix AI is founded', 'Bizgenix AI Solutions Pvt. Ltd. was founded in Ahmedabad in 2025.'],
+  ['Today', 'Consulting, products and training', 'The company brings together custom AI solutions, its own products and practical AI education.'],
 ] as const;
 
 export default function AboutPage() {
@@ -32,7 +31,7 @@ export default function AboutPage() {
 
       <section className={`${styles.container} ${styles.journey}`} aria-labelledby="journey-title"><header><p className={styles.eyebrow}>OUR JOURNEY</p><h2 id="journey-title">Built through action.<br /><em>Growing with purpose.</em></h2></header><JourneyTimeline items={journey} /></section>
 
-      <section className={`${styles.container} ${styles.founder}`} id="leadership" aria-labelledby="founder-title"><div className={styles.founderImage}><Image src="/founder-umang-ratani.webp" alt="Dr. CA Umang Ratani" fill sizes="(max-width: 900px) 90vw, 40vw" /></div><div className={styles.founderCopy}><p className={styles.eyebrow}>FOUNDER &amp; LEADER</p><h2 id="founder-title">Dr. CA<br /><em>Umang Ratani</em></h2><h3>Helping Indian businesses adopt AI in a practical and results-driven way.</h3><p>By combining business strategy, financial expertise and technology, Dr. CA Umang Ratani has guided organizations toward smarter operations and sustainable growth.</p><ScrollReveal className={styles.founderTags}><span>Business strategy</span><span>Financial expertise</span><span>Technology</span></ScrollReveal></div></section>
+      <section className={`${styles.container} ${styles.founder}`} id="leadership" aria-labelledby="founder-title"><div className={styles.founderImage}><Image src="/founder-umang-ratani.webp" alt="Dr. CA Umang Ratani" fill sizes="(max-width: 900px) 90vw, 40vw" /></div><div className={styles.founderCopy}><p className={styles.eyebrow}>FOUNDER &amp; LEADER</p><h2 id="founder-title">Dr. CA<br /><em>Umang Ratani</em></h2><h3>Helping Indian businesses adopt AI in a practical and results-driven way.</h3><p>By combining business strategy, financial expertise and technology, Dr. CA Umang Ratani has guided organizations toward smarter operations and sustainable growth.</p><p><Link className={styles.secondary} href="/about/umang-ratani">Explore Umang Ratani’s profile →</Link></p><ScrollReveal className={styles.founderTags}><span>Business strategy</span><span>Financial expertise</span><span>Technology</span></ScrollReveal></div></section>
 
       <section className={styles.directors} id="directors" aria-labelledby="directors-title"><div className={styles.container}><header><p className={styles.eyebrow}>OUR DIRECTORS</p><h2 id="directors-title">The people helping shape<br /><em>our direction.</em></h2></header><ScrollReveal className={styles.directorGrid}>{directors.map((director, index) => <article key={director.id}><div className={styles.directorPhoto}><Image src={director.image} alt={director.imageAlt} fill sizes="(max-width: 760px) 86vw, 36vw" style={{ objectPosition: director.imagePosition }} /></div><div className={styles.directorInfo}><span>0{index + 1} / DIRECTOR</span><h3>{director.name}</h3><p className={styles.directorFocus}>{director.focus}</p><p>{director.paragraphs[0]}</p><ul>{director.expertise.map(item => <li key={item}>{item}</li>)}</ul></div></article>)}</ScrollReveal></div></section>
 

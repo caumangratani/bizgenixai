@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import { useState } from 'react';
 import Image from 'next/image';
@@ -30,20 +30,18 @@ const companyProfiles: Record<string, { src: string; alt: string; kind: 'logo' |
 export default function CaseStudyCatalog() {
   const [query, setQuery] = useState('');
   const [filter, setFilter] = useState('All');
-  const [limit, setLimit] = useState(6);
   const filtered = caseStudies.filter(item => (filter === 'All' || item.category === filter || item.kind === filter)
     && [item.client, item.title, item.industry, item.category, item.summary, item.solution].join(' ').toLowerCase().includes(query.trim().toLowerCase()));
-  function reset() { setQuery(''); setFilter('All'); setLimit(6); }
+  function reset() { setQuery(''); setFilter('All'); }
   return <>
-    <div className={styles.catalogHeading}><div><h2 id="catalog-title">All Case Studies</h2><p>Real challenges. Working systems. Documented outcomes.</p></div><label className={styles.search}><span className={styles.srOnly}>Search case studies by company, industry or solution</span><input type="search" placeholder="Search by company, industry or solution…" value={query} onChange={event => { setQuery(event.target.value); setLimit(6); }} /><span aria-hidden="true">⌕</span></label></div>
-    <div className={styles.filters} aria-label="Filter case studies">{filters.map(name => <button key={name} type="button" aria-pressed={filter === name} onClick={() => { setFilter(name); setLimit(6); }}>{name}</button>)}</div>
-    <div className={styles.catalogStatus}><p role="status">Showing {Math.min(limit, filtered.length)} of {filtered.length} case studies{filter !== 'All' ? ` · ${filter}` : ''}</p>{(query || filter !== 'All') && <button type="button" onClick={reset}>Clear filters ×</button>}</div>
-    <div className={styles.cardGrid}>{filtered.slice(0, limit).map(item => { const profile = companyProfiles[item.slug]; return <article className={styles.card} key={item.slug}>
+    <div className={styles.catalogHeading}><div><h2 id="catalog-title">All Case Studies</h2><p>Real challenges. Working systems. Documented outcomes.</p></div><label className={styles.search}><span className={styles.srOnly}>Search case studies by company, industry or solution</span><input type="search" placeholder="Search by company, industry or solution…" value={query} onChange={event => { setQuery(event.target.value); }} /><span aria-hidden="true">⌕</span></label></div>
+    <div className={styles.filters} aria-label="Filter case studies">{filters.map(name => <button key={name} type="button" aria-pressed={filter === name} onClick={() => { setFilter(name); }}>{name}</button>)}</div>
+    <div className={styles.catalogStatus}><p role="status">Showing {filtered.length} of {filtered.length} case studies{filter !== 'All' ? ` · ${filter}` : ''}</p>{(query || filter !== 'All') && <button type="button" onClick={reset}>Clear filters ×</button>}</div>
+    <div className={styles.cardGrid}>{filtered.map(item => { const profile = companyProfiles[item.slug]; return <article className={styles.card} key={item.slug}>
       <Link href={`/case-studies/${item.slug}`} className={`${styles.cardImage} ${profile.kind === 'logo' ? styles.logoImage : ''}`} tabIndex={-1}><Image src={profile.src} alt={profile.alt} fill sizes="(max-width: 600px) 90vw, (max-width: 1000px) 44vw, 400px" /><span>{item.category}</span></Link>
       <div className={styles.cardContent}><h3><Link href={`/case-studies/${item.slug}`}>{item.client}</Link></h3><p className={styles.cardTitle}>{item.title}</p><p className={styles.cardSummary}>{item.summary}</p><div className={styles.cardMetrics}>{item.metrics.slice(0, 2).map(([value, label]) => <div key={label}><strong>{value}</strong><span>{label}</span></div>)}</div><Link className={styles.readLink} href={`/case-studies/${item.slug}`} aria-label={`Read case study: ${item.client} — ${item.title}`}>Read Case Study <span aria-hidden="true">→</span></Link></div>
     </article>})}</div>
     {!filtered.length && <div className={styles.empty}><h3>No matching case studies</h3><p>Try a different company, industry or solution.</p><button type="button" className={styles.secondary} onClick={reset}>View All Case Studies</button></div>}
-    {limit < filtered.length && <div className={styles.loadMore}><button className={styles.secondary} type="button" onClick={() => setLimit(value => value + 6)}>Load More Case Studies <span aria-hidden="true">↓</span></button></div>}
     <p className={styles.sourceNote}>Project results and system screenshots from the Bizgenix AI Case Study Booklet, 2026. Figures describe their respective implementations; portfolio totals cover the wider business.</p>
   </>;
 }

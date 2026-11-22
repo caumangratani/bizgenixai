@@ -45,7 +45,7 @@ const routes: { path: string; priority: number }[] = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = routes.map(({ path, priority }) => ({ url: `${BASE}${path}`, lastModified: SITE_UPDATED, priority }));
+  const pages = routes.map(({ path, priority }) => ({ url: `${BASE}${path}`, lastModified: ['/about', '/case-studies', '/custom-solutions', '/products'].includes(path) ? new Date('2026-11-22') : SITE_UPDATED, priority }));
   const studies = caseStudies.map(study => ({ url: `${BASE}/case-studies/${study.slug}`, lastModified: CASE_STUDIES_UPDATED, priority: 0.6 }));
   const posts = articles.map(article => ({ url: `${BASE}/blog/${article.slug}`, lastModified: new Date(article.modified || article.date), priority: 0.7 }));
   const guidePages = guides.map(guide => ({ url: `${BASE}/guides/${guide.slug}`, lastModified: new Date(guide.updated), priority: 0.8 }));

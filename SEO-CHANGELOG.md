@@ -124,3 +124,8 @@ Deliberately not done (see the review for reasons): `Disallow: /_next/` in robot
 - Updated factual privacy wording for enquiry storage/email and first-party measurement.
 - Added operations runbook, worker systemd units and queue tests. Upgraded Next.js to address the production dependency audit finding.
 - Found and removed the GI demo form's simulated success flow (a timeout, with no delivery). Replaced it with the real GI enquiry route and wired previously undefined demo/CRM handlers. Sample-data preview is explicitly labelled.
+
+
+## 22 November 2026 — audit handoff follow-through
+
+All 18 case-study cards now render in the initial HTML without Load More. Filters/search remain. About timeline distinguishes the founder’s pre-company consulting/automation work from Bizgenix AI’s 2025 founding and links the founder profile. Shared product wording now reads “Built for global businesses”. Changed landing-page sitemap dates reflect the client date; individual case-study content dates are unchanged. Preserved removed root loader and recent Claude pages.

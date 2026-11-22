@@ -14,7 +14,7 @@ const titles = [
   <>Built around<br />business outcomes</>,
   <>Configurable<br />for your business</>,
   <>Integration-ready</>,
-  <>Made for<br />global</>,
+  <>Built for<br />global businesses</>,
   <>End-to-end<br />support</>,
   <>Proof before<br />a large commitment</>,
 ];
