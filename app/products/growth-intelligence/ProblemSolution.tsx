@@ -91,7 +91,7 @@ export const ProblemSolution: React.FC = () => {
                       <div className="w-5 h-5 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✕</div>
                       <div>
                         <strong className="text-slate-900 font-semibold block text-sm">Chained to the Desktop PC</strong>
-                        <p className="text-slate-600 text-xs mt-0.5">Can't check client outstandings during customer meetings or when travelling without calling your accountant.</p>
+                        <p className="text-slate-600 text-xs mt-0.5">Cannot check client outstandings during customer meetings or when travelling without calling your accountant.</p>
                       </div>
                     </div>
 
@@ -125,7 +125,7 @@ export const ProblemSolution: React.FC = () => {
                       <div className="w-5 h-5 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✕</div>
                       <div>
                         <strong className="text-slate-900 font-semibold block text-sm">Endless Promoter Interruptions</strong>
-                        <p className="text-slate-600 text-xs mt-0.5">"Kitna baki hai?", "Kisko cheque dena hai?" — constant ad-hoc ledger queries interrupt daily bookkeeping and GST filings.</p>
+                        <p className="text-slate-600 text-xs mt-0.5">&ldquo;Kitna baki hai?&rdquo;, &ldquo;Kisko cheque dena hai?&rdquo; — constant ad-hoc ledger queries interrupt daily bookkeeping and GST filings.</p>
                       </div>
                     </div>
 
@@ -141,7 +141,7 @@ export const ProblemSolution: React.FC = () => {
                       <div className="w-5 h-5 rounded-full bg-rose-100 text-rose-600 flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✕</div>
                       <div>
                         <strong className="text-slate-900 font-semibold block text-sm">No Predictive Cash Runway Buffer</strong>
-                        <p className="text-slate-600 text-xs mt-0.5">Struggling to foresee whether next week's vendor clearance and advance tax cheque will bounce the overdraft limit.</p>
+                        <p className="text-slate-600 text-xs mt-0.5">Struggling to foresee whether next week’s vendor clearance and advance tax cheque will bounce the overdraft limit.</p>
                       </div>
                     </div>
 
@@ -203,7 +203,7 @@ export const ProblemSolution: React.FC = () => {
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-emerald-100 text-[#2E7D4E] flex items-center justify-center shrink-0 mt-0.5 text-xs font-bold">✓</div>
                   <div>
-                    <strong className="text-slate-900 font-semibold block text-sm">Virtual CFO Decision Cards &amp; Rolling Runway</strong>
+                    <strong className="text-slate-900 font-semibold block text-sm">CVO Decision Cards &amp; Rolling Runway</strong>
                     <p className="text-slate-600 text-xs mt-0.5">Plain-English recommendations: which vendor discounts to capture, cash surplus/deficit flags, and dead stock liquidation alerts.</p>
                   </div>
                 </div>

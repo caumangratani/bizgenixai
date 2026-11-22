@@ -26,13 +26,13 @@ export const ValuePillars: React.FC<ValuePillarsProps> = ({ onOpenWhatsApp }) =>
   const pillars = [
     {
       id: 0,
-      title: "Virtual CFO Guidance",
+      title: "CVO Decision Support",
       kicker: "Strategic Capital Protection",
       icon: Compass,
       summary: "Plain-English recommendations on working capital, cash runway alerts, and supplier early-payment cash discounts.",
       description: "Bizgenix continuously scans your Tally vouchers to identify high-impact financial moves. It calculates whether taking a 2% 10-day cash discount from your chemical supplier beats keeping cash in a 7% bank deposit, and flags dangerous cash troughs 3 weeks ahead.",
       scenario: {
-        title: "Live Virtual CFO Recommendation Detected:",
+        title: "Illustrative CVO review question:",
         details: [
           "Supplier 'Reliance Petrochem' offers 2% discount if paid within 7 days (by Oct 21).",
           "Bill Value: ₹24,50,000 → Net Discount Captured: ₹49,000.",

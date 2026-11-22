@@ -93,18 +93,18 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDemo, onOpenWhat
               </div>
               <div className="flex items-center gap-1.5 text-slate-700">
                 <Clock className="w-4 h-4 text-[#2E7D4E] shrink-0" />
-                <span>Live in 15 Minutes</span>
+                <span>Guided setup and reconciliation</span>
               </div>
             </div>
 
             {/* Promoter Quote Snippet */}
             <div className="p-3.5 rounded-xl bg-white border border-slate-200/80 shadow-xs flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center text-[#2E7D4E] font-bold text-xs shrink-0">
-                RS
+                GI
               </div>
               <div className="text-xs text-slate-600 leading-snug">
-                <span className="font-semibold text-slate-900">“Recovered ₹84 Lakhs of 60+ day old dues</span> within 3 weeks of connecting our Surat textile unit's Tally.”
-                <span className="block text-[11px] text-slate-500 mt-0.5">Rajesh Shah · MD, Vardhman Tex-Fab</span>
+                <span className="font-semibold text-slate-900">Bring one business question to your demo.</span> Review the source records, refresh date and next action before relying on a dashboard.
+                <span className="block text-[11px] text-slate-500 mt-0.5">Growth Intelligence by Bizgenix AI</span>
               </div>
             </div>
 
@@ -346,7 +346,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenDemo, onOpenWhat
 
                     <div className="p-2.5 bg-emerald-50 rounded-xl border border-emerald-200 text-[11px] text-emerald-900 flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-[#2E7D4E] shrink-0" />
-                      <span><strong>Virtual CFO Insight:</strong> Week 2 GST challan creates temporary dip. Accelerate ₹15L debtor recovery from Krystal to maintain safety cushion.</span>
+                      <span><strong>Illustrative CVO insight:</strong> Week 2 GST challan creates temporary dip. Accelerate ₹15L debtor recovery from Krystal to maintain safety cushion.</span>
                     </div>
                   </div>
                 )}

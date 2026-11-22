@@ -22,6 +22,178 @@ export type Guide = {
 
 export const guides: Guide[] = [
 {
+  "slug": "tally-connector-business-dashboard",
+  "title": "Tally Connector to Business Dashboard: Setup Checklist | Bizgenix AI",
+  "h1": "From Tally connector to business dashboard: what should you verify?",
+  "description": "Understand how a Tally connector supports a business dashboard. Check company scope, sync freshness, source reconciliation and read-only access before rollout.",
+  "answer": "A Tally connector moves selected accounting data into another application; a useful business dashboard must also preserve company, reporting period and refresh context. Before relying on it, compare key balances with Tally and check how it handles incomplete or stale data.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Tally connector",
+    "Business dashboard",
+    "Growth Intelligence"
+  ],
+  "minutes": 5,
+  "html": "<h2>A connection is the beginning, not the finished dashboard</h2><p>An owner asking “who owes us money?” needs more than a successful connection message. The answer depends on the selected company, the reporting date, receipt allocation and which invoices were included. A dashboard can look current even when the last successful data transfer is old. Start the evaluation with those questions rather than with the chart design.</p><h2>What a Tally connector actually does</h2><p>TallyPrime supports data exchange with external applications, including XML over HTTP. That interface can support different operations; it does not make every third-party connector read-only. The integration must limit the operations it performs. See <a href=\"https://help.tallysolutions.com/xml-integration/\">Tally’s XML integration documentation</a> for the underlying mechanism.</p><p>Growth Intelligence by Bizgenix AI is designed to sit beside Tally as a decision-support layer. Its documented connector reads accounting data into GI; it does not post, alter or delete entries in Tally. Confirm the supported version, deployment and company setup with the team before connecting your own records.</p><h2>A practical acceptance checklist</h2><ol><li><strong>Company and period:</strong> select the intended company and agree whether a figure is a period movement or a closing balance.</li><li><strong>Refresh:</strong> show the last successful sync and what happens when Tally is unavailable.</li><li><strong>Reconciliation:</strong> compare an agreed set of balances and underlying entries with the same period in Tally.</li><li><strong>Exceptions:</strong> include a partial receipt, a credit adjustment and missing bill-wise information in the review.</li><li><strong>Access:</strong> test the intended roles and make sure another company is not visible.</li><li><strong>Failure handling:</strong> identify partial imports, failed transfers and records requiring review before using the dashboard.</li></ol><h2>What happens when Tally is closed?</h2><p>The GI product documentation describes working from the last successful sync. Treat that as a dated snapshot, not a live view of the books. A later receipt cannot appear until the relevant data has been transferred successfully. The implementation team should demonstrate the visible timestamp and the recovery process when the source becomes available again.</p><h2>Choose the first business question</h2><p>For collections, begin with outstanding invoices and the next follow-up owner. For stock, begin with the period, valuation basis and missing item data. For a management review, agree the reports and definitions with your finance team. Start with a small authorised sample and a written acceptance result before expanding access.</p><p>A reminder sent from a workflow is not proof that a payment arrived. A dashboard estimate is not an accounting adjustment. Keep the source fact, proposed action, approval and later observed result separate.</p><h2>Build on the connection</h2><p>Use the <a href=\"/guides/tally-receivables-dashboard-checklist\">receivables dashboard checklist</a>, the <a href=\"/guides/mis-report-in-tally\">Tally MIS guide</a> and the <a href=\"/guides/tally-mcp-ai-assistant\">Tally and MCP explanation</a> to evaluate the next layer. Umang Ratani and the Bizgenix AI team can review the management question and the scope for <a href=\"/products/growth-intelligence\">Growth Intelligence</a>.</p>",
+  "faqs": [
+    [
+      "Does connecting a dashboard change our Tally books?",
+      "GI is designed for read-only Tally access. Verify the deployed connector and permitted operations; the underlying Tally integration interface is not inherently limited to reading."
+    ],
+    [
+      "Is the dashboard live when Tally is closed?",
+      "GI works from the last successful sync. Check its timestamp and do not assume that later entries are already included."
+    ],
+    [
+      "What should we verify first?",
+      "The company, reporting period, last successful sync and reconciliation of selected balances to source entries."
+    ]
+  ],
+  "next": {
+    "eyebrow": "Growth Intelligence by Bizgenix AI",
+    "title": "Start with one question from your business.",
+    "text": "Share your Tally setup and the decision you want to improve. We will confirm the supported configuration and demonstrate the workflow.",
+    "primary": {
+      "label": "Discuss a Growth Intelligence demo",
+      "href": "/contact?intent=product&product=growth-intelligence#contact-form"
+    },
+    "secondary": {
+      "label": "Explore Growth Intelligence",
+      "href": "/products/growth-intelligence"
+    }
+  }
+},
+{
+  "slug": "tally-mcp-ai-assistant",
+  "title": "Tally with MCP: AI Assistant Access Explained | Bizgenix AI",
+  "h1": "Tally with MCP: how an AI assistant can work with accounting context",
+  "description": "Understand Tally connectors versus MCP, company-scoped AI access, synced snapshots and the questions to ask before using an assistant with accounting data.",
+  "answer": "MCP is a standard way for an AI application to access tools and context supplied by a server. In a Tally-to-GI workflow, the Tally connector supplies accounting data to GI and a separately authorised MCP connection can expose supported GI tools to an assistant; these are two different connections.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Tally",
+    "MCP",
+    "AI accounting"
+  ],
+  "minutes": 5,
+  "html": "<h2>There are two connections to understand</h2><p>The first moves selected data from Tally into Growth Intelligence. The second lets an AI application request supported information from GI. Calling both a “Tally connector” hides important differences: one concerns accounting data transfer, while the other concerns which questions or actions an assistant can request.</p><p>The <a href=\"https://modelcontextprotocol.io/docs/learn/architecture\">official MCP architecture</a> describes servers that expose tools and context to AI applications. MCP does not itself decide whether accounting records can be edited. Actual capabilities and access controls depend on the server implementation and the authorised connection.</p><h2>The GI workflow in plain language</h2><ol><li>The selected Tally company is connected to GI using the supported data setup.</li><li>GI receives a snapshot and retains the company and reporting context.</li><li>An authorised AI application connects to the supported GI MCP service.</li><li>The assistant requests an available tool and uses its result to answer the user.</li><li>The user checks the company, source period, freshness and any missing-data limitations.</li></ol><p>GI’s implementation documentation describes MCP access to synced GI data, not direct live queries against the Tally application. Availability depends on the deployed GI release, your permissions and the AI application’s connection support. Ask for a demonstration in your intended setup before purchasing on the assumption that a particular assistant is already connected.</p><h2>Questions worth testing in a demonstration</h2><ul><li>Which company am I authorised to access?</li><li>What reporting period and successful sync does this answer use?</li><li>Can you show the source entries behind this balance?</li><li>Which information is missing or needs review?</li><li>Does the result describe an accounting fact, a draft or a planning scenario?</li></ul><p>These are evaluation prompts, not a guarantee that every deployed tool supports every question. Ask the team to show the actual tools available to your account. If the assistant cannot obtain a source result, it should state that limitation rather than invent a company, balance or explanation.</p><h2>Reading, drafting and posting are different</h2><p>A read-only connection can still help a user inspect records and prepare analysis. A proposed entry or a document prepared from source data is not proof that a transaction was posted. GI’s documented MCP design does not post transactions to Tally. Do not infer write permission from an assistant producing a convincing-looking answer or draft.</p><h2>Keep access narrow and reviewable</h2><p>Agree the company scope, user permissions, expiry and revocation process. Use an authorised sample when demonstrating access. Confirm how the AI provider handles data and what the implementation logs. For actions involving other people or external systems, confirm the available approval controls separately from access to accounting information.</p><h2>Where this helps a business owner</h2><p>An assistant can make a supported report easier to explore through follow-up questions. It does not remove the need for reconciled data, clear definitions or finance review. Start with the <a href=\"/guides/tally-connector-business-dashboard\">connector acceptance checklist</a> and <a href=\"/guides/finance-dashboard-owner-review\">owner’s finance dashboard checklist</a>. For the relevant GI configuration, <a href=\"/products/growth-intelligence\">discuss Growth Intelligence with Bizgenix AI</a>.</p>",
+  "faqs": [
+    [
+      "Is MCP the same as a Tally connector?",
+      "No. The Tally connector transfers accounting data. MCP provides a standard interface through which an AI application can request tools and context from a server."
+    ],
+    [
+      "Does GI MCP query live Tally data?",
+      "The implementation documentation describes answers from the latest synced GI snapshot. Confirm its timestamp and your deployed version."
+    ],
+    [
+      "Can an assistant post vouchers through this connection?",
+      "GI’s documented MCP design does not post transactions to Tally. A draft or source copy must not be mistaken for a posted transaction."
+    ]
+  ],
+  "next": {
+    "eyebrow": "Growth Intelligence by Bizgenix AI",
+    "title": "Start with one question from your business.",
+    "text": "Share your Tally setup and the decision you want to improve. We will confirm the supported configuration and demonstrate the workflow.",
+    "primary": {
+      "label": "Discuss a Growth Intelligence demo",
+      "href": "/contact?intent=product&product=growth-intelligence#contact-form"
+    },
+    "secondary": {
+      "label": "Explore Growth Intelligence",
+      "href": "/products/growth-intelligence"
+    }
+  }
+},
+{
+  "slug": "chief-value-officer-ai-finance",
+  "title": "Chief Value Officer vs CFO: AI Decision Support | Bizgenix AI",
+  "h1": "What is an AI Chief Value Officer, and how does it support a CFO?",
+  "description": "Explore the Chief Value Officer concept behind Growth Intelligence: evidence, prioritised business decisions, human approvals and measured follow-through.",
+  "answer": "Bizgenix uses Chief Value Officer, or CVO, to describe Growth Intelligence’s owner-focused decision-support role. The aim is to connect business signals with decisions and follow-through; it is software support for owners and finance teams, not a replacement for a human CFO, CA or auditor.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Chief Value Officer",
+    "CFO",
+    "Growth Intelligence"
+  ],
+  "minutes": 5,
+  "html": "<h2>Why another dashboard may not solve the problem</h2><p>A monthly pack may show outstanding invoices, stock and expenses without answering the owner’s next question: what should we review first, who owns it and how will we know something changed? The CVO concept starts with that decision process. It should help connect an observed issue to an accountable next step.</p><h2>CFO, virtual CFO and CVO are not interchangeable</h2><p>A human CFO or finance adviser can take responsibility for judgement, planning and coordination within an agreed professional engagement. A virtual CFO is a service-delivery model for that human expertise. In GI’s product language, CVO means Chief Value Officer: AI-assisted decision support around the business records and priorities. It does not create a statutory office or transfer professional responsibility to software.</p><p>Read the separate <a href=\"/guides/virtual-cfo\">virtual CFO guide</a> when evaluating an advisory engagement. A business can use software and an adviser together, with clear ownership of the decisions each supports.</p><h2>Use an evidence-to-action cycle</h2><ol><li><strong>Observe:</strong> identify a movement or exception from a named source and reporting period.</li><li><strong>Explain:</strong> distinguish what the records demonstrate from possible causes that still need investigation.</li><li><strong>Prioritise:</strong> compare urgency, value at stake and confidence in the underlying information.</li><li><strong>Decide:</strong> assign an owner and obtain the required approval.</li><li><strong>Follow through:</strong> track the action and review later evidence of the result.</li></ol><p>This is the operating approach described in the Growth Intelligence brochure. Confirm which workflows are enabled in your release and plan; some product capabilities are labelled as rolling out.</p><h2>Keep different kinds of value separate</h2><p>Cash released from outstanding invoices, a recurring expense reduction and a new sales opportunity are different measures. Adding them into one “value created” figure can mislead the review. For each item, record the definition, period, baseline and evidence required to confirm an outcome. An expected receipt is not money in the bank, and a reminder sent is not a collection.</p><h2>What AI can contribute</h2><p>AI can help organise a review, explain a supported result in plain language and prepare questions for the responsible team. It can also produce a plausible explanation that the records do not support. Require source references, visible limitations and human review for consequential decisions. If a required balance or data field is missing, the right next step may be to fix the records rather than issue advice.</p><h2>A useful weekly review</h2><p>Choose a small number of issues, state the evidence and decide the next action. For each, record an owner, a due date and a measure of completion. At the next review, ask what was done and what the records now show. Keep rejected proposals and unresolved data questions visible instead of silently treating them as completed work.</p><p><a href=\"/products/growth-intelligence\">Growth Intelligence by Bizgenix AI</a>, founded by Umang Ratani, brings this positioning to Tally-connected business analysis. Start with the <a href=\"/guides/finance-dashboard-owner-review\">finance dashboard review checklist</a> and use your own business question in a scoped demonstration.</p>",
+  "faqs": [
+    [
+      "What does CVO mean in Growth Intelligence?",
+      "Chief Value Officer: Bizgenix’s term for owner-focused AI decision support that connects evidence, priorities and follow-through."
+    ],
+    [
+      "Does GI replace a CFO or accountant?",
+      "No. Software supports analysis and workflows. Human professionals remain responsible for the judgement and work covered by their engagement."
+    ],
+    [
+      "Can every recommendation be counted as a saving?",
+      "No. Proposed value, approved actions and verified outcomes are different states. Record the baseline, time period and evidence before claiming a result."
+    ]
+  ],
+  "next": {
+    "eyebrow": "Growth Intelligence by Bizgenix AI",
+    "title": "Start with one question from your business.",
+    "text": "Share your Tally setup and the decision you want to improve. We will confirm the supported configuration and demonstrate the workflow.",
+    "primary": {
+      "label": "Discuss a Growth Intelligence demo",
+      "href": "/contact?intent=product&product=growth-intelligence#contact-form"
+    },
+    "secondary": {
+      "label": "Explore Growth Intelligence",
+      "href": "/products/growth-intelligence"
+    }
+  }
+},
+{
+  "slug": "finance-dashboard-owner-review",
+  "title": "Finance Dashboard for Tally Businesses: Owner Checklist | Bizgenix AI",
+  "h1": "What should a business owner review in a finance dashboard?",
+  "description": "A practical finance-dashboard review covering cash, receivables, payables, stock, margins and source evidence for Tally-based businesses.",
+  "answer": "A useful finance dashboard shows the company, period and data refresh alongside the numbers. Review cash, receivables, payables, stock and operating performance with clear definitions, then record the questions, owners and actions that follow; charts alone do not establish financial health.",
+  "date": "2026-11-22",
+  "updated": "2026-11-22",
+  "tags": [
+    "Finance dashboard",
+    "Tally",
+    "Business analysis"
+  ],
+  "minutes": 5,
+  "html": "<h2>Begin with the basis of the report</h2><p>Before discussing a movement, confirm the company, date range and last successful refresh. Check whether the report shows transactions during a period or balances at a point in time. Comparisons should use consistent definitions and comparable periods. Ask the finance team to identify adjustments or missing records that could change the interpretation.</p><h2>Six review areas and the questions they raise</h2><ul><li><strong>Cash and bank:</strong> which balances are available, and which payments are already committed?</li><li><strong>Receivables:</strong> what is outstanding, what is overdue and what is disputed or awaiting allocation?</li><li><strong>Payables:</strong> which obligations fall due, and who will confirm the payment plan?</li><li><strong>Stock:</strong> what quantities and values are recorded, and which items need an operational review?</li><li><strong>Sales and margins:</strong> what changed in the period, and are the underlying classifications comparable?</li><li><strong>Expenses:</strong> which movements need an explanation from the responsible owner?</li></ul><p>These questions are a management-review checklist, not a prescribed financial conclusion. Whether an increase is helpful or problematic depends on the business and the supporting records.</p><h2>Separate profit from cash</h2><p>A sale and its later collection can occur in different periods. A useful review therefore considers both operating results and the timing of receipts and payments. Do not label an expected receipt as available cash. When planning ahead, label assumptions explicitly and keep the scenario separate from recorded balances.</p><h2>Trace a sample before trusting the summary</h2><p>Select a material balance and inspect the records behind it. Ask what happens with a partial payment, credit adjustment, cancelled transaction or unavailable field. If the dashboard cannot support an explanation, record the limitation. A confident AI summary should not override an unreconciled number.</p><h2>Turn the review into an action list</h2><p>For each issue, record the question, responsible person, next action and review date. For collections, this might mean confirming a disputed invoice before preparing a reminder. For stock, it might mean checking the physical or operational reason for a slow-moving item. Keep a planned action separate from completion, and completion separate from an independently verified financial result.</p><h2>Evaluate AI help on the same standard</h2><p>Ask the assistant to name the source period, explain the calculation basis and show missing information. Use the output to prepare the management conversation, then have the responsible person review it. If an assistant is connected through <a href=\"/guides/tally-mcp-ai-assistant\">MCP</a>, a successful connection still does not establish the accuracy or freshness of the accounting data.</p><h2>Where to start with Growth Intelligence</h2><p>Choose one recurring management question and demonstrate it using an authorised sample. <a href=\"/products/growth-intelligence\">Growth Intelligence by Bizgenix AI</a> is positioned as a Tally-connected decision-support layer, with a <a href=\"/guides/chief-value-officer-ai-finance\">Chief Value Officer approach</a> to priorities and follow-through. Confirm current capabilities and the data required for your workflow.</p><p>Continue with the <a href=\"/guides/mis-report-in-tally\">MIS reporting guide</a>, <a href=\"/guides/tally-receivables-dashboard-checklist\">receivables checklist</a> and <a href=\"/guides/tally-connector-business-dashboard\">connector acceptance checklist</a>. Keep a dated review note so later discussions compare evidence rather than recollections.</p>",
+  "faqs": [
+    [
+      "What is the first thing to check in a finance dashboard?",
+      "The company, reporting period, last successful refresh and whether the figures reconcile to source records."
+    ],
+    [
+      "Can AI explain every movement correctly?",
+      "Do not assume so. Ask for the source, calculation basis and missing information, and have the responsible finance or business owner review the explanation."
+    ],
+    [
+      "Is a cash forecast the same as a recorded bank balance?",
+      "No. A forecast contains assumptions about future receipts and payments. Keep it separate from recorded balances and confirmed receipts."
+    ]
+  ],
+  "next": {
+    "eyebrow": "Growth Intelligence by Bizgenix AI",
+    "title": "Start with one question from your business.",
+    "text": "Share your Tally setup and the decision you want to improve. We will confirm the supported configuration and demonstrate the workflow.",
+    "primary": {
+      "label": "Discuss a Growth Intelligence demo",
+      "href": "/contact?intent=product&product=growth-intelligence#contact-form"
+    },
+    "secondary": {
+      "label": "Explore Growth Intelligence",
+      "href": "/products/growth-intelligence"
+    }
+  }
+},
+{
   "slug": "compare-ai-sales-automation-costs",
   "title": "CRM, WhatsApp and Voice AI Costs: Buyer Checklist | Bizgenix AI",
   "h1": "How do you compare the full cost of AI sales automation?",

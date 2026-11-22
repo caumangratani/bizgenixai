@@ -10,7 +10,7 @@ import {
   HelpCircle,
   Zap
 } from 'lucide-react';
-import { mockPricingPlans } from './mockTallyData';
+
 
 interface RoiCalculatorProps {
   onOpenDemo: () => void;
@@ -20,7 +20,7 @@ export const RoiCalculator: React.FC<RoiCalculatorProps> = ({ onOpenDemo }) => {
   const [turnoverCrores, setTurnoverCrores] = useState<number>(30); // ₹30 Cr default
   const [currentDso, setCurrentDso] = useState<number>(65); // 65 days
   const [interestRate, setInterestRate] = useState<number>(10.5); // 10.5%
-  const [isAnnual, setIsAnnual] = useState<boolean>(true);
+
 
   // Calculations
   const dailyTurnover = (turnoverCrores * 10000000) / 365;
@@ -182,110 +182,11 @@ export const RoiCalculator: React.FC<RoiCalculatorProps> = ({ onOpenDemo }) => {
           </div>
         </div>
 
-        {/* Pricing Tiers Section */}
-        <div className="text-center max-w-2xl mx-auto mb-10">
-          <h3 className="text-2xl font-bold text-slate-900 tracking-tight">
-            Transparent, Predictable Investment
-          </h3>
-          <p className="text-slate-600 text-sm mt-2">
-            Confirm the applicable fees, usage limits, support scope and any refund terms in your written proposal. The calculator does not guarantee recovery or savings.
-          </p>
-
-          {/* Billing Frequency Toggle */}
-          <div className="mt-6 inline-flex items-center gap-3 bg-slate-100 p-1 rounded-xl text-xs font-semibold">
-            <button
-              onClick={() => setIsAnnual(false)}
-              className={`px-3.5 py-1.5 rounded-lg transition-all ${
-                !isAnnual ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600'
-              }`}
-            >
-              Billed Monthly
-            </button>
-            <button
-              onClick={() => setIsAnnual(true)}
-              className={`px-3.5 py-1.5 rounded-lg transition-all flex items-center gap-1.5 ${
-                isAnnual ? 'bg-[#2E7D4E] text-white shadow-sm' : 'text-slate-600'
-              }`}
-            >
-              <span>Annual (Save 17%)</span>
-              <span className="text-[10px] bg-white/20 px-1.5 py-0.2 rounded-full font-mono">2 Months Free</span>
-            </button>
-          </div>
-        </div>
-
-        {/* 3 Pricing Cards */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
-          {mockPricingPlans.map((plan) => {
-            const price = isAnnual ? plan.annualPrice : plan.monthlyPrice;
-
-            return (
-              <div
-                key={plan.id}
-                className={`rounded-2xl bg-white p-7 sm:p-8 flex flex-col justify-between border transition-all ${
-                  plan.recommended
-                    ? 'border-2 border-[#2E7D4E] shadow-xl shadow-[#2E7D4E]/15 relative ring-1 ring-[#2E7D4E]/30'
-                    : 'border-slate-200 hover:border-slate-300 hover:shadow-md'
-                }`}
-              >
-                <div>
-                  {/* Top Badge */}
-                  <div className="flex items-center justify-between min-h-[26px]">
-                    <span className="font-bold text-lg text-slate-900">{plan.name}</span>
-                    {plan.badge && (
-                      <span className="text-[11px] font-bold text-white bg-[#2E7D4E] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-2xs">
-                        {plan.badge}
-                      </span>
-                    )}
-                  </div>
-
-                  <p className="text-xs text-slate-600 mt-2 leading-relaxed">
-                    {plan.description}
-                  </p>
-
-                  {/* Price */}
-                  <div className="mt-6 pb-6 border-b border-slate-100">
-                    <div className="flex items-baseline gap-1">
-                      <span className="text-3xl sm:text-4xl font-extrabold text-slate-900 tabular-nums">
-                        ₹{price.toLocaleString('en-IN')}
-                      </span>
-                      <span className="text-xs text-slate-500 font-medium">/ month</span>
-                    </div>
-                    <div className="text-[11px] text-slate-500 mt-1">
-                      {isAnnual ? 'Billed annually' : 'Billed month-to-month'}
-                    </div>
-
-                    <div className="mt-3 inline-block text-[11px] font-semibold text-[#25663F] bg-[#F2F9F4] px-2.5 py-1 rounded-md border border-[#2E7D4E]/20">
-                      {plan.turnoverLimit} · {plan.tallyCompanies}
-                    </div>
-                  </div>
-
-                  {/* Features List */}
-                  <div className="mt-6 space-y-3 text-xs text-slate-700">
-                    {plan.features.map((feature, fIdx) => (
-                      <div key={fIdx} className="flex items-start gap-2.5">
-                        <Check className="w-4 h-4 text-[#2E7D4E] shrink-0 mt-0.5" />
-                        <span>{feature}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="mt-8 pt-4">
-                  <button
-                    onClick={onOpenDemo}
-                    className={`w-full py-3 rounded-xl text-xs font-bold transition-all shadow-sm flex items-center justify-center gap-2 ${
-                      plan.recommended
-                        ? 'bg-[#2E7D4E] hover:bg-[#25663F] text-white shadow-[#2E7D4E]/20'
-                        : 'bg-white hover:bg-slate-50 text-[#25663F] border border-[#2E7D4E]/40'
-                    }`}
-                  >
-                    <span>Get Started with {plan.name}</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </button>
-                </div>
-              </div>
-            );
-          })}
+        <div className="rounded-2xl border border-emerald-200 bg-white p-8 text-center">
+          <h3 className="text-2xl font-bold text-slate-900">Choose the scope before the plan.</h3>
+          <p className="mt-4 text-slate-600">Discuss your Tally companies, reporting needs, users and required workflows. We will confirm current plan availability, implementation, support and any provider usage charges in a written proposal.</p>
+          <p className="mt-3 text-sm text-slate-600">The scenario above is illustrative. It does not promise a collection, saving or sales increase.</p>
+          <button onClick={onOpenDemo} className="mt-6 rounded-lg bg-emerald-800 px-6 py-3 font-semibold text-white">Discuss Growth Intelligence</button>
         </div>
 
       </div>

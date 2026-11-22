@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import { pageMeta, SITE_URL } from '../../seo';
 
-const title = 'Growth Intelligence | Business Analytics Software for Tally';
-const description = "Growth Intelligence turns Tally data into clear answers on cash, receivables, payables and stock, with the next action for each. A virtual CFO's view for owners.";
+const title = 'Growth Intelligence | Tally Analytics and AI Decision Support';
+const description = "Growth Intelligence by Bizgenix AI connects Tally data with business dashboards and AI decision support. Explore receivables, cash, stock and the CVO approach.";
 
 export const metadata: Metadata = pageMeta({ title, description, path: '/products/growth-intelligence' });
 

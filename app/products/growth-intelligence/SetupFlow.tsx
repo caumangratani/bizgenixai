@@ -5,45 +5,9 @@ export const SetupFlow: React.FC = () => {
   const [activeStep, setActiveStep] = useState(1);
 
   const steps = [
-    {
-      step: 1,
-      title: "Install 5MB Desktop Connector",
-      time: "Takes ~5 Mins",
-      summary: "Lightweight Windows executable that runs in your system tray alongside Tally.",
-      details: [
-        "Zero server reconfigurations or complex static IP setups required.",
-        "Detects running TallyPrime or Tally.ERP 9 on port 9000 automatically.",
-        "Enter your company sync token generated during signup.",
-        "Zero memory bloat (<45MB RAM footprint on your office PC)."
-      ],
-      icon: Download
-    },
-    {
-      step: 2,
-      title: "Encrypted Read-Only Sync",
-      time: "Continuous & Automated",
-      summary: "Strict zero write-back architecture. Impossible to corrupt or alter vouchers.",
-      details: [
-        "Connects via official Tally XML/ODBC read-only data channels.",
-        "Outbound-only 256-bit TLS connection (no open incoming ports in firewall).",
-        "Pulls Master Ledgers, Closing Balances, Outstandings, and Stock Summaries.",
-        "Continuous 15-minute incremental sync keeps numbers fresh."
-      ],
-      icon: ShieldCheck
-    },
-    {
-      step: 3,
-      title: "Instant Web & Mobile Dashboard",
-      time: "Immediate Access",
-      summary: "Promoters & finance heads get real-time executive visibility on any phone or laptop.",
-      details: [
-        "Login from any mobile browser or desktop without remote desktop/AnyDesk.",
-        "Role-Based Access Control hides gross profit margins from field sales teams.",
-        "Automated aging alerts and WhatsApp reminder triggers ready out-of-the-box.",
-        "Virtual CFO weekly cash runway intelligence briefed every Monday."
-      ],
-      icon: MonitorSmartphone
-    }
+    {step: 1, title: "Connect the selected Tally company", time: "Guided setup", summary: "Confirm your Tally environment and the company and period you want to analyse.", details: ["Review the supported connector and installation requirements.", "Set up access with the person responsible for your accounting records.", "Select the intended company and reporting period.", "Agree the refresh process and data handling before production use."], icon: Download},
+    {step: 2, title: "Read, sync and reconcile", time: "Dated accounting snapshot", summary: "GI reads data alongside Tally; it does not post, alter or delete entries in your books.", details: ["Check the last successful sync rather than assuming live data.", "Compare selected balances with the same period in Tally.", "Review missing records and incomplete transfers.", "When Tally is unavailable, use the last successful snapshot with its date visible."], icon: ShieldCheck},
+    {step: 3, title: "Review and decide", time: "Owner and finance review", summary: "Use the supported dashboards to review business questions and agree the next action.", details: ["Review cash, receivables, payables and stock in the supported setup.", "Confirm role-based access for the people using the reports.", "Keep proposed actions, approved work and actual outcomes separate.", "Confirm automation and MCP availability for your release and plan."], icon: MonitorSmartphone}
   ];
 
   return (
@@ -53,11 +17,11 @@ export const SetupFlow: React.FC = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="text-xs font-semibold text-[#2E7D4E] uppercase tracking-wider mb-2">
-            Frictionless Implementation
+            Tally connector setup
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0F172A] tracking-tight">
-            Live in 15 Minutes. <br />
-            Zero Changes to Your Accounting Workflow.
+            Connect. Reconcile. Review. <br />
+            Keep Tally as Your Accounting Source.
           </h2>
           <p className="mt-4 text-base sm:text-lg text-[#475569] leading-relaxed">
             Your accountant continues using Tally exactly as they do today. Bizgenix operates quietly in the background as your executive intelligence layer.
@@ -131,7 +95,7 @@ export const SetupFlow: React.FC = () => {
             </div>
             <div>
               <div className="font-bold text-slate-900">Your Local Tally PC</div>
-              <div className="text-[11px] text-slate-500">TallyPrime 4.x / ERP 9 (Port 9000)</div>
+              <div className="text-[11px] text-slate-500">Confirm your supported Tally environment</div>
             </div>
           </div>
 
@@ -139,7 +103,7 @@ export const SetupFlow: React.FC = () => {
             <span className="h-0.5 w-8 bg-[#2E7D4E] hidden sm:block" />
             <div className="flex items-center gap-1.5 px-3 py-1 bg-white rounded-full border border-[#2E7D4E]/30 text-[11px]">
               <Lock className="w-3 h-3 text-[#2E7D4E]" />
-              <span>5MB Read-Only TLS Connector</span>
+              <span>Read-only Tally connector</span>
             </div>
             <span className="h-0.5 w-8 bg-[#2E7D4E] hidden sm:block" />
           </div>
@@ -150,7 +114,7 @@ export const SetupFlow: React.FC = () => {
             </div>
             <div>
               <div className="font-bold text-slate-900">Bizgenix Executive Cloud</div>
-              <div className="text-[11px] text-slate-500">Web Dashboard + Mobile + WhatsApp Autopilot</div>
+              <div className="text-[11px] text-slate-500">Dated dashboards + approved workflows</div>
             </div>
           </div>
 
