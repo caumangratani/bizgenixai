@@ -98,6 +98,9 @@ const content: ServiceContent = {
         {
           '@type': 'Event',
           name: 'Scale With AI: 1-Day AI Accelerator, Vadodara',
+          description: 'A one-day, hands-on AI workshop for business owners and professionals led by Dr. CA Umang Ratani: prompting, AI agents, vibe coding and a 90-day AI plan, built on participants’ own businesses.',
+          image: [`${SITE_URL}/training/scale-with-ai-vadodara.jpg`],
+          offers: { '@type': 'AggregateOffer', lowPrice: 4999, highPrice: 9999, offerCount: 3, priceCurrency: 'INR', url: `${SITE_URL}/scale-with-ai` },
           startDate: '2026-08-22T09:30:00+05:30',
           endDate: '2026-08-22T18:30:00+05:30',
           eventStatus: 'https://schema.org/EventScheduled',
@@ -109,6 +112,9 @@ const content: ServiceContent = {
         {
           '@type': 'Event',
           name: 'Scale With AI, 5th edition: 1-Day AI Workshop, Ahmedabad',
+          description: 'The fifth Scale With AI edition: a full-day, hands-on AI implementation workshop at Hyatt Ahmedabad on AI agents and AI employees, workflow automation, vibe coding and a 90-day AI execution blueprint.',
+          image: [`${SITE_URL}/training/scale-with-ai-ahmedabad-hall.jpg`],
+          offers: { '@type': 'AggregateOffer', lowPrice: 999, highPrice: 3499, offerCount: 3, priceCurrency: 'INR', url: 'https://event.bizgenix.ai/' },
           startDate: '2026-10-31T09:30:00+05:30',
           endDate: '2026-10-31T17:30:00+05:30',
           eventStatus: 'https://schema.org/EventScheduled',
