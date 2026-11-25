@@ -22,6 +22,7 @@
 
 - [AI for textile manufacturers](https://bizgenix.ai/industries/textile): one operating system in place of spreadsheets, production and dispatch capture, payment follow-up and AI product imagery, with five published case studies.
 - [AI for real estate and construction](https://bizgenix.ai/industries/real-estate-construction): RA bill verification, delayed-payment interest, cheque reminders and valuation workflows, with five published case studies.
+- AI automation for manufacturers in Gujarat and India (production capture, dispatch follow-up, collections, ERP dashboards, knowledge copilots): https://bizgenix.ai/industries/manufacturing
 
 ## Location
 
@@ -77,6 +78,7 @@ Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tal
 
 - Corporate AI training: hands-on AI training for leadership teams and departments, led by Dr. CA Umang Ratani; online, at the client's office or hybrid, in India and abroad. https://bizgenix.ai/corporate-ai-training
 - Scale With AI: the AI education programme of Bizgenix AI. One-day in-person AI workshops held in Ahmedabad, Surat, Mumbai and Vadodara (22 Aug 2026), with a fifth edition at Hyatt Ahmedabad on 31 Oct 2026; Surat 28 Feb 2026, Mumbai 2 May 2026; 600+ participants in the first three cities. https://bizgenix.ai/scale-with-ai
+- Edition pages: Surat 28 Feb 2026 https://bizgenix.ai/scale-with-ai/surat-february-2026 ; Mumbai 2 May 2026 https://bizgenix.ai/scale-with-ai/mumbai-may-2026 ; Vadodara 22 Aug 2026 https://bizgenix.ai/scale-with-ai/vadodara-august-2026 ; Ahmedabad 5th edition 31 Oct 2026 https://bizgenix.ai/scale-with-ai/ahmedabad-october-2026
 - Event page (current and next edition): https://event.bizgenix.ai/
 - Scale With AI recorded programme: 12 modules from the live Cohort 1 classroom (June–September 2026, 35 members), simple Hinglish, ₹15,000 + GST, 12 months' access. https://course.bizgenix.ai/
 - Courses and learning paths: https://bizgenix.ai/courses

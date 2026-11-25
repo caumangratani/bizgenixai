@@ -56,6 +56,10 @@ const content: ServiceContent = {
   proofTitle: 'Go deeper.',
   proofIntro: 'Event pages, the recorded programme, and guides written from the classroom.',
   proof: [
+    { label: 'Surat, 28 February 2026', href: '/scale-with-ai/surat-february-2026' },
+    { label: 'Mumbai, 2 May 2026', href: '/scale-with-ai/mumbai-may-2026' },
+    { label: 'Vadodara, 22 August 2026', href: '/scale-with-ai/vadodara-august-2026' },
+    { label: 'Ahmedabad, 5th edition, 31 October 2026', href: '/scale-with-ai/ahmedabad-october-2026' },
     { label: 'Scale With AI event page (event.bizgenix.ai)', href: 'https://event.bizgenix.ai/' },
     { label: 'Recorded programme (course.bizgenix.ai)', href: 'https://course.bizgenix.ai/' },
     { label: 'Corporate AI training', href: '/corporate-ai-training' },

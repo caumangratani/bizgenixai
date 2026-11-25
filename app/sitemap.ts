@@ -3,6 +3,7 @@ import { caseStudies } from './case-studies/content';
 import { articles } from './blog/articles';
 import { guides } from './guides/content';
 import { resources } from './resources/content';
+import { editions } from './scale-with-ai/editions';
 
 const BASE = 'https://bizgenix.ai';
 // Last substantive update of the page group. Change it when those pages change.
@@ -37,6 +38,8 @@ const routes: { path: string; priority: number }[] = [
   { path: '/pricing', priority: 0.8 },
   { path: '/ai-agent-development', priority: 0.9 },
   { path: '/tools/where-is-my-money-stuck', priority: 0.9 },
+  { path: '/industries/manufacturing', priority: 0.8 },
+  ...editions.map(e => ({ path: `/scale-with-ai/${e.slug}`, priority: 0.7 })),
   ...resources.map(r => ({ path: `/resources/${r.slug}`, priority: 0.6 })),
   { path: '/about', priority: 0.6 },
   { path: '/contact', priority: 0.6 },

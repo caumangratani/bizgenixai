@@ -407,4 +407,74 @@ export const tallyFinanceGuides: Guide[] = [
     ],
     next: giNext('See your clients’ Tally data the way an auditor would', 'Growth Intelligence reads TallyPrime read-only and surfaces receivables, cost and cash issues with the entries behind them.'),
   },
+  {
+    slug: 'recover-pending-payments-from-dealers',
+    title: 'How to Recover Pending Payments from Dealers Faster',
+    h1: 'How to recover pending payments from dealers faster, without hiring more staff',
+    description: 'A practical collection routine for manufacturers and distributors: the weekly overdue list from Tally, reminder timing on WhatsApp, call priorities, credit holds, and what to automate first.',
+    answer: 'Recover dealer payments faster by running one fixed weekly routine instead of chasing from memory: pull the age-wise outstanding list from Tally every Monday, send reminders before and on the due date, call only the accounts that cross your credit period, stop new dispatches above an agreed overdue limit, and record every promise with a date. Most of this routine can be automated; the calls and the credit decisions stay with people.',
+    date: '2026-11-25',
+    updated: '2026-11-25',
+    tags: ['Collections', 'Tally', 'Dealers and Distributors'],
+    minutes: 8,
+    html: `
+<h2>Why dealer payments get stuck</h2>
+<p>In most manufacturing and distribution businesses the money is not lost; it is late. The usual causes are ordinary: nobody sends a reminder until the bill is already overdue, the salesperson who owns the relationship does not want to ask, disputes about rate or shortage sit unanswered, and the owner finds out only when the bank balance is tight. More staff does not fix this. A routine does.</p>
+
+<h2>Step 1: one overdue list, every Monday</h2>
+<p>In TallyPrime, open Display More Reports → Statements of Accounts → Outstandings → Receivables, and turn on age-wise analysis (F6). Use buckets that match your terms, for example 0–30, 31–60, 61–90 and above 90 days. Bill-wise details must be on for customer ledgers, or the ageing will be wrong.</p>
+<p>From that list, make three groups:</p>
+<ul>
+<li><strong>Due this week:</strong> remind before the due date.</li>
+<li><strong>Overdue beyond your credit period:</strong> call this week.</li>
+<li><strong>Above 90 days or disputed:</strong> owner or sales head decides the next step.</li>
+</ul>
+<p>To see how much this is costing you, enter five numbers in our free <a href="/tools/where-is-my-money-stuck">Where is my money stuck?</a> calculator.</p>
+
+<h2>Step 2: reminders on a fixed schedule</h2>
+<table>
+<thead><tr><th>When</th><th>What</th><th>Who</th></tr></thead>
+<tbody>
+<tr><td>3 days before due date</td><td>Polite WhatsApp reminder with bill number, amount and payment details</td><td>Automated</td></tr>
+<tr><td>On the due date</td><td>Second message, asking for the payment reference</td><td>Automated</td></tr>
+<tr><td>7 days overdue</td><td>Phone call; note the promised date</td><td>Accounts executive</td></tr>
+<tr><td>15 days overdue</td><td>Call from the salesperson who owns the dealer</td><td>Sales</td></tr>
+<tr><td>Beyond your limit</td><td>Hold new dispatches until part payment; owner informed</td><td>Sales head or owner</td></tr>
+</tbody>
+</table>
+<p>For WhatsApp, use the official WhatsApp Business Platform with a template approved by Meta and the dealer’s opt-in. Meta charges for business-initiated messages, so send reminders that matter, not daily noise.</p>
+
+<h2>Step 3: record every promise</h2>
+<p>A promise without a date is not a promise. For each call, record who you spoke to, the amount promised and the date. The next Monday list should show broken promises first. This single habit usually changes dealer behaviour more than any reminder.</p>
+
+<h2>Step 4: fix disputes within the week</h2>
+<p>Rate differences, shortages, damaged goods and pending credit notes are the reasons dealers give for holding a whole bill. Keep a short dispute list with an owner and a deadline for each item, and ask for payment of the undisputed amount meanwhile.</p>
+
+<h2>Step 5: a credit rule everyone knows</h2>
+<p>Write the rule down and share it with dealers and the sales team: the credit period, the overdue amount above which dispatch stops, and who can approve an exception. Salespeople find it easier to ask for payment when the rule, not the person, is saying no.</p>
+
+<h2>What to automate, and what to keep human</h2>
+<ul>
+<li><strong>Automate:</strong> the Monday list from Tally, reminders before and on the due date, the call list for the week, and the summary for the owner.</li>
+<li><strong>Keep human:</strong> the calls, dispute decisions, credit holds and anything that affects a long relationship.</li>
+</ul>
+<p>We built this pattern for a silk mill in Surat, where collection now follows an automated flow with follow-ups assigned and logged (<a href="/case-studies/bhaskar-silk-mills">case study</a>), and a cheque reminder system that sends WhatsApp alerts before deposit dates (<a href="/case-studies/cheque-reminder-system">case study</a>).</p>
+
+<h2>Numbers to watch every month</h2>
+<ul>
+<li><strong>Debtor days:</strong> debtors ÷ last 12 months’ sales × 365. It should move toward your credit period.</li>
+<li><strong>Overdue as a share of total receivables.</strong></li>
+<li><strong>Amount above 90 days</strong>, by dealer.</li>
+<li><strong>Promises kept</strong> out of promises made.</li>
+</ul>
+`,
+    faqs: [
+      ['How do I recover pending payments from dealers faster?', 'Run a fixed weekly routine: an age-wise overdue list from Tally every Monday, reminders before and on the due date, calls only for accounts past your credit period, a dispatch hold above an agreed overdue limit, and every promise recorded with a date.'],
+      ['Can payment reminders be sent automatically on WhatsApp?', 'Yes, through the official WhatsApp Business Platform, using a template approved by Meta and the customer’s opt-in. The bill and due-date data comes from your accounting system.'],
+      ['Where do I see overdue dealer payments in Tally?', 'Display More Reports → Statements of Accounts → Outstandings → Receivables, with age-wise analysis switched on. Bill-wise details must be enabled for customer ledgers.'],
+      ['Should we stop supply to dealers who pay late?', 'Set a written rule: a credit period and an overdue limit above which new dispatches wait for part payment, with a named person who can approve exceptions. Apply it the same way to everyone.'],
+      ['Do I need more staff for collections?', 'Usually not. Automating the list, the reminders and the weekly call sheet lets the existing accounts team spend its time on calls and disputes.'],
+    ],
+    next: giNext('See who is paying late, every Monday, from your own Tally', 'Growth Intelligence reads TallyPrime read-only and ranks overdue customers, with the bills behind each number and a prepared follow-up.'),
+  },
 ];
