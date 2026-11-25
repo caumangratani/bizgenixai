@@ -6,7 +6,7 @@ import { resources } from './resources/content';
 
 const BASE = 'https://bizgenix.ai';
 // Last substantive update of the page group. Change it when those pages change.
-const SITE_UPDATED = new Date('2026-11-22');
+const SITE_UPDATED = new Date('2026-11-25');
 const CASE_STUDIES_UPDATED = new Date('2026-11-14');
 
 const routes: { path: string; priority: number }[] = [

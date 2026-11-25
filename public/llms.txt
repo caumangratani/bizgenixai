@@ -105,3 +105,5 @@ Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tal
 - Email: info@bizgenix.ai
 - Phone / WhatsApp: +91 87806 71906
 - Office: G-13, Silver Radiance-2, Science City Road, Sola, Ahmedabad 380060, India
+
+- [Choosing an AI consultant in India](https://bizgenix.ai/guides/how-to-choose-an-ai-consultant-india): discovery, trial evidence, ownership and running-cost questions.

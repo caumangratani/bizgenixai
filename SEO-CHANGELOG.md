@@ -129,3 +129,6 @@ Deliberately not done (see the review for reasons): `Disallow: /_next/` in robot
 ## 22 November 2026 — audit handoff follow-through
 
 All 18 case-study cards now render in the initial HTML without Load More. Filters/search remain. About timeline distinguishes the founder’s pre-company consulting/automation work from Bizgenix AI’s 2025 founding and links the founder profile. Shared product wording now reads “Built for global businesses”. Changed landing-page sitemap dates reflect the client date; individual case-study content dates are unchanged. Preserved removed root loader and recent Claude pages.
+
+## 25 November 2026 — weekly buyer guidance
+Adapted Claude Monday consulting draft into a company-team guide, removing unsubstantiated client outcomes and blanket timing/ownership promises. Added CRM demo acceptance and weekly lead-review FAQs. No GI-owned pages changed.

@@ -46,6 +46,9 @@ const content: ServiceContent = {
     { title: 'Follow up and convert', text: 'Reminders, conversations and next actions are tracked until the deal is won or closed.' },
   ],
   faqs: [
+    { q: 'How can we test lead routing in a CRM demo?', a: 'Use anonymised examples: a new enquiry, a repeated enquiry from another channel, a missing phone number, an unavailable salesperson and an overdue callback. For each, ask to see the source, duplicate decision, assigned owner and next action. Confirm which behaviour is available in your proposed configuration before purchase.' },
+    { q: 'What should the weekly sales review measure?', a: 'Review unassigned enquiries, overdue next actions and source-attributed submissions first. Then record human-qualified opportunities, meetings, proposals and wins separately. Agree the reporting period and qualification definition; exclude test records and keep resource downloads separate from sales enquiries.' },
+
     { q: 'Are calling and WhatsApp usage included in the subscription?', a: 'Separate software subscription from usage and support in your comparison. Request an itemised quote for AI calling minutes, WhatsApp messaging, phone-number rental, integrations and support. Do not treat a complete-system subscription as unlimited calling or messaging.' },
     { q: 'How should we measure qualified leads?', a: 'Keep source, campaign, owner and next action on each enquiry. A salesperson should confirm business fit, a real requirement and an agreed next step before marking it qualified. Record meetings, proposals and wins separately; an AI score or submitted form is not proof of a sale.' },
     { q: 'What should we bring to a CRM demo?', a: 'Bring your team size, lead sources, current stages and one missed-follow-up example. Use anonymised sample records. Confirm supported integrations and access requirements before connecting production accounts.' },

@@ -26,6 +26,53 @@ export type Guide = {
 
 export const guides: Guide[] = [
 {
+  "slug": "how-to-choose-an-ai-consultant-india",
+  "title": "How to Choose an AI Consultant in India | Bizgenix AI",
+  "h1": "How to choose an AI consultant in India",
+  "description": "Compare AI consulting scope, trial evidence, data access, ownership and running costs. Eight questions to ask before committing to a business AI project.",
+  "answer": "Choose an AI consultant by the business problem they can define, the evidence they can demonstrate and the delivery responsibilities they put in writing. Agree a scoped trial, acceptance criteria, data access and recurring costs before committing to a wider implementation.",
+  "date": "2026-11-25",
+  "updated": "2026-11-25",
+  "tags": [
+    "AI consulting",
+    "Custom AI solutions",
+    "Buyer guide"
+  ],
+  "minutes": 6,
+  "html": "<h2>Choose the engagement before choosing the tool</h2><p>An AI trainer, an adviser and a development partner solve different problems. Training helps a team practise tasks with approved tools. Consulting identifies the business problem and tests possible approaches. Development implements an agreed workflow, integrates systems and hands over a supported solution. Your engagement may combine these, but the deliverables should name each part.</p><p>If the problem is unclear, start with a short discovery. If a repeated workflow and its acceptance criteria are already documented, you may be ready for a development partner. If employees have the tools but cannot use them confidently, consider <a href=\"/corporate-ai-training\">corporate AI training</a> first.</p><h2>What should the first phase deliver?</h2><ol><li><strong>A process map:</strong> who receives the input, who checks it, who approves an action and who handles exceptions.</li><li><strong>A baseline:</strong> sample volume, time spent, error types and the reporting period. Record how these were measured.</li><li><strong>A scoped trial:</strong> one workflow, approved sample data and named users. Agree whether the output is a recommendation, a draft or an approved action.</li><li><strong>An acceptance record:</strong> which examples passed, which failed and what remains unresolved.</li><li><strong>A decision:</strong> proceed, revise or stop. A prototype is not proof of production readiness.</li></ol><h2>Eight questions for an AI consulting proposal</h2><ol><li>Which business problem are we solving, and what would count as improvement?</li><li>Can you demonstrate a relevant workflow, including an example that fails?</li><li>Who owns custom deliverables, accounts and data, and what is licensed rather than transferred?</li><li>What are the separate costs of discovery, implementation, hosting, usage and support?</li><li>Which providers process our information, who can access it and how is it retained?</li><li>Which actions require approval, and how do we recover from an incorrect output?</li><li>Who builds, tests and supports the system, and who is accountable on our side?</li><li>What documentation, exports and access do we receive if the engagement ends?</li></ol><h2>A worked evaluation example</h2><p><strong>Illustrative scenario, not a client result:</strong> a distributor wants to reduce the effort needed to prepare quotations. The pilot reads a sample enquiry and drafts a quotation using an approved product list. A salesperson checks every price before sending it.</p><p>Test a normal enquiry, an unknown item, a missing quantity, an outdated price list and a duplicate enquiry. Record whether the system identifies the missing information, uses the approved source and keeps the draft unsent until review. Count accepted drafts and review time separately. A fast but incorrect quotation has not passed.</p><p>Keep the original enquiry, source version, draft, reviewer decision and final action together. This gives the buyer evidence to decide whether the workflow is ready for a wider trial. It does not require a promise of a particular percentage saving.</p><h2>Compare costs over the same scope</h2><p>A low build quote can exclude work that another quote includes. Compare discovery, setup, integrations, testing, migration, training and handover line by line. Then compare recurring software, hosting, model usage, messaging, phone rental and support. Specify the usage assumptions and what happens when those assumptions change.</p><p>Ask for the support boundary in writing: defect correction, new requirements and third-party changes are different work. Agree payment milestones and acceptance evidence in the contract. Do not assume that a standard software subscription transfers ownership of the software.</p><h2>Warning signs worth investigating</h2><ul><li>A saving or revenue increase is guaranteed before anyone has checked a baseline.</li><li>The proposal lists tools but no business owner, acceptance criteria or exception handling.</li><li>The demonstration shows only successful examples and excludes human review.</li><li>Data access, recurring charges or exit arrangements remain unclear.</li><li>A small prototype is described as a fully deployed, reliable system without operational testing.</li></ul><h2>Where Bizgenix AI fits</h2><p>Umang Ratani and the Bizgenix AI team work across consulting, custom solutions, products and corporate training. Start with the decision or workflow your business needs to improve. The team can discuss the appropriate scope before recommending a product or a build.</p><p>Review our <a href=\"/ai-consulting\">AI consulting approach</a> and <a href=\"/custom-solutions\">custom AI solutions</a>. For a defined implementation, use the separate <a href=\"/guides/hire-ai-development-company-india\">development-partner checklist</a>. For delivery acceptance, use the <a href=\"/guides/evaluate-ai-automation-pilot\">AI pilot checklist</a>. These guides address different stages of the buying decision.</p>",
+  "faqs": [
+    [
+      "Do we need training, consulting or development?",
+      "Training builds team skills; consulting clarifies the problem and approach; development implements an agreed solution. Name the deliverables needed before comparing suppliers."
+    ],
+    [
+      "Should a consultant guarantee savings?",
+      "Require a measured baseline and a trial before accepting a savings claim. Define the measurement period and include review, maintenance and usage costs."
+    ],
+    [
+      "Who should own the software and accounts?",
+      "Specify custom-deliverable ownership, third-party licences, account access and exit arrangements in the agreement. Subscription software and custom code can have different ownership terms."
+    ],
+    [
+      "What should we bring to the first discussion?",
+      "Bring one workflow, its business owner, anonymised examples, known failure cases and the systems involved. Describe the desired decision or action rather than only naming an AI tool."
+    ]
+  ],
+  "next": {
+    "eyebrow": "AI consulting by Bizgenix AI",
+    "title": "Start with one workflow worth improving.",
+    "text": "Share the current process, the people involved and the outcome you want. We will discuss an appropriate assessment scope.",
+    "primary": {
+      "label": "Discuss your AI project",
+      "href": "/contact?intent=custom#contact-form"
+    },
+    "secondary": {
+      "label": "Explore custom solutions",
+      "href": "/custom-solutions"
+    }
+  }
+},
+{
   "slug": "tally-connector-business-dashboard",
   "title": "Tally Connector to Business Dashboard: Setup Checklist | Bizgenix AI",
   "h1": "From Tally connector to business dashboard: what should you verify?",
