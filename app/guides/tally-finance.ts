@@ -22,7 +22,7 @@ export const tallyFinanceGuides: Guide[] = [
     description: 'Does Tally have an API? How dashboards, connectors and MCP servers read TallyPrime data, what ChatGPT or Claude can safely do with it, and the questions to ask before you connect.',
     answer: 'Tally has no hosted cloud API. Every tool that connects Tally to AI, whether a dashboard connector, a reporting add-on or an MCP server for ChatGPT or Claude, reads from the computer where Tally runs, usually through TallyPrime’s local data interface or ODBC. What matters is what the tool can read or change, where your data goes, and how you check the AI’s numbers against Tally.',
     date: '2026-11-22',
-    updated: '2026-11-22',
+    updated: '2026-11-25',
     tags: ['Tally', 'MCP', 'AI in Accounting', 'Growth Intelligence'],
     minutes: 8,
     html: `
@@ -53,6 +53,19 @@ export const tallyFinanceGuides: Guide[] = [
 <li>You ask “Who owes us more than ₹5 lakh past 60 days?” and the assistant calls the right action and explains the result.</li>
 </ol>
 
+<h2>Four ways to connect Tally to ChatGPT or Claude today</h2>
+<p>We checked the vendors’ own websites on 25 November 2026. This area changes monthly, so check again before you decide.</p>
+<table>
+<thead><tr><th>Route</th><th>What it is</th><th>Check before using</th></tr></thead>
+<tbody>
+<tr><td>Tally’s own TallyPrime MCP</td><td>Tally Solutions’ help site lists “TallyPrime MCP” pages, first published on 18 September 2026, with tool groups for company, masters, accounting, inventory, outstandings and transactions. Claude Desktop is the assistant named.</td><td>The detailed pages need a Tally login. Which release it needs, what it costs and whether it works with ChatGPT were not stated publicly when we checked. Ask your Tally partner.</td></tr>
+<tr><td>Hosted third-party connectors</td><td>A small program syncs your Tally to the vendor’s server, and Claude, ChatGPT or Gemini connect to that server.</td><td>Where the server is, whether it only reads or can also post entries, and who approves a posting.</td></tr>
+<tr><td>Open-source MCP servers</td><td>Free projects on GitHub that talk to TallyPrime’s local data port on the Tally computer.</td><td>Several can create ledgers and vouchers, and at least one allows this by default. Switch write tools off before connecting real books, and have someone technical review the set-up.</td></tr>
+<tr><td>A decision system with an MCP connection</td><td>Growth Intelligence syncs Tally read-only, checks the data, and lets Claude or ChatGPT ask questions of that checked copy.</td><td>Answers are as fresh as the last sync, not live to the second.</td></tr>
+</tbody>
+</table>
+<p>For how these compare with dashboards and mobile apps, see <a href="/guides/tally-dashboard-software-compared">Tally dashboard software compared</a>.</p>
+
 <h2>The five risks to manage</h2>
 <ul>
 <li><strong>Write access.</strong> Some setups can create or change vouchers. Start read-only. If you later allow writes, require a person to approve each one, and make sure it leaves the same audit trail as a manual entry. Companies in India have had to keep an audit trail of changes in their accounting software since 1 April 2023.</li>
@@ -79,7 +92,8 @@ export const tallyFinanceGuides: Guide[] = [
 `,
     faqs: [
       ['Does Tally have an API?', 'Not a hosted cloud API. TallyPrime offers a local data interface that answers XML requests, and JSON in recent releases, from programs on the same computer or network, plus ODBC for reading data into tools such as Excel. Integrations are built on these.'],
-      ['Can I connect Tally to ChatGPT or Claude?', 'Yes, through a connector or an MCP server that runs near Tally and lets the assistant request specific data. Check that it is read-only, that you know where the data goes, and that totals come from Tally rather than from the model.'],
+      ['Can I connect Tally to ChatGPT or Claude?', 'Yes. As of November 2026 there are four routes: Tally Solutions’ own TallyPrime MCP (listed on its help site since September 2026), hosted third-party connectors, open-source MCP servers, and Growth Intelligence’s read-only MCP connection. Check that access is read-only, that you know where the data goes, and that totals come from Tally rather than from the model.'],
+      ['Does Tally have its own MCP?', 'Tally Solutions’ help site lists TallyPrime MCP pages, first published on 18 September 2026, describing tools that let AI assistants read company, master, accounting, inventory, outstanding and transaction data. Details such as the required release and price were behind a login when we checked on 25 November 2026.'],
       ['What is a Tally MCP server?', 'A small program that offers named actions on your Tally data, such as listing overdue bills, to an AI assistant using the Model Context Protocol. The assistant calls those actions to answer your questions.'],
       ['Does Tally need to be open for AI tools to work?', 'For live answers, yes: the local data interface responds only while Tally is running with the company loaded. Tools that sync on a schedule work from the last successful sync and should show its date.'],
       ['Can AI post entries in Tally?', 'Some tools can. Keep posting off until you have a clear approval step, a record of who approved what, and an audit trail equal to manual entry.'],
@@ -476,5 +490,76 @@ export const tallyFinanceGuides: Guide[] = [
       ['Do I need more staff for collections?', 'Usually not. Automating the list, the reminders and the weekly call sheet lets the existing accounts team spend its time on calls and disputes.'],
     ],
     next: giNext('See who is paying late, every Monday, from your own Tally', 'Growth Intelligence reads TallyPrime read-only and ranks overdue customers, with the bills behind each number and a prepared follow-up.'),
+  },
+  {
+    slug: 'tally-dashboard-software-compared',
+    title: 'Tally Dashboard Software Compared: 6 Kinds of Tool (2026)',
+    h1: 'Tally dashboard and analytics software compared: six kinds of tool, and which one an owner needs',
+    description: 'An honest comparison of the six kinds of software that sit on top of Tally: built-in dashboards, mobile apps, BI dashboards, collection tools, AI connectors (MCP) and decision systems. What each does, what it costs and when you do not need it. Checked November 2026.',
+    answer: 'Software that sits on top of Tally falls into six kinds: TallyPrime’s own dashboard and browser reports, mobile apps that show Tally on your phone, BI dashboards, collection and reminder tools, AI connectors (MCP) for ChatGPT and Claude, and decision systems such as Growth Intelligence. Choose by the job: seeing balances, analysing trends, chasing payments, asking questions, or being told what to decide this week.',
+    date: '2026-11-25',
+    updated: '2026-11-25',
+    tags: ['Tally Dashboard', 'Tally Analytics', 'Comparison'],
+    minutes: 9,
+    html: `
+<p><em>How we checked: features and prices below come from each vendor’s own website on 25 November 2026. We describe tools by kind rather than by brand, prices are per year before GST unless stated, and they change. Growth Intelligence is our own product; we say where it is not the right choice.</em></p>
+
+<h2>The six kinds at a glance</h2>
+<table>
+<thead><tr><th>Kind of tool</th><th>The job it does</th><th>How it reaches Tally</th><th>Typical published price</th></tr></thead>
+<tbody>
+<tr><td>1. TallyPrime’s own dashboard and browser reports</td><td>See key figures inside Tally; view reports in a browser</td><td>Built in</td><td>Included with TallyPrime; browser reports need an active Tally subscription (TSS)</td></tr>
+<tr><td>2. Mobile apps for Tally</td><td>See ledgers, outstandings and sales on your phone; send reminders; some data entry</td><td>A desktop connector on the Tally computer</td><td>About ₹3,300 a year per device</td></tr>
+<tr><td>3. BI dashboards for Tally</td><td>Ready-made owner, finance and sales dashboards, ageing, stock and alerts</td><td>A sync program or connector; data on your machine or the vendor’s cloud</td><td>About ₹5,000 to ₹12,000 a year</td></tr>
+<tr><td>4. Collection and reminder tools</td><td>Automatic payment reminders by WhatsApp, call, SMS and email; some add e-invoicing and bill reading</td><td>Cloud copy of Tally with sync</td><td>About ₹5,000 to ₹20,000 a year, plus message credits</td></tr>
+<tr><td>5. AI connectors (MCP)</td><td>Ask ChatGPT or Claude questions about your Tally data</td><td>Tally’s own MCP, hosted connectors or open-source servers</td><td>Free (open source); hosted connectors are paid monthly or yearly plans</td></tr>
+<tr><td>6. Decision systems</td><td>Check the books, rank what needs attention and prepare the week’s decisions</td><td>Read-only connector with scheduled sync</td><td>On request</td></tr>
+</tbody>
+</table>
+
+<h2>1. TallyPrime’s own dashboard and browser reports</h2>
+<p>TallyPrime includes a configurable dashboard of report tiles, and lets you view reports in any phone or laptop browser when the company is connected with a Tally.NET ID. Browser access is view-and-download only and works on one company at a time.</p>
+<p><strong>Enough when:</strong> you mainly want to check sales, cash and outstandings yourself and are comfortable inside Tally’s reports. <strong>Not enough when:</strong> you want reminders sent, trends explained, or several companies together.</p>
+
+<h2>2. Mobile apps for Tally</h2>
+<p>These put your Tally data in an Android or iOS app through a connector installed where Tally runs. Typical features are a dashboard, ledger and outstanding views, payment reminders (WhatsApp and SMS often need paid credits), sales analysis and simple data entry that syncs back.</p>
+<p><strong>Enough when:</strong> the owner or sales team needs balances and ledgers on the phone. <strong>Watch for:</strong> pricing per device, and whether data entry from the phone is something your accountant wants.</p>
+
+<h2>3. BI dashboards for Tally</h2>
+<p>Dashboards for the owner, finance head and sales head: receivables and payables ageing, stock, expenses, alerts, sometimes an AI chat. Some install on your own machine and are viewed in a browser, so the data stays with you; others sync to the vendor’s cloud and add a mobile app.</p>
+<p><strong>Enough when:</strong> you want to see trends and comparisons and someone will look at them every week. <strong>The common failure:</strong> a dashboard nobody opens. A dashboard shows; it does not decide or act.</p>
+
+<h2>4. Collection and reminder tools</h2>
+<p>Built around getting paid: automatic reminders over WhatsApp, calls, SMS and email, a daily report, field-team follow-up and, in some, e-invoicing and AI that reads bills and bank statements and posts entries to Tally.</p>
+<p><strong>Enough when:</strong> late payments are your main problem. <strong>Watch for:</strong> two-way sync means the tool can write to your books, so agree who approves postings; message credits add to the yearly price. Our guide on <a href="/guides/recover-pending-payments-from-dealers">recovering pending payments from dealers</a> covers the routine that makes any such tool work.</p>
+
+<h2>5. AI connectors (MCP)</h2>
+<p>These let ChatGPT, Claude or Gemini answer questions from your Tally data. Tally Solutions’ own help site has listed TallyPrime MCP pages since September 2026; there are also hosted third-party connectors and free open-source servers.</p>
+<p><strong>Enough when:</strong> you or your accountant like asking questions in plain language and will check the answers. <strong>Watch for:</strong> some options can create vouchers, and at least one open-source server allows writing by default. Start read-only. See <a href="/guides/connect-tally-to-ai-mcp">Connect Tally to AI: API, connectors and MCP explained</a>.</p>
+
+<h2>6. Decision systems: where Growth Intelligence sits</h2>
+<p>Growth Intelligence is an AI Chief Value Officer for businesses on TallyPrime. It reads the books read-only, checks that the data is complete enough to advise on, and then prepares the decisions for the week: who is paying late, what has stopped selling, which cost is running ahead and which week cash may run short, each traceable to the Tally entries behind it. You can ask questions in plain language, and Claude or ChatGPT can connect through a read-only MCP connection.</p>
+<p><strong>The right choice when:</strong> the owner does not want another screen to study, and wants to be told what needs a decision and why.</p>
+<p><strong>Not the right choice when:</strong> you only need balances on your phone (a mobile app costs less), you need data entry or e-invoicing from the tool (Growth Intelligence never writes to Tally), or nobody will act on the decisions it prepares.</p>
+
+<h2>Six questions that pick the right kind</h2>
+<ol>
+<li><strong>What is the job?</strong> See, analyse, chase, ask or decide.</li>
+<li><strong>Who will use it every week?</strong> The owner, the accountant or the sales team.</li>
+<li><strong>Should it ever write to Tally?</strong> If not, choose read-only tools.</li>
+<li><strong>Where should the data live?</strong> On your machine, or on a vendor’s cloud.</li>
+<li><strong>How many companies and users?</strong> Prices are per device, per user or per company.</li>
+<li><strong>What happens when the data is incomplete?</strong> A good tool says so instead of showing a confident wrong number.</li>
+</ol>
+<p>Not sure where your money is stuck in the first place? Our free <a href="/tools/where-is-my-money-stuck">working-capital calculator</a> takes five numbers from Tally and two minutes.</p>
+`,
+    faqs: [
+      ['What is the best Tally dashboard software?', 'It depends on the job. For balances on a phone, a mobile app for Tally; for trends and ageing, a BI dashboard; for chasing payments, a collection tool; for plain-language questions, an AI connector; and for having the week’s decisions prepared from your books, a decision system such as Growth Intelligence.'],
+      ['Does Tally have its own dashboard?', 'Yes. TallyPrime has a configurable dashboard of report tiles, and reports can be viewed in a browser with a Tally.NET ID and an active Tally subscription. Browser access is view-only and one company at a time.'],
+      ['How much does Tally dashboard software cost?', 'On vendor websites in November 2026, mobile apps were about ₹3,300 a year per device, BI dashboards about ₹5,000 to ₹12,000 a year, and collection tools about ₹5,000 to ₹20,000 a year plus message credits, all before GST.'],
+      ['Is it safe to connect third-party software to Tally?', 'Check three things: whether it only reads or can also write to your books, where your data is stored, and who can see it. Start with read-only access.'],
+      ['How is Growth Intelligence different from a Tally dashboard?', 'A dashboard shows numbers and waits for you to study them. Growth Intelligence checks the books, ranks what needs attention and prepares the decisions, each traceable to Tally entries, and it never writes to Tally.'],
+    ],
+    next: giNext('See your own Tally the way a Chief Value Officer would', 'A 30-minute walkthrough on demonstration books, then on your own data: what is stuck, what it costs and what to decide this week.'),
   },
 ];

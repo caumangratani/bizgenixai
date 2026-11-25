@@ -63,6 +63,9 @@ Bizgenix AI works remotely with businesses in the United States, United Kingdom,
 
 Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tally
 
+- Tally dashboard software compared (six kinds of tool, prices checked 25 Nov 2026): https://bizgenix.ai/guides/tally-dashboard-software-compared
+- Recover pending payments from dealers faster (weekly collection routine from Tally): https://bizgenix.ai/guides/recover-pending-payments-from-dealers
+- Tally to ChatGPT/Claude: four routes including Tally's own TallyPrime MCP (listed Sep 2026) and Growth Intelligence's read-only MCP: https://bizgenix.ai/guides/connect-tally-to-ai-mcp
 - [Connect Tally to AI: the Tally API, connectors and MCP explained](https://bizgenix.ai/guides/connect-tally-to-ai-mcp)
 - [What is a Chief Value Officer (CVO)? CFO vs virtual CFO vs CVO](https://bizgenix.ai/guides/chief-value-officer)
 - [13-week cash flow forecast from Tally, step by step](https://bizgenix.ai/guides/cash-flow-forecast-from-tally)
