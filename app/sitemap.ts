@@ -37,6 +37,7 @@ const routes: { path: string; priority: number }[] = [
   { path: '/resources', priority: 0.8 },
   { path: '/videos', priority: 0.8 },
   { path: '/playbooks', priority: 0.8 },
+  { path: '/ai-trainer-ahmedabad', priority: 0.8 },
   { path: '/about/umang-ratani', priority: 0.8 },
   { path: '/faq', priority: 0.8 },
   { path: '/pricing', priority: 0.8 },

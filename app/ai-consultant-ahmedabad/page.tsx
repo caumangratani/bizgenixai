@@ -61,6 +61,7 @@ const content: ServiceContent = {
     { q: 'Do you run AI workshops for teams in Ahmedabad?', a: 'Yes. In-house corporate AI workshops are run for teams, and the Scale With AI programme is for business owners.' },
   ],
   related: [
+    { label: 'AI trainer in Ahmedabad', href: '/ai-trainer-ahmedabad' },
     { label: 'Compare products and custom development', href: '/blog/custom-ai-vs-ready-made-software' },
     { label: 'Training for CA and accounting firms', href: '/guides/ai-training-for-ca-accounting-firms' },
     { label: 'AI consulting', href: '/ai-consulting' },
