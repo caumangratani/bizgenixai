@@ -107,7 +107,7 @@ export const globalGuides: Guide[] = [
     title: 'AI Agents for Small Business: What They Can Do Today',
     h1: 'AI agents for small business: what they can do today, what they cannot, and how to start',
     description: 'A plain guide for small and mid-size business owners anywhere: what an AI agent is, five jobs agents do well today, where they fail, the controls to insist on, and a 30-day way to start.',
-    answer: 'An AI agent is software given a goal and narrow tools to carry out steps—such as reading an enquiry, checking the CRM and drafting a reply. Small businesses today get reliable results on 5 jobs—enquiry handling, follow-up, document checking, inbox triage and weekly reporting—with human approval on anything external. Start with 1 workflow over a 30-day rollout before adding the next.',
+    answer: 'An AI agent is software given a goal and narrow tools to carry out steps, such as reading an enquiry, checking the CRM and drafting a reply. Small businesses today get reliable results on 5 jobs (enquiry handling, follow-up, document checking, inbox triage and weekly reporting), with human approval on anything external. Start with 1 workflow over a 30-day rollout before adding the next.',
     date: '2026-11-22',
     updated: '2026-11-28',
     tags: ['AI Agents', 'AI Automation', 'Custom AI Solutions'],
@@ -214,7 +214,7 @@ export const globalGuides: Guide[] = [
 </ul>
 
 <h2>How Bizgenix AI scopes and prices international builds</h2>
-<p>Bizgenix AI operates remotely from Ahmedabad with a team of 24, serving clients in the US, UK, UAE, Singapore, Australia and Canada. Small, single-workflow automations start from <strong>USD 500 or EUR 500</strong>, with a working first version on your data typically ready in <strong>7–10 working days</strong>. Larger multi-step systems are scoped in writing first, billed in milestones, and deployed onto your own cloud and AI provider accounts. See our <a href="/global">clients outside India</a> page and our <a href="/guides/hire-ai-development-company-india">buyer guide to hiring an Indian AI development team</a>.</p>
+<p>Bizgenix AI works remotely from Ahmedabad with a team of 24, and builds for businesses in the US, UK, UAE, Singapore, Australia and Canada. Small, single-workflow automations start from <strong>USD 500 or EUR 500</strong>, with a working first version on your data typically ready in <strong>7–10 working days</strong>. Larger multi-step systems are scoped in writing first, billed in milestones, and deployed onto your own cloud and AI provider accounts. See our <a href="/global">clients outside India</a> page and our <a href="/guides/hire-ai-development-company-india">buyer guide to hiring an Indian AI development team</a>.</p>
 `,
     faqs: [
       ['What is the minimum budget to build a custom AI workflow?', 'At Bizgenix AI, small single-workflow builds for international clients start from USD 500 or EUR 500, scoped in writing before work begins. Larger multi-system agents depend on integrations, approval rules and UI requirements.'],

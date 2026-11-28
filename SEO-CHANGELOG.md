@@ -170,3 +170,13 @@ Found while scoring the site against a 40-point check (workspace `playbook/COVER
 - `app/Clarity.tsx` (new) loads Microsoft Clarity project `zkqdrvfjms` (owner info@bizgenix.ai) after the page is interactive, only on host `bizgenix.ai`. Rendered from `app/layout.tsx`.
 - `/privacy-policy` section 7 names Clarity, what it records, that form entries are masked, and links the Microsoft Privacy Statement; "Last updated: 28 November 2026" added under the effective date.
 - No cookie banner exists on the site. Clarity's own default sets no cookies for EEA, UK and Swiss visitors without a consent signal; other visitors get its first-party cookies, as disclosed.
+
+## 28 Nov 2026 (late evening) — wording review of the evening block (Claude)
+
+Review of `eda3aa1` (Gemini's block). Numbers were sound; these were corrected:
+
+- `/playbooks/claude-prompt-shortcuts`: 24 literal backticks showed on the page (the builder did not convert inline code or italics). Fixed in workspace `scripts/build-playbooks.py`; one FAQ line that mentioned our own earlier notes removed.
+- `/ai-automation` and the cost guide said we were "serving clients in" six countries. Reworded to "builds for businesses in", the framing already used on `/global`.
+- AI-audit guide answer named two routines the body does not name; now given as examples.
+- Em dashes in the new answers replaced with plain punctuation (house style).
+- `public/llms.txt`: Company facts and People moved to the top; the Tally and Growth Intelligence section now follows Products.

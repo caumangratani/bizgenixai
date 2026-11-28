@@ -12,7 +12,7 @@ const content: ServiceContent = {
   eyebrow: 'AI Automation Agency',
   serviceType: 'AI automation agency and workflow automation services',
   h1: 'An AI automation agency in India that takes repeat work off your team.',
-  lead: 'Most businesses do not need a new system. They need the work between their existing systems to stop depending on someone remembering. Bizgenix AI has built 110+ AI solutions and automations across 60+ organisations and 20+ industries—sitting on top of Tally, Excel, email and WhatsApp, with a working prototype on your real data in 7–10 working days.',
+  lead: 'Most businesses do not need a new system. They need the work between their existing systems to stop depending on someone remembering. Bizgenix AI has built 110+ AI solutions and automations across 60+ organisations and 20+ industries. They sit on top of Tally, Excel, email and WhatsApp, with a working prototype on your real data in 7–10 working days.',
   primaryCta: 'Tell us the task you want automated',
   whatTitle: 'What we automate.',
   whatIntro: 'Workflow automation, WhatsApp automation and AI agents for the jobs that repeat every day and slip when people are busy.',
@@ -49,7 +49,7 @@ const content: ServiceContent = {
       { title: 'Built on Indian business tools', text: 'Connects directly to TallyPrime, WhatsApp Business Platform, IndiaMART, Justdial, Gmail, Outlook and Google Sheets without replacing your core software.' },
       { title: 'Human approval before external action', text: 'Payment reminders, quotations and customer messages pause for a named person’s review until the workflow earns trust.' },
       { title: 'Code and accounts stay yours', text: 'Systems run on your cloud hosting and API accounts with written documentation and handover, not locked inside a black box.' },
-      { title: 'India and global delivery', text: 'Based in Ahmedabad with a team of 24 serving Indian MSMEs and remote clients in the US, UK, UAE and Singapore from USD 500.' },
+      { title: 'India and global delivery', text: 'Based in Ahmedabad with a team of 24. We build for Indian MSMEs, and remotely for businesses in the US, UK, UAE and Singapore, where a single-workflow build starts from USD 500.' },
     ],
   },
   faqs: [

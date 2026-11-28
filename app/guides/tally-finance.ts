@@ -20,7 +20,7 @@ export const tallyFinanceGuides: Guide[] = [
     title: 'Connect Tally to AI: API, Connectors and MCP Explained',
     h1: 'How to connect Tally to AI: the Tally API, connectors and MCP, explained for owners',
     description: 'Does Tally have an API? How dashboards, connectors and MCP servers read TallyPrime data, what ChatGPT or Claude can safely do with it, and the questions to ask before you connect.',
-    answer: 'TallyPrime has no hosted cloud API. Every tool that connects Tally to AI—across the 4 routes available in November 2026 (Tally’s own TallyPrime MCP listed since September 2026, hosted connectors, open-source MCP servers and read-only decision systems)—reads from the computer where Tally runs, usually through TallyPrime’s local data interface (port 9000) or ODBC. What matters is read-only control, where data goes, and checking totals against Tally.',
+    answer: 'TallyPrime has no hosted cloud API. Every tool that connects Tally to AI, across the 4 routes available in November 2026 (Tally’s own TallyPrime MCP listed since September 2026, hosted connectors, open-source MCP servers and read-only decision systems), reads from the computer where Tally runs, usually through TallyPrime’s local data interface (port 9000) or ODBC. What matters is read-only control, where data goes, and checking totals against Tally.',
     date: '2026-11-22',
     updated: '2026-11-28',
     tags: ['Tally', 'MCP', 'AI in Accounting', 'Growth Intelligence'],
@@ -226,10 +226,10 @@ export const tallyFinanceGuides: Guide[] = [
 <p>Every Monday, replace last week’s forecast with what actually happened, roll a new week onto the end, and note the biggest difference between forecast and actual. After a few weeks you will know which customers and which cost lines your forecast keeps getting wrong, and the forecast becomes more accurate.</p>
 
 <h2>Separate balances from assumptions</h2>
-<p>A forecast combines observed accounting records with expectations. Label every amount clearly as a reconciled balance, a scheduled obligation, an expected receipt or a scenario assumption. A bill’s due date is not confirmation that the customer will pay on that day—keep a promised date, the person who confirmed it and the next follow-up beside the invoice.</p>
+<p>A forecast combines observed accounting records with expectations. Label every amount clearly as a reconciled balance, a scheduled obligation, an expected receipt or a scenario assumption. A bill’s due date is not confirmation that the customer will pay on that day. Keep a promised date, the person who confirmed it and the next follow-up beside the invoice.</p>
 <p>Before using an opening balance, confirm the company, currency, reporting cut-off and last successful sync against your finance team’s reconciled source. Identify restricted funds and borrowing headroom separately so they are not mistaken for freely available cash, and keep later revisions dated rather than silently overwriting last week’s forecast.</p>
 
-<h2>Illustrative week — not a customer result</h2>
+<h2>An illustrative week (not a customer result)</h2>
 <p>All figures below are fictional ₹ lakh, used only to show the arithmetic of comparing a base week against a delayed-receipt scenario:</p>
 <div class="tableWrap"><table>
 <thead><tr><th>Item (₹ lakh)</th><th>Base scenario</th><th>Delayed-receipt scenario</th></tr></thead>
@@ -239,7 +239,7 @@ export const tallyFinanceGuides: Guide[] = [
 <tr><td>Planned payments</td><td>9</td><td>9</td></tr>
 <tr><td><strong>Closing cash</strong></td><td><strong>5</strong></td><td><strong>2</strong></td></tr>
 </tbody></table></div>
-<p>Closing cash = opening cash + receipts − payments. If your internally agreed minimum cash floor is ₹3 lakh, the delayed scenario lands ₹1 lakh below that threshold. That is a planning flag to review receipts and payment timing with your finance adviser—never count a sent reminder or a promise to pay as cash collected until it reconciles in the bank.</p>
+<p>Closing cash = opening cash + receipts − payments. If your internally agreed minimum cash floor is ₹3 lakh, the delayed scenario lands ₹1 lakh below that threshold. That is a planning flag to review receipts and payment timing with your finance adviser. Never count a sent reminder or a promise to pay as cash collected until it reconciles in the bank.</p>
 
 <h2>What to review at the next meeting</h2>
 <ul>
@@ -272,7 +272,7 @@ export const tallyFinanceGuides: Guide[] = [
     title: 'AI in Accounting for Tally Users: What Works Today',
     h1: 'AI in accounting for Tally businesses: what works today, what does not, and where to start',
     description: 'A practical guide to AI in accounting for Indian businesses on Tally: the tasks AI does well, the ones it should not do, the guardrails to keep, and a three-step start for owners and CAs.',
-    answer: 'AI is useful in Tally accounting across 4 core jobs—answering ledger questions, drafting commentary, reading invoices and flagging unusual entries—while leaving judgement and posting to people. Start with read-only access and a 3-step rollout: clean bill-wise basics, one weekly question, and human approval before any entry or message leaves the system.',
+    answer: 'AI is useful in Tally accounting across 4 core jobs (answering ledger questions, drafting commentary, reading invoices and flagging unusual entries), while judgement and posting stay with people. Start with read-only access and a 3-step rollout: clean bill-wise basics, one weekly question, and human approval before any entry or message leaves the system.',
     date: '2026-11-22',
     updated: '2026-11-28',
     tags: ['AI in Accounting', 'Tally', 'Finance', 'Growth Intelligence'],
@@ -397,7 +397,7 @@ export const tallyFinanceGuides: Guide[] = [
     title: 'How to Implement AI Audit Automation in Your CA Firm',
     h1: 'How to implement AI audit automation in your CA firm: where to start and what to keep human',
     description: 'A practical plan for chartered accountant firms adding AI to audit work: which audit tasks AI helps with, data and confidentiality rules, documentation, Tally data checks, and a 60-day rollout.',
-    answer: 'Start AI audit automation with 2 high-volume, rule-based routines—Tally ledger scrutiny and bank-to-GST reconciliations—rolled out over 60 days alongside normal procedures. AI extracts documents, matches exceptions and drafts working-paper summaries, while partner judgement, sampling and sign-off stay human using approved company accounts.',
+    answer: 'Start AI audit automation with 2 high-volume, rule-based routines, for example checking Tally ledgers and matching bank entries to GST data, rolled out over 60 days alongside normal procedures. AI extracts documents, matches exceptions and drafts working-paper summaries, while partner judgement, sampling and sign-off stay human using approved company accounts.',
     date: '2026-11-22',
     updated: '2026-11-28',
     tags: ['AI for CA Firms', 'Audit', 'Tally'],

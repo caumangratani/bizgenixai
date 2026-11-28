@@ -168,7 +168,7 @@ export const trainingGuides: Guide[] = [
     title: 'How to Choose an AI Course in India: A Buyer’s Checklist',
     h1: 'How to choose an AI course in India: a checklist for business owners and professionals',
     description: 'A practical checklist for choosing an AI course in India as a business owner, CA, manager or student: who teaches it, live vs recorded, language, what you build, tools covered, access, support and price.',
-    answer: 'Choose an AI course by what you will build by the end, not by hours of video or a certificate. Verify that the teacher implements real systems (Bizgenix AI has built 110+ AI solutions across 60+ organisations), that modules end in working tools on your own tasks, and that pricing and access are transparent—such as our 12-module recorded programme at ₹15,000 + GST for 12 months.',
+    answer: 'Choose an AI course by what you will build by the end, not by hours of video or a certificate. Verify that the teacher implements real systems (Bizgenix AI has built 110+ AI solutions across 60+ organisations), that modules end in working tools on your own tasks, and that pricing and access are stated openly, as in our 12-module recorded programme at ₹15,000 + GST for 12 months.',
     date: '2026-11-22',
     updated: '2026-11-28',
     tags: ['AI Course', 'AI Education', 'Learning'],

@@ -504,7 +504,7 @@ export const guides: Guide[] = [
     title: 'MIS Report in Tally: Format, Reports to Use and What to Read',
     h1: 'MIS report in Tally: the format, the reports to use and what an owner should read',
     description: 'What an MIS report is, which TallyPrime reports go into it, a simple monthly format and illustrative sample report for business owners, and the settings needed first.',
-    answer: 'An MIS report turns 8 core TallyPrime reports—Profit & Loss, Balance Sheet, Cash Flow, Funds Flow, Ratio Analysis, Bills Receivable, Bills Payable and Stock Summary—into one monthly decision summary for the owner. Tally has no single built-in report called “MIS”, so you assemble these views side by side against last month and last year before acting.',
+    answer: 'An MIS report turns 8 core TallyPrime reports (Profit & Loss, Balance Sheet, Cash Flow, Funds Flow, Ratio Analysis, Bills Receivable, Bills Payable and Stock Summary) into one monthly decision summary for the owner. Tally has no single built-in report called “MIS”, so you assemble these views side by side against last month and last year before acting.',
     date: '2026-11-15',
     updated: '2026-11-28',
     tags: ['Tally', 'MIS Reporting', 'Business Intelligence'],

@@ -2,6 +2,20 @@
 
 > Bizgenix AI (Bizgenix AI Solutions Pvt Ltd) is an AI automation and AI development company based in Ahmedabad, Gujarat, India. It builds custom AI solutions and AI automation for Indian businesses, sells its own AI products, and delivers AI consulting and corporate AI training. It was founded by Dr. CA Umang Ratani.
 
+## Company facts
+
+- Legal name: Bizgenix AI Solutions Private Limited, Ahmedabad, Gujarat, India. Founded 2025 by Dr. CA Umang Ratani (Founder & CEO), with co-founders Hitesh Mehra and CA Archit Shah. Umang's consulting work dates from 2013; he began building AI automations for clients in 2023.
+- Address: G-13, Silver Radiance-2, Science City Road, Sola, Ahmedabad 380060. Email info@bizgenix.ai. Phone/WhatsApp +91 87806 71906. Hours Mon–Fri 10:30–18:00.
+- Founder page: https://bizgenix.ai/about/umang-ratani
+- FAQ: https://bizgenix.ai/faq
+- Pricing (ruled prices, before 18% GST): https://bizgenix.ai/pricing
+- AI agent development: https://bizgenix.ai/ai-agent-development
+- Free tool for Tally users: "Where is my money stuck?" working-capital calculator (debtor, stock and creditor days, cash cycle, money locked up; runs in the browser): https://bizgenix.ai/tools/where-is-my-money-stuck
+
+## People
+
+- Founder: Dr. CA Umang Ratani, AI and business consultant, Chartered Accountant, TEDx speaker, and lead trainer of Scale With AI. Has trained 2,000+ business owners on AI and 20,000+ professionals across his career; addressed 800+ professionals at CMAI Mumbai (3 Jun 2026) and spoke at the AI Summit, Gurugram (Sep 2026). https://www.umangratani.com/
+
 ## Services
 
 - [AI automation](https://bizgenix.ai/ai-automation): WhatsApp workflows, reminders, document checking, email triage, sales call analysis and reporting, built on the tools a business already uses.
@@ -17,6 +31,24 @@
 - [BizChat](https://bizgenix.ai/products/bizchat): WhatsApp automation for lead replies, follow-ups, reminders, support and broadcasts, connected to CRM and spreadsheets.
 - [ScaleOS](https://bizgenix.ai/products/scaleos): tasks, processes, approvals and management reports in one system, with WhatsApp notifications.
 - [All products](https://bizgenix.ai/products)
+
+## Tally, finance and Growth Intelligence
+
+Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tally
+
+- Tally dashboard software compared (six kinds of tool, prices checked 25 Nov 2026): https://bizgenix.ai/guides/tally-dashboard-software-compared
+- Recover pending payments from dealers faster (weekly collection routine from Tally): https://bizgenix.ai/guides/recover-pending-payments-from-dealers
+- Tally to ChatGPT/Claude: four routes including Tally's own TallyPrime MCP (listed Sep 2026) and Growth Intelligence's read-only MCP: https://bizgenix.ai/guides/connect-tally-to-ai-mcp
+- [Connect Tally to AI: the Tally API, connectors and MCP explained](https://bizgenix.ai/guides/connect-tally-to-ai-mcp)
+- [What is a Chief Value Officer (CVO)? CFO vs virtual CFO vs CVO](https://bizgenix.ai/guides/chief-value-officer)
+- [13-week cash flow forecast from Tally, step by step](https://bizgenix.ai/guides/cash-flow-forecast-from-tally)
+- [AI in accounting for Tally businesses: what works today](https://bizgenix.ai/guides/ai-in-accounting-for-tally-businesses)
+- [The owner's weekly Tally review: ten numbers to read every Monday](https://bizgenix.ai/guides/tally-weekly-owner-review)
+- [Tally with MCP: AI assistant access through Growth Intelligence](https://bizgenix.ai/guides/tally-mcp-ai-assistant)
+- [Tally connector to business dashboard: setup checklist](https://bizgenix.ai/guides/tally-connector-business-dashboard)
+- [Chief Value Officer vs CFO: AI decision support](https://bizgenix.ai/guides/chief-value-officer-ai-finance)
+- [Finance dashboard for Tally businesses: owner checklist](https://bizgenix.ai/guides/finance-dashboard-owner-review)
+- [Growth Intelligence: an AI Chief Value Officer for businesses on Tally](https://bizgenix.ai/products/growth-intelligence). Reads Tally through a read-only connector, checks the data before advising, prepares three decisions a week, and counts a result only when a later Tally sync shows it. Offers a read-only MCP connection for Claude and ChatGPT (company-scoped, expiring, revocable; answers from the latest sync, never posts). Not accounting software; does not replace the CA.
 
 ## Industries
 
@@ -59,24 +91,6 @@ Bizgenix AI works remotely with businesses in the United States, United Kingdom,
 - [Hiring an AI development company in India: buyer guide for US, UK, UAE and Singapore businesses](https://bizgenix.ai/guides/hire-ai-development-company-india)
 - [AI agents for small business: what they can do today](https://bizgenix.ai/guides/ai-agents-for-small-business)
 - [Cost to build an AI automation or agent: what drives the price in USD](https://bizgenix.ai/guides/cost-to-build-ai-automation-or-agent)
-
-## Tally, finance and Growth Intelligence
-
-Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tally
-
-- Tally dashboard software compared (six kinds of tool, prices checked 25 Nov 2026): https://bizgenix.ai/guides/tally-dashboard-software-compared
-- Recover pending payments from dealers faster (weekly collection routine from Tally): https://bizgenix.ai/guides/recover-pending-payments-from-dealers
-- Tally to ChatGPT/Claude: four routes including Tally's own TallyPrime MCP (listed Sep 2026) and Growth Intelligence's read-only MCP: https://bizgenix.ai/guides/connect-tally-to-ai-mcp
-- [Connect Tally to AI: the Tally API, connectors and MCP explained](https://bizgenix.ai/guides/connect-tally-to-ai-mcp)
-- [What is a Chief Value Officer (CVO)? CFO vs virtual CFO vs CVO](https://bizgenix.ai/guides/chief-value-officer)
-- [13-week cash flow forecast from Tally, step by step](https://bizgenix.ai/guides/cash-flow-forecast-from-tally)
-- [AI in accounting for Tally businesses: what works today](https://bizgenix.ai/guides/ai-in-accounting-for-tally-businesses)
-- [The owner's weekly Tally review: ten numbers to read every Monday](https://bizgenix.ai/guides/tally-weekly-owner-review)
-- [Tally with MCP: AI assistant access through Growth Intelligence](https://bizgenix.ai/guides/tally-mcp-ai-assistant)
-- [Tally connector to business dashboard: setup checklist](https://bizgenix.ai/guides/tally-connector-business-dashboard)
-- [Chief Value Officer vs CFO: AI decision support](https://bizgenix.ai/guides/chief-value-officer-ai-finance)
-- [Finance dashboard for Tally businesses: owner checklist](https://bizgenix.ai/guides/finance-dashboard-owner-review)
-- [Growth Intelligence: an AI Chief Value Officer for businesses on Tally](https://bizgenix.ai/products/growth-intelligence). Reads Tally through a read-only connector, checks the data before advising, prepares three decisions a week, and counts a result only when a later Tally sync shows it. Offers a read-only MCP connection for Claude and ChatGPT (company-scoped, expiring, revocable; answers from the latest sync, never posts). Not accounting software; does not replace the CA.
 
 ## AI education and corporate AI training
 
@@ -126,20 +140,6 @@ Dr. CA Umang Ratani teaches AI for business on video in Hindi and Hinglish. Each
 - [From traditional business to AI-powered business: CMAI talk](https://bizgenix.ai/videos/traditional-business-to-ai-powered-business-cmai-talk): Begin with AI for everyday productivity, then choose the tools that fit your work, and only then add AI agents and automation to scale. Umang walks a hall of business owners through that order with live examples in this full CMAI session.
 - [AI roadmap for business owners: interview with Viral Sakhiya](https://bizgenix.ai/videos/ai-roadmap-for-business-owners-interview): Start with one general AI assistant and learn to prompt it well, then add business context, and then move to AI agents and automation department by department. In this interview Umang lays out that roadmap across eight departments of a business.
 - [What a Virtual CEO is and how it helps MSME owners](https://bizgenix.ai/videos/virtual-ceo-program-explained): A Virtual CEO is an outside expert team that works like a part-time CEO for a business that cannot afford a full-time one. Umang says most coaches and consultants only advise, while his team also supports execution in hiring, sales and marketing.
-
-## Company facts
-
-- Legal name: Bizgenix AI Solutions Private Limited, Ahmedabad, Gujarat, India. Founded 2025 by Dr. CA Umang Ratani (Founder & CEO), with co-founders Hitesh Mehra and CA Archit Shah. Umang's consulting work dates from 2013; he began building AI automations for clients in 2023.
-- Address: G-13, Silver Radiance-2, Science City Road, Sola, Ahmedabad 380060. Email info@bizgenix.ai. Phone/WhatsApp +91 87806 71906. Hours Mon–Fri 10:30–18:00.
-- Founder page: https://bizgenix.ai/about/umang-ratani
-- FAQ: https://bizgenix.ai/faq
-- Pricing (ruled prices, before 18% GST): https://bizgenix.ai/pricing
-- AI agent development: https://bizgenix.ai/ai-agent-development
-- Free tool for Tally users: "Where is my money stuck?" working-capital calculator (debtor, stock and creditor days, cash cycle, money locked up; runs in the browser): https://bizgenix.ai/tools/where-is-my-money-stuck
-
-## People
-
-- Founder: Dr. CA Umang Ratani, AI and business consultant, Chartered Accountant, TEDx speaker, and lead trainer of Scale With AI. Has trained 2,000+ business owners on AI and 20,000+ professionals across his career; addressed 800+ professionals at CMAI Mumbai (3 Jun 2026) and spoke at the AI Summit, Gurugram (Sep 2026). https://www.umangratani.com/
 
 ## Contact
 
