@@ -8,9 +8,10 @@ export const metadata: Metadata = {
   description: 'AI automation company in Ahmedabad. Bizgenix AI builds AI agents, workflow and WhatsApp automation, CRM, voice AI and custom AI solutions for Indian businesses.',
   applicationName: 'Bizgenix AI',
   icons: {
-    icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
-    shortcut: ['/favicon.svg'],
-    apple: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
+    // 192px PNG (22 KB). The old /favicon.svg was 700 KB because it embeds a full-size bitmap; every page paid for it.
+    icon: [{ url: '/favicon-192.png', type: 'image/png', sizes: '192x192' }],
+    shortcut: ['/favicon-192.png'],
+    apple: [{ url: '/favicon-192.png', type: 'image/png', sizes: '192x192' }],
   },
   openGraph: {
     type: 'website',

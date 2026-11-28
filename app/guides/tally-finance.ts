@@ -472,6 +472,7 @@ export const tallyFinanceGuides: Guide[] = [
 <li><strong>Automate:</strong> the Monday list from Tally, reminders before and on the due date, the call list for the week, and the summary for the owner.</li>
 <li><strong>Keep human:</strong> the calls, dispute decisions, credit holds and anything that affects a long relationship.</li>
 </ul>
+<p>Collections are usually the first process a factory automates. The other places manufacturers start are on our page on <a href="/industries/manufacturing">AI automation for manufacturers</a>.</p>
 <p>We built this pattern for a silk mill in Surat, where collection now follows an automated flow with follow-ups assigned and logged (<a href="/case-studies/bhaskar-silk-mills">case study</a>), and a cheque reminder system that sends WhatsApp alerts before deposit dates (<a href="/case-studies/cheque-reminder-system">case study</a>).</p>
 
 <h2>Numbers to watch every month</h2>

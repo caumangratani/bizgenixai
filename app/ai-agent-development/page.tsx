@@ -70,6 +70,7 @@ const content: ServiceContent = {
   related: [
     { label: 'Custom AI solutions', href: '/custom-solutions' },
     { label: 'AI automation', href: '/ai-automation' },
+    { label: 'AI automation for manufacturers', href: '/industries/manufacturing' },
     { label: 'AI agents for small business (guide)', href: '/guides/ai-agents-for-small-business' },
     { label: 'Voice AI', href: '/products/voice-ai' },
     { label: 'Biz Chat on WhatsApp', href: '/products/bizchat' },

@@ -52,6 +52,7 @@ const content: ServiceContent = {
     { label: 'BizChat: WhatsApp automation', href: '/products/bizchat' },
     { label: 'Custom AI solutions', href: '/custom-solutions' },
     { label: 'AI for real estate and construction', href: '/industries/real-estate-construction' },
+    { label: 'AI automation for manufacturers', href: '/industries/manufacturing' },
   ],
 };
 

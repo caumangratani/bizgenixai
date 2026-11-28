@@ -5,7 +5,7 @@ import styles from './IndustriesSection.module.css';
 import { observeVisibility } from './observeVisibility';
 
 const industries: { title: string; description: string; image: string; alt: string; tag: string; href?: string }[] = [
-  { title: 'Manufacturing', description: 'Production planning, quality inspection, machine data, inventory and MIS automation.', image: 'manufacturing', alt: 'Machinery and production lines inside a manufacturing facility', tag: 'PRODUCTION & OPERATIONS' },
+  { title: 'Manufacturing', description: 'Production planning, quality inspection, machine data, inventory and MIS automation.', image: 'manufacturing', alt: 'Machinery and production lines inside a manufacturing facility', tag: 'PRODUCTION & OPERATIONS', href: '/industries/manufacturing' },
   { title: 'Textile', description: 'Fabric workflows, production tracking, payment recovery, order visibility and Tally integration.', image: 'textile', alt: 'Colorful fabric rolls arranged in a textile workshop', tag: 'ORDERS & MARGINS', href: '/industries/textile' },
   { title: 'Real Estate & Construction', description: 'Lead qualification, site-visit scheduling, CRM follow-ups, billing and project workflows.', href: '/industries/real-estate-construction', image: 'construction', alt: 'Tower crane above a building under construction', tag: 'LEADS & PROJECTS' },
   { title: 'Healthcare', description: 'Appointment handling, patient communication, records, billing and operational reporting.', image: 'healthcare', alt: 'Doctor speaking with a patient at their hospital bedside', tag: 'PATIENTS & CARE' },

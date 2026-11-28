@@ -52,6 +52,7 @@ const content: ServiceContent = {
     { label: 'AI automation', href: '/ai-automation' },
     { label: 'Custom AI solutions', href: '/custom-solutions' },
     { label: 'AI for textile manufacturers', href: '/industries/textile' },
+    { label: 'AI automation for manufacturers', href: '/industries/manufacturing' },
   ],
 };
 

@@ -144,3 +144,12 @@ All 18 case-study cards now render in the initial HTML without Load More. Filter
 
 ## 25 November 2026 — weekly buyer guidance
 Adapted Claude Monday consulting draft into a company-team guide, removing unsubstantiated client outcomes and blanket timing/ownership promises. Added CRM demo acceptance and weekly lead-review FAQs. No GI-owned pages changed.
+
+## 28 Nov 2026 (late) — orphan page linked, phone page weight halved (Claude)
+
+Found while scoring the site against a 40-point check (workspace `playbook/COVERAGE-MAP.md`).
+
+- `/industries/manufacturing` had no link from any page (crawl of all 129 sitemap pages). Now linked from the home industries card, the textile and real-estate industry pages, `/ai-agent-development` and the dealer-payments guide.
+- `app/HeroAnimation.tsx`: each `<source>` carries `media` at the CSS breakpoint (760px), so a device fetches one hero video, not both. Home page on a phone: 2,502 KB → 1,206 KB (Lighthouse 13.6, mobile).
+- `app/layout.tsx`: favicon is `/favicon-192.png` (22 KB). `/favicon.svg` was 703 KB (an embedded bitmap) and loaded on every page. The SVG file is left in place.
+- Not changed: the one-time splash intro (`app/SplashIntro.tsx`, ~2.9 s). It is the largest element on the home page and the reason lab LCP is 3.7 s on a phone. Search Console (28 Nov): 32 mobile URLs "need improvement" for LCP, 0 good. Design decision for Umang.
