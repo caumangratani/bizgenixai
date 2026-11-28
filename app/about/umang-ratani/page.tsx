@@ -77,6 +77,7 @@ const content: ServiceContent = {
   ],
   related: [
     { label: 'About Bizgenix AI', href: '/about' },
+    { label: 'Watch Umang teach: video library', href: '/videos' },
     { label: 'Corporate AI training', href: '/corporate-ai-training' },
     { label: 'Scale With AI', href: '/scale-with-ai' },
     { label: 'Growth Intelligence', href: '/products/growth-intelligence' },

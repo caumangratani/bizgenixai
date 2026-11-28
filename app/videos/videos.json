@@ -1,0 +1,1070 @@
+{
+ "channel": {
+  "url": "https://www.youtube.com/@umangratani",
+  "counted": "on 28 November 2026",
+  "longVideos": 228,
+  "shorts": 346,
+  "live": 16
+ },
+ "videos": [
+  {
+   "slug": "what-is-artificial-intelligence-for-business-owners",
+   "youtubeId": "2KZUxqnmrq0",
+   "title": "What is AI? A plain introduction for business owners",
+   "question": "What is artificial intelligence, in simple words, and how can a business owner use it?",
+   "answer": "In simple words, AI is a smart assistant that can do much of the work you now do yourself. Umang says most people hand it only small jobs such as email replies, although it can do far more, so what matters is how you use it.",
+   "summary": "Umang opens a live workshop for apparel manufacturers and traders by asking the audience what AI means to them and how they use it today. People mention photo shoots and reels, and one person describes AI as a way to turn an idea into reality faster. Umang then gives his own plain definition: AI is a smart assistant that can take over much of your daily work. He says most people use it far below its ability, for example only to reply to an email. He shares a workbook for the audience to download, names the session theme of moving from a traditional business to an AI-powered business, and explains why he teaches foundations before practical demos. The video is in Hinglish, with some audience answers in English.",
+   "keyPoints": [
+    "The simplest way to understand AI is as a smart assistant that can do much of your routine work.",
+    "Most people give AI small tasks like email replies, which uses only a fraction of what it can do.",
+    "How much value you get from AI depends on how you use it, not only on the tool.",
+    "The session theme is moving from a traditional business to an AI-powered business, starting with the foundations.",
+    "Umang says that once the foundations are clear, whatever comes next in AI becomes easier to learn."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "Welcome and opening question"
+    },
+    {
+     "start": 30,
+     "title": "Audience answers: what is AI"
+    },
+    {
+     "start": 120,
+     "title": "AI as a smart assistant"
+    },
+    {
+     "start": 150,
+     "title": "How capable AI is today"
+    },
+    {
+     "start": 210,
+     "title": "Using AI below its ability"
+    },
+    {
+     "start": 240,
+     "title": "Session plan and workbook download"
+    },
+    {
+     "start": 360,
+     "title": "From traditional to AI-powered business"
+    },
+    {
+     "start": 390,
+     "title": "Why foundations come first"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "published": "2026-10-15T18:48:51+05:30",
+   "durationSec": 432,
+   "language": "Hindi",
+   "topic": "AI basics and prompting",
+   "setting": "Part 1 of the CMAI AI series, recorded at a live session for business owners.",
+   "originalTitle": "What Is Artificial Intelligence? AI for Business Beginners | Dr. CA Umang Ratani | Part 1",
+   "related": [
+    {
+     "label": "Free AI prompt library",
+     "href": "/resources/ai-prompt-library-for-business"
+    },
+    {
+     "label": "AI dictionary for business owners",
+     "href": "/resources/ai-dictionary-for-business-owners"
+    }
+   ]
+  },
+  {
+   "slug": "how-to-write-better-ai-prompts",
+   "youtubeId": "rDUJqhBwBY4",
+   "title": "How to write better AI prompts: role, outcome, context",
+   "question": "How do I write better prompts so that ChatGPT gives useful results for my business?",
+   "answer": "Give the AI clear instructions: tell it what role to play, say exactly what outcome you want, and share context about you and your business. Umang says weak results usually come from a vague request, not from the AI tool, so better instructions bring better output.",
+   "summary": "Umang explains prompting, the skill of giving an AI assistant clear instructions, to an audience of apparel manufacturers and traders. He uses two stories, a genie that grants a badly worded wish and a child asked to bring a glass, to show that poor results usually come from the request and not from the AI. He introduces the main AI apps, ChatGPT, Claude, Gemini and Grok, and shows the mic button for speaking a prompt instead of typing it. In a live ChatGPT demo he asks for a job description with a simple prompt. He then gives three rules: assign a role, state the outcome you want, and give context about your business. The video is in Hinglish and needs no technical background.",
+   "keyPoints": [
+    "Prompting is the skill of giving AI clear instructions, much like briefing a new employee before expecting good work.",
+    "When the output is poor, check your instruction first; Umang says the request is usually the problem, not the AI.",
+    "Use the mic button in AI apps to speak your prompt in Hindi, Gujarati or English instead of typing.",
+    "Rule one: give the AI a role, so it draws on knowledge specific to your field.",
+    "Rule two: say clearly what final outcome you want, because the AI works out the logic itself.",
+    "Rule three: give context about who you are, your company and your customers to get more relevant results."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "The genie story"
+    },
+    {
+     "start": 60,
+     "title": "What prompting means"
+    },
+    {
+     "start": 210,
+     "title": "The glass of water example"
+    },
+    {
+     "start": 300,
+     "title": "The main AI apps"
+    },
+    {
+     "start": 390,
+     "title": "Mic button and a simple demo"
+    },
+    {
+     "start": 540,
+     "title": "Rule one: give AI a role"
+    },
+    {
+     "start": 600,
+     "title": "Rule two: state the outcome"
+    },
+    {
+     "start": 690,
+     "title": "Rule three: give context"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Grok",
+    "Sarvam AI"
+   ],
+   "published": "2026-11-07T17:23:42+05:30",
+   "durationSec": 820,
+   "language": "Hindi",
+   "topic": "AI basics and prompting",
+   "setting": "Part 2 of the CMAI AI series, recorded at a live session for business owners.",
+   "originalTitle": "How to Write Better AI Prompts | Prompt Engineering for Business Owners | Part 2",
+   "related": [
+    {
+     "label": "Free AI prompt library",
+     "href": "/resources/ai-prompt-library-for-business"
+    },
+    {
+     "label": "AI dictionary for business owners",
+     "href": "/resources/ai-dictionary-for-business-owners"
+    }
+   ]
+  },
+  {
+   "slug": "context-engineering-race-framework",
+   "youtubeId": "WXscfoMlVg8",
+   "title": "RACE framework and meta prompting for better AI results",
+   "question": "How can I get better results from ChatGPT or Claude without writing long prompts myself?",
+   "answer": "Structure your prompt with the four-part RACE framework: role, action, context and expectation. Better still, ask the AI itself to write the detailed prompt for you, review it, and then use that prompt to get the final work done.",
+   "summary": "Umang continues his prompting lesson for apparel manufacturers and traders. He recaps the rules of a good prompt: give a role, a clear outcome, context and examples. In a live demo he rewrites a job description request, telling the AI to act as a recruitment specialist and explaining what his firm does, and the tool researches before it answers. He then presents the RACE framework: role, action, context and expectation, where expectation covers format, length, language and tone. Finally he shows meta prompting: he asks the AI to write the prompt itself and gets a far more detailed prompt than his own. The video is in Hinglish and needs no technical background.",
+   "keyPoints": [
+    "A good prompt has four parts: a role, a clear outcome, context about you, and examples of what you want.",
+    "The RACE framework structures a prompt as role, action, context and expectation, including format, length, language and tone.",
+    "More context gives more relevant output; Umang says Claude builds his documents well because it already knows his preferences.",
+    "Meta prompting means asking the AI to write the prompt first, then using that prompt for the real task.",
+    "With meta prompting you no longer need to comment on social media videos to receive someone else's prompt.",
+    "Learn prompting before debating which AI tool is better; the same tool answered better with a better prompt."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "Recap: role, outcome, context, examples"
+    },
+    {
+     "start": 60,
+     "title": "Demo: a better job description prompt"
+    },
+    {
+     "start": 150,
+     "title": "What the better prompt included"
+    },
+    {
+     "start": 210,
+     "title": "Learn prompting before comparing tools"
+    },
+    {
+     "start": 270,
+     "title": "The RACE framework"
+    },
+    {
+     "start": 300,
+     "title": "No need to comment for prompts"
+    },
+    {
+     "start": 360,
+     "title": "Let AI write the prompt"
+    },
+    {
+     "start": 450,
+     "title": "From short prompt to detailed prompt"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "Claude"
+   ],
+   "published": "2026-11-17T17:07:39+05:30",
+   "durationSec": 523,
+   "language": "Hindi",
+   "topic": "AI basics and prompting",
+   "setting": "Part 3 of the CMAI AI series, recorded at a live session for business owners.",
+   "originalTitle": "Context Engineering + RACE Framework for Better ChatGPT & Claude Results | CMAI Part 3",
+   "related": [
+    {
+     "label": "Free AI prompt library",
+     "href": "/resources/ai-prompt-library-for-business"
+    },
+    {
+     "label": "AI dictionary for business owners",
+     "href": "/resources/ai-dictionary-for-business-owners"
+    }
+   ]
+  },
+  {
+   "slug": "ai-prompting-explained-in-hindi",
+   "youtubeId": "NMBkH3DkGMk",
+   "title": "Prompt engineering basics: the RTCCF framework in Hindi",
+   "question": "How do I write better prompts for ChatGPT so that it gives useful answers for my business?",
+   "answer": "Give the AI clear instructions, the way you would brief a new employee. Umang's five-part RTCCF framework says to state the Role, the Task, the Context, the Constraints and the Format, and to be clear about the output you want before you type anything.",
+   "summary": "Umang opens his short AI for Business series with the skill he says every business owner needs first: prompting. He compares AI to a new employee who needs the right instructions, and to a genie that gives exactly what you ask for, even when you ask badly. He then walks through the RTCCF framework on his screen: give the AI a role, state the task clearly, add context, set constraints on what it must not do, and name the output format. He closes with his rule of 'UGPT before ChatGPT': know the output you want before you prompt. The video is in Hindi/Hinglish. It suits business owners, professionals and beginners who are starting with tools like ChatGPT.",
+   "keyPoints": [
+    "Prompting is the skill of giving AI the right instructions so that it returns the right output.",
+    "Start a prompt with a role, such as an experienced salesperson or a senior chartered accountant.",
+    "State the task clearly. The more clearly you describe the output you need, the better the result.",
+    "Give context, and set constraints that tell the AI what it must not do and where to stop.",
+    "Name the format you want, for example a bullet list, a WhatsApp message or a PDF.",
+    "Before you prompt, decide what output you want. Umang calls this 'UGPT before ChatGPT'."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "Introducing the AI for Business series"
+    },
+    {
+     "start": 60,
+     "title": "Why prompting comes first"
+    },
+    {
+     "start": 120,
+     "title": "The genie story on asking"
+    },
+    {
+     "start": 210,
+     "title": "RTCCF framework: role and task"
+    },
+    {
+     "start": 270,
+     "title": "Context, constraints and format"
+    },
+    {
+     "start": 330,
+     "title": "Other frameworks shown on screen"
+    },
+    {
+     "start": 360,
+     "title": "Know your output before prompting"
+    }
+   ],
+   "tools": [
+    "ChatGPT"
+   ],
+   "published": "2026-07-21T19:33:10+05:30",
+   "durationSec": 397,
+   "language": "Hindi",
+   "topic": "AI basics and prompting",
+   "setting": "Episode 1 of the series “AI for Business in 5 Minutes”.",
+   "originalTitle": "AI Prompting Explained in Hindi | Learn Prompt Engineering in 5 Minutes | Business AI Series Ep.1",
+   "related": [
+    {
+     "label": "Free AI prompt library",
+     "href": "/resources/ai-prompt-library-for-business"
+    },
+    {
+     "label": "AI dictionary for business owners",
+     "href": "/resources/ai-dictionary-for-business-owners"
+    }
+   ]
+  },
+  {
+   "slug": "prompting-method-for-business-owners",
+   "youtubeId": "y0cUIZBqO38",
+   "title": "How to use meta prompting to make AI write your prompts",
+   "question": "How can I get ChatGPT to write a good prompt for me?",
+   "answer": "Ask the AI to write the prompt for you, a method called meta prompting, then copy that prompt back in to do the actual task. Umang also shows the screenshot technique: upload a screenshot of work you like and ask the AI to draft the prompt behind it.",
+   "summary": "In this short episode Umang teaches meta prompting to business owners and anyone starting with AI. He first recaps his prompting framework: give the AI a role, a task, context and the output you want. In ChatGPT he drafts a reply to an email twice, once with a plain request and once with the framework added, to show the difference. He then asks ChatGPT to write the prompt itself and gets a detailed prompt with a role and instructions, which can then be used for the task. He also recommends speaking prompts with the mic button. He ends with the screenshot technique: take a screenshot of an image or website you like and ask any AI tool to write the prompt for it. The video is in Hinglish.",
+   "keyPoints": [
+    "Meta prompting means asking the AI to write the prompt, then using that prompt to get the actual work done.",
+    "A structured prompt with a role, clear instructions and examples gives a better email reply than a plain request.",
+    "Paste your prompting framework into the chat and ask the AI to build a full prompt based on it.",
+    "Use the mic button to speak your prompts; Umang says he now dictates most of his instructions.",
+    "Screenshot technique: upload a screenshot of an image or website you like and ask the AI for its prompt."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "Introduction to the episode"
+    },
+    {
+     "start": 30,
+     "title": "Recap of the prompting framework"
+    },
+    {
+     "start": 90,
+     "title": "A plain prompt for an email reply"
+    },
+    {
+     "start": 150,
+     "title": "The same reply with a framework"
+    },
+    {
+     "start": 210,
+     "title": "What meta prompting means"
+    },
+    {
+     "start": 270,
+     "title": "Live demo: AI writes the prompt"
+    },
+    {
+     "start": 360,
+     "title": "The screenshot technique"
+    },
+    {
+     "start": 420,
+     "title": "Wrap-up of the episode"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+   ],
+   "published": "2026-07-24T18:26:28+05:30",
+   "durationSec": 447,
+   "language": "Hindi",
+   "topic": "AI basics and prompting",
+   "setting": "Episode 2 of the series “AI for Business in 5 Minutes”.",
+   "originalTitle": "The Prompting Secret Every Business Owner Must Know | AI for Business in 5 Minutes Ep.2",
+   "related": [
+    {
+     "label": "Free AI prompt library",
+     "href": "/resources/ai-prompt-library-for-business"
+    },
+    {
+     "label": "AI dictionary for business owners",
+     "href": "/resources/ai-dictionary-for-business-owners"
+    }
+   ]
+  },
+  {
+   "slug": "chatgpt-custom-instructions-and-ai-data-privacy",
+   "youtubeId": "rBXXAMQoGyo",
+   "title": "How to set custom instructions and privacy in ChatGPT",
+   "question": "How do I set custom instructions in ChatGPT, and is my business data safe with AI tools?",
+   "answer": "Open Settings, go to Personalization and fill in Custom Instructions with who you are and how you work, so you need not repeat it each time. For privacy, Umang says the tools let you choose in their privacy settings whether your chats are used to improve the model.",
+   "summary": "Umang shows how to stop repeating your background every time you use an AI tool. In ChatGPT he opens Settings, then Personalization, then Custom Instructions, and he shows the context he has saved in Claude: his company, his work, brand colours and tagline. He asks the audience to write a document about themselves in their own words and add it there. He advises keeping personal matters out of a work account, because they spoil the context, and suggests a separate account for personal use. He then answers the data privacy question and shows the setting that controls whether your chats help train the model. He also covers the screenshot technique for getting prompts and why businesses should adopt AI now. The video is in Hinglish.",
+   "keyPoints": [
+    "Custom Instructions sit under Settings and Personalization in ChatGPT; Umang says most AI tools offer a similar option.",
+    "Save your company details, work, tone, brand colours and tagline once, so every answer starts with your context.",
+    "Write the description of yourself in your own words; Umang says you should not outsource that thinking to AI.",
+    "Keep personal chats out of your work account, because unrelated details spoil the context the AI builds about you.",
+    "Use separate accounts for professional and personal use if you want AI help with both.",
+    "Check the privacy settings in each AI tool to choose whether your conversations are used to improve the model."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "The screenshot technique for prompts"
+    },
+    {
+     "start": 120,
+     "title": "Custom instructions in ChatGPT settings"
+    },
+    {
+     "start": 180,
+     "title": "What Umang saved in Claude"
+    },
+    {
+     "start": 240,
+     "title": "Write your own context document"
+    },
+    {
+     "start": 300,
+     "title": "Keep personal matters out"
+    },
+    {
+     "start": 420,
+     "title": "Separate work and personal accounts"
+    },
+    {
+     "start": 510,
+     "title": "Data privacy and training settings"
+    },
+    {
+     "start": 690,
+     "title": "Why businesses should adopt AI now"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "Claude",
+    "Gemini"
+   ],
+   "published": "2026-11-20T18:43:37+05:30",
+   "durationSec": 834,
+   "language": "Hindi",
+   "topic": "AI tools in practice",
+   "setting": "Part 4 of the CMAI AI series, recorded at a live session for business owners.",
+   "originalTitle": "ChatGPT Custom Instructions & AI Data Privacy: Complete Setup Guide | CMAI Part 4 | Dr. Umang Ratani",
+   "related": [
+    {
+     "label": "Complete Claude guide",
+     "href": "/resources/complete-claude-ai-guide"
+    },
+    {
+     "label": "Claude Projects vs Cowork",
+     "href": "/guides/claude-projects-vs-cowork"
+    }
+   ]
+  },
+  {
+   "slug": "agentic-ai-gemini-gmail-calendar-drive",
+   "youtubeId": "Gm7BxHGciYc",
+   "title": "What is agentic AI? Gemini demo with Calendar and Gmail",
+   "question": "What is agentic AI and how is it different from generative AI?",
+   "answer": "Generative AI creates text, images or video, while agentic AI carries out the task for you, like an employee. Umang shows this in Gemini, where typing @ connects Google apps, so a single instruction schedules a meeting in Google Calendar.",
+   "summary": "Umang explains the difference between generative AI and agentic AI for an audience of apparel manufacturers and traders. Generative AI produces text, images and video. Agentic AI completes the task itself, like an employee who works for you. He recalls that ChatGPT earlier only listed the steps for adding a calendar entry. He then opens Gemini, types @ to bring up Google apps, picks Google Calendar and has a meeting scheduled from a single instruction. He suggests planning the whole week this way, with reminders. He also describes asking Gemini to find inquiry emails in Gmail and list them in a Google Sheet, and how it found an old photo in his Google Drive from a description. The video is in Hinglish.",
+   "keyPoints": [
+    "Generative AI creates content such as text, images and video; agentic AI goes further and completes the task.",
+    "In Gemini, typing @ shows connected Google apps such as Calendar, Gmail and Drive inside the same chat.",
+    "A single instruction in Gemini can create a Google Calendar meeting, without you opening the calendar yourself.",
+    "You can dictate your whole week's meetings in one sitting and let Calendar reminders keep you on schedule.",
+    "Gemini can search Gmail for keywords such as inquiry and put the matching emails into a Google Sheet.",
+    "Umang describes finding an old photo in Google Drive by giving Gemini only a description of it."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "What generative AI means"
+    },
+    {
+     "start": 30,
+     "title": "What agentic AI means"
+    },
+    {
+     "start": 60,
+     "title": "When ChatGPT only listed steps"
+    },
+    {
+     "start": 120,
+     "title": "The @ shortcut in Gemini"
+    },
+    {
+     "start": 150,
+     "title": "Demo: scheduling a calendar meeting"
+    },
+    {
+     "start": 180,
+     "title": "Planning the whole week"
+    },
+    {
+     "start": 240,
+     "title": "Gmail inquiries into a Google Sheet"
+    },
+    {
+     "start": 300,
+     "title": "Finding an old photo in Drive"
+    }
+   ],
+   "tools": [
+    "Gemini",
+    "ChatGPT",
+    "Google Calendar",
+    "Gmail",
+    "Google Sheets",
+    "Google Drive"
+   ],
+   "published": "2026-11-24T19:15:13+05:30",
+   "durationSec": 373,
+   "language": "Hindi",
+   "topic": "AI tools in practice",
+   "setting": "Part 5 of the CMAI AI series, recorded at a live session for business owners.",
+   "originalTitle": "What Is Agentic AI? Schedule Meetings & Automate Gmail with Gemini | CMAI Part 5 | Dr. Umang Ratani",
+   "related": [
+    {
+     "label": "AI agents for small business",
+     "href": "/guides/ai-agents-for-small-business"
+    },
+    {
+     "label": "AI agent development",
+     "href": "/ai-agent-development"
+    }
+   ]
+  },
+  {
+   "slug": "chatgpt-hallucination-and-notebooklm",
+   "youtubeId": "Q_z8_KlE-3k",
+   "title": "Why AI gives fake answers and how NotebookLM helps",
+   "question": "Why does ChatGPT sometimes give fake or wrong answers, and how can I get answers from my own documents?",
+   "answer": "AI can invent facts, such as court cases that do not exist, and it loses track when you give it very long documents, so always verify its output. Umang recommends Google NotebookLM, which answers by reading the documents or links you add as sources.",
+   "summary": "Umang warns an audience of apparel manufacturers and traders about two problems with AI. First, it can make things up: he tells of a lawyer whose ChatGPT-drafted reply cited court cases that did not exist. Second, when given a very long document, it starts to forget details. His advice is to verify every output. He then demonstrates Google NotebookLM, which answers by reading the sources you add. He suggests uploading SOPs and FAQs so staff and customers can get answers from them. In a live demo he adds a website link as a source, generates an infographic and an explainer video, asks for a website audit, and changes the output language to Marathi. The video is in Hinglish.",
+   "keyPoints": [
+    "Never treat AI output as final; verify facts, citations and case references before you use them anywhere.",
+    "If you ask AI for supporting cases and none exist, it may generate ones that look real.",
+    "NotebookLM answers from the documents you add as sources, an approach Umang calls RAG.",
+    "Upload your SOPs and FAQs to NotebookLM and share the link so repeated questions get answered from them.",
+    "From one website link, NotebookLM's Studio can create an infographic and an explainer video in a few clicks.",
+    "You can change the output language in NotebookLM settings, for example to Marathi, and set the infographic to portrait."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "Problem one: fake case citations"
+    },
+    {
+     "start": 120,
+     "title": "Problem two: AI forgets long documents"
+    },
+    {
+     "start": 180,
+     "title": "NotebookLM answers from your documents"
+    },
+    {
+     "start": 300,
+     "title": "Demo: adding a website link"
+    },
+    {
+     "start": 390,
+     "title": "Generating an infographic and video"
+    },
+    {
+     "start": 540,
+     "title": "Asking for a website audit"
+    },
+    {
+     "start": 600,
+     "title": "Infographic result and daily content"
+    },
+    {
+     "start": 660,
+     "title": "Marathi output and custom format"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "NotebookLM"
+   ],
+   "published": "2026-11-27T18:08:36+05:30",
+   "durationSec": 742,
+   "language": "Hindi",
+   "topic": "AI tools in practice",
+   "setting": "Part 6 of the CMAI AI series, recorded at a live session for business owners.",
+   "originalTitle": "ChatGPT Hallucination Problem Solved? Fake Case Study Story + NotebookLM Demo | CMAI Part 6",
+   "related": [
+    {
+     "label": "Free AI prompt library",
+     "href": "/resources/ai-prompt-library-for-business"
+    },
+    {
+     "label": "AI dictionary for business owners",
+     "href": "/resources/ai-dictionary-for-business-owners"
+    }
+   ]
+  },
+  {
+   "slug": "claude-cowork-explained",
+   "youtubeId": "39bsC9SWgqo",
+   "title": "What Claude Cowork is and what it can do on your computer",
+   "question": "What is Claude Cowork and how can a business owner use it to automate work on a computer?",
+   "answer": "Claude Cowork is a feature from Anthropic that lets non-technical users give Claude an instruction and have it work on files and folders on their computer, like an agent. Examples in the video include summarising documents and podcast files, making notes and organising a cluttered desktop.",
+   "summary": "Umang explains Cowork, a new feature in Claude from Anthropic. He says Claude Code already let people run tasks on their computer through commands, and Cowork brings the same agent-style help to non-technical users. He shows the Cowork option next to Chat and lists tasks such as summarising documents, making notes from files and creating a new document from existing ones. He also mentions scheduling meetings through Google Calendar. He then reads out posts from early users who asked Cowork to review and summarise podcast files and to organise a cluttered desktop into folders. The video is in Hindi/Hinglish. It is for business owners who want to hand routine computer work to an AI agent. It is an overview, not a step-by-step setup guide.",
+   "keyPoints": [
+    "Cowork appears as an option next to Chat in Claude and works on files stored on your computer.",
+    "It is meant for non-technical people who do not want to use Claude Code or a terminal.",
+    "With an instruction, Cowork can summarise documents, make notes or create a new document from existing files.",
+    "Early users quoted in the video asked it to summarise podcast files and organise a cluttered desktop.",
+    "You can give the instruction and leave. Cowork keeps working while you attend a meeting or do other work."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "What Claude Cowork is"
+    },
+    {
+     "start": 30,
+     "title": "Cowork tasks on your files"
+    },
+    {
+     "start": 90,
+     "title": "User example: summarising podcast files"
+    },
+    {
+     "start": 150,
+     "title": "User example: organising a desktop"
+    },
+    {
+     "start": 180,
+     "title": "Give instructions and step away"
+    },
+    {
+     "start": 210,
+     "title": "More user reactions and closing"
+    }
+   ],
+   "tools": [
+    "Claude",
+    "Claude Cowork",
+    "Claude Code",
+    "Google Calendar"
+   ],
+   "published": "2026-01-13T10:14:43+05:30",
+   "durationSec": 275,
+   "language": "Hindi",
+   "topic": "AI tools in practice",
+   "setting": "Published on the Umang Ratani YouTube channel.",
+   "originalTitle": "Claude Co -work, 100x your Productivity - Introducing Cowork: Claude Code for the rest of your work.",
+   "related": [
+    {
+     "label": "Complete Claude guide",
+     "href": "/resources/complete-claude-ai-guide"
+    },
+    {
+     "label": "Claude Projects vs Cowork",
+     "href": "/guides/claude-projects-vs-cowork"
+    }
+   ]
+  },
+  {
+   "slug": "chatgpt-operator-demo",
+   "youtubeId": "yHldzxn1RZs",
+   "title": "What ChatGPT Operator is: a live demo for business research",
+   "question": "What is ChatGPT Operator and how can I use it for business research?",
+   "answer": "ChatGPT Operator is an AI agent that opens its own web browser and completes a task step by step, instead of only replying with text. In the demo, Umang uploads a file and asks for market research for a visa consulting business, and Operator visits several websites and returns suggestions.",
+   "summary": "Umang gives a first-time live demo of Operator, the agent feature he has in ChatGPT's Pro plan. He explains that earlier ChatGPT use was text-based, while Operator acts like an employee: it goes to the internet, researches, and completes the steps needed to bring back a result. He opens the Operator interface, shows its sample use cases, uploads a PDF and asks it to do market research and suggest strategies for a client in visa consulting. Operator opens a separate browser, reads the PDF, visits several websites and returns data points. He does not show the full strategy output. The video is in Hindi/Hinglish. It is for business owners, coaches and consultants who want to understand agentic AI.",
+   "keyPoints": [
+    "Operator works as an agent: it researches on the internet and carries out steps to deliver a result.",
+    "It opens in a separate tab with its own browser, not inside the normal ChatGPT chat window.",
+    "The Operator interface offers sample tasks for delivery, local services, shopping and travel.",
+    "In the demo, Umang uploads a PDF and asks for market research and strategy suggestions for a client.",
+    "Operator reads the file, visits several websites and returns specific data points for the task.",
+    "Umang calls this agentic AI and asks viewers whether they are integrating AI into their business."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "What ChatGPT Operator is"
+    },
+    {
+     "start": 60,
+     "title": "What Operator does beyond text"
+    },
+    {
+     "start": 120,
+     "title": "Agentic AI and coaching uses"
+    },
+    {
+     "start": 150,
+     "title": "Opening the Operator interface"
+    },
+    {
+     "start": 210,
+     "title": "Giving Operator a research task"
+    },
+    {
+     "start": 270,
+     "title": "Operator researches in its browser"
+    },
+    {
+     "start": 330,
+     "title": "Results and questions for viewers"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "ChatGPT Operator"
+   ],
+   "published": "2025-02-28T17:46:15+05:30",
+   "durationSec": 387,
+   "language": "Hindi",
+   "topic": "AI tools in practice",
+   "setting": "Published on the Umang Ratani YouTube channel.",
+   "originalTitle": "ChatGPT Operator System: Live Demo & Pro Plan Benefits for Business Growth",
+   "related": [
+    {
+     "label": "AI agents for small business",
+     "href": "/guides/ai-agents-for-small-business"
+    },
+    {
+     "label": "AI agent development",
+     "href": "/ai-agent-development"
+    }
+   ]
+  },
+  {
+   "slug": "deep-research-for-business-research",
+   "youtubeId": "tr1HLzPscOo",
+   "title": "How ChatGPT Deep Research helps with business research",
+   "question": "What is ChatGPT Deep Research and how can it help me research competitors and markets?",
+   "answer": "Deep Research is a ChatGPT feature that searches many internet sources, combines the findings and gives you a ready report with conclusions. Umang says business owners can use it for competitor, pricing and strategy analysis, and then take decisions based on that research.",
+   "summary": "Umang shows the Deep Research feature in his paid ChatGPT Pro plan. He explains that it goes across the internet, collects information from many sources, synthesises it and presents conclusions, so the user does not spend long hours on manual research. He shows an example on leadership where the tool lists its sources and what it learned from each. He then describes business uses: competitor analysis, pricing analysis and strategy analysis. He also shows research he ran on other business coaches, covering their strategies, funnels and audiences, to refine his own course. He admits the plan is costly and asks viewers which topic they want researched. The video is short and in Hindi/Hinglish. It is for business owners and coaches.",
+   "keyPoints": [
+    "Deep Research searches many internet sources, synthesises the data and gives a ready report with conclusions.",
+    "The report shows the sources it used and what the tool learned from each one.",
+    "Business owners can use it for competitor analysis, pricing analysis and strategy analysis.",
+    "Umang used it to study other business coaches' strategies, funnels and audiences to refine his own course.",
+    "The feature shown is part of the paid Pro plan, which Umang himself calls a little expensive."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "What Deep Research does"
+    },
+    {
+     "start": 30,
+     "title": "Example: leadership research with sources"
+    },
+    {
+     "start": 60,
+     "title": "Business uses: competitors, pricing, strategy"
+    },
+    {
+     "start": 120,
+     "title": "Example: researching other business coaches"
+    },
+    {
+     "start": 150,
+     "title": "Questions for viewers"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "Deep Research"
+   ],
+   "published": "2025-02-17T16:49:11+05:30",
+   "durationSec": 177,
+   "language": "Hindi",
+   "topic": "AI tools in practice",
+   "setting": "Published on the Umang Ratani YouTube channel.",
+   "originalTitle": "\"AI Just Changed Business Research FOREVER! (Must-See DeepResearch Demo)\"",
+   "related": [
+    {
+     "label": "Free AI prompt library",
+     "href": "/resources/ai-prompt-library-for-business"
+    },
+    {
+     "label": "AI dictionary for business owners",
+     "href": "/resources/ai-dictionary-for-business-owners"
+    }
+   ]
+  },
+  {
+   "slug": "how-small-businesses-can-use-ai-every-day-retechcon-2026",
+   "youtubeId": "Z85WdZrzRRA",
+   "title": "How small businesses can use AI every day: ReTechCon talk",
+   "question": "How can a small or retail business use AI in daily work?",
+   "answer": "Start with the work you repeat every day: replying to customer emails, writing product content, researching, summarising and chasing payments. Give the AI tool your business context and a clear prompt, because the tool alone is not the advantage; how you use it is.",
+   "summary": "A full session from ReTechCon 2026 for MSME and retail business owners. Umang treats generative AI and agentic AI as everyday business tools, not experiments. He covers using AI as a business assistant, creating product marketing content from images, replying to customer emails, research and analysis, proposals and summaries, finding important customer enquiries, reading business and inventory data, and automating payment reminders. The second half is about prompting and business context: giving the AI your company information, products, values and history so the answers fit your business, and moving from generative AI to agentic AI and automation.",
+   "keyPoints": [
+    "Ask one question first: what am I doing repeatedly today that I should no longer be doing by hand?",
+    "Use AI as an assistant for emails, proposals, summaries, research and product content before attempting anything complex.",
+    "The better the prompt and the wider the business context you give, the better the result you get back.",
+    "Save your company information, products, values and history once, so every answer starts from your business.",
+    "Agentic AI goes a step further than generative AI: it carries out tasks such as reminders and workflows, not only drafts them."
+   ],
+   "chapters": [],
+   "tools": [],
+   "published": "2026-10-07T19:32:02+05:30",
+   "durationSec": 6180,
+   "language": "",
+   "topic": "Talks and interviews",
+   "setting": "Talk at ReTechCon 2026 (October 2026) on AI for small and retail businesses.",
+   "originalTitle": "How Small Businesses Can Use AI Every Day | MSME AI Strategy | ReTechCon 2026",
+   "related": [
+    {
+     "label": "One-day AI workshop for business owners",
+     "href": "/guides/one-day-ai-workshop-for-business-owners"
+    },
+    {
+     "label": "How to plan corporate AI training",
+     "href": "/guides/corporate-ai-training-plan"
+    }
+   ]
+  },
+  {
+   "slug": "traditional-business-to-ai-powered-business-cmai-talk",
+   "youtubeId": "sOXXUzSpSQU",
+   "title": "From traditional business to AI-powered business: CMAI talk",
+   "question": "How does a traditional business start becoming an AI-powered business?",
+   "answer": "Begin with AI for everyday productivity, then choose the tools that fit your work, and only then add AI agents and automation to scale. Umang walks a hall of business owners through that order with live examples in this full CMAI session.",
+   "summary": "Umang’s complete session from the CMAI event “Traditional Business to AI-Powered Business” in Mumbai. It is aimed at owners of established, traditional businesses who want a practical starting point. He covers how AI is changing day-to-day business work, the practical AI tools a business needs and how to choose between them, what AI agents and automation add once the basics are in place, examples of businesses that made the change, and how to bring AI into an organisation step by step. The six-part CMAI AI series in this library is cut from the same teaching, one topic per video.",
+   "keyPoints": [
+    "Productivity comes first: get yourself and your team using AI for daily work before buying anything larger.",
+    "Compare tools by the job you need done, not by which one is in the news this month.",
+    "AI agents and automation are the second step, used to scale work that already runs well with AI help.",
+    "Adoption is a management task: decide who uses what, for which process, and review it."
+   ],
+   "chapters": [],
+   "tools": [
+    "ChatGPT"
+   ],
+   "published": "2026-09-28T19:04:41+05:30",
+   "durationSec": 9270,
+   "language": "Hindi",
+   "topic": "Talks and interviews",
+   "setting": "Talk at the CMAI event “Traditional Business to AI-Powered Business”, Yogi Sabhagruh, Dadar East, Mumbai, 3 June 2026. Recorded by CMAI.",
+   "originalTitle": "🎯Traditional Business to AI-Powered Business | Dr. CA Umang Ratani | CMAI Event 2026",
+   "related": [
+    {
+     "label": "One-day AI workshop for business owners",
+     "href": "/guides/one-day-ai-workshop-for-business-owners"
+    },
+    {
+     "label": "How to plan corporate AI training",
+     "href": "/guides/corporate-ai-training-plan"
+    }
+   ]
+  },
+  {
+   "slug": "ai-roadmap-for-business-owners-interview",
+   "youtubeId": "YPPBZadixyo",
+   "title": "AI roadmap for business owners: interview with Viral Sakhiya",
+   "question": "Where should a business owner start with AI, and what comes after ChatGPT?",
+   "answer": "Start with one general AI assistant and learn to prompt it well, then add business context, and then move to AI agents and automation department by department. In this interview Umang lays out that roadmap across eight departments of a business.",
+   "summary": "A long-form podcast conversation in Hindi between Umang and host Viral Sakhiya, for founders, business owners, consultants, CAs, agencies and working professionals. It moves from why an owner should adopt AI and how to take the first step, through generative AI, agentic AI and multi-agent AI, to data privacy and running local models. Umang then goes through where AI fits in eight departments (marketing, sales, lead generation, customer support, HR, collections, operations and productivity), free versus paid tools, the mistakes small businesses make when adopting AI, prompting and context engineering, AI agents versus plain automation, voice agents, vibe coding, and how to build and sell an AI skill.",
+   "keyPoints": [
+    "Treat AI as something that speeds up the business, not as a replacement for an employee.",
+    "Know the three stages: generative AI drafts, agentic AI acts, multi-agent AI runs several tasks together.",
+    "If data privacy worries you, a local model running on your own computer is an option to consider.",
+    "Go department by department: marketing, sales, lead generation, support, HR, collections, operations, productivity.",
+    "Prompting and context engineering are the skills that decide how useful any AI tool is to you.",
+    "Automation follows fixed rules; an AI agent decides the next step. Use each where it fits."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "Introduction"
+    },
+    {
+     "start": 204,
+     "title": "How to look at AI in a business"
+    },
+    {
+     "start": 274,
+     "title": "The first step to start with AI"
+    },
+    {
+     "start": 332,
+     "title": "Generative, agentic and multi-agent AI"
+    },
+    {
+     "start": 392,
+     "title": "Data privacy and local models"
+    },
+    {
+     "start": 666,
+     "title": "Which department should use AI"
+    },
+    {
+     "start": 980,
+     "title": "Free versus paid AI tools"
+    },
+    {
+     "start": 1385,
+     "title": "AI generalist versus field specialist"
+    },
+    {
+     "start": 1494,
+     "title": "The most important AI skills ahead"
+    },
+    {
+     "start": 1657,
+     "title": "KKD and meta prompting"
+    },
+    {
+     "start": 1810,
+     "title": "Context engineering and U-GPT"
+    },
+    {
+     "start": 2317,
+     "title": "What AI will not do"
+    },
+    {
+     "start": 2509,
+     "title": "AI agents explained"
+    },
+    {
+     "start": 2847,
+     "title": "AI in eight departments"
+    },
+    {
+     "start": 3142,
+     "title": "The first step to implement AI"
+    },
+    {
+     "start": 3298,
+     "title": "Vibe prospecting and quality leads"
+    },
+    {
+     "start": 3566,
+     "title": "Levels of using Claude"
+    },
+    {
+     "start": 3846,
+     "title": "Vibe coding explained"
+    },
+    {
+     "start": 4586,
+     "title": "Building and selling an AI skill"
+    },
+    {
+     "start": 4955,
+     "title": "Automation versus AI agents"
+    },
+    {
+     "start": 5407,
+     "title": "AI for small businesses and beginners"
+    }
+   ],
+   "tools": [
+    "ChatGPT",
+    "Claude",
+    "Ollama"
+   ],
+   "published": "2026-07-11T19:06:00+05:30",
+   "durationSec": 5635,
+   "language": "Hindi",
+   "topic": "Talks and interviews",
+   "setting": "Podcast interview hosted by Viral Sakhiya.",
+   "originalTitle": "Earn Crores with AI: Business Ideas, Claude, Free Tools & Prompts | Umang Ratani & Viral Sakhiya",
+   "related": [
+    {
+     "label": "AI agents for small business",
+     "href": "/guides/ai-agents-for-small-business"
+    },
+    {
+     "label": "AI agent development",
+     "href": "/ai-agent-development"
+    }
+   ]
+  },
+  {
+   "slug": "virtual-ceo-program-explained",
+   "youtubeId": "rF1CCldRH0o",
+   "title": "What a Virtual CEO is and how it helps MSME owners",
+   "question": "What is a Virtual CEO and how is it different from a business coach or consultant?",
+   "answer": "A Virtual CEO is an outside expert team that works like a part-time CEO for a business that cannot afford a full-time one. Umang says most coaches and consultants only advise, while his team also supports execution in hiring, sales and marketing.",
+   "summary": "In this interview clip, Umang tells how he moved from teaching and a chartered accountancy practice into business consulting. He says he saw that owners struggle with far more than finance: sales, team retention, marketing, systems and processes. He then explains his Virtual CEO programme. It gives MSME owners CEO-level expertise without the cost of a full-time CEO. He argues that most coaches and consultants give advice and frameworks, while owners lack the time and the method to execute. His team therefore helps with execution: writing job descriptions and filtering candidates, building sales processes and training sales teams, and finding and managing marketing agencies. The video is in Hindi/Hinglish. It is for small and mid-sized business owners who want to grow.",
+   "keyPoints": [
+    "A Virtual CEO gives a small or mid-sized business CEO-level expertise without hiring a full-time CEO.",
+    "Umang says most coaches and consultants tell owners what to do but leave the execution to them.",
+    "Owners often know what to do. They lack the method and the time because daily operations absorb them.",
+    "For hiring, his team writes the job description, posts it, filters candidates and presents a shortlist for interview.",
+    "For sales, the team builds the process, trains the sales team, sets up reporting and follows up.",
+    "For growth, he describes three steps: set the strategy, execute it, and review it."
+   ],
+   "chapters": [
+    {
+     "start": 0,
+     "title": "From teaching to CA practice"
+    },
+    {
+     "start": 60,
+     "title": "Seeing problems beyond finance"
+    },
+    {
+     "start": 120,
+     "title": "The move into consulting"
+    },
+    {
+     "start": 180,
+     "title": "What Virtual CEO means"
+    },
+    {
+     "start": 240,
+     "title": "The gap between advice and execution"
+    },
+    {
+     "start": 300,
+     "title": "Execution support: hiring, sales, marketing"
+    },
+    {
+     "start": 360,
+     "title": "Who should consider a Virtual CEO"
+    }
+   ],
+   "tools": [],
+   "published": "2025-12-06T11:00:46+05:30",
+   "durationSec": 427,
+   "language": "Hindi",
+   "topic": "Running and growing a business",
+   "setting": "Published on the Umang Ratani YouTube channel.",
+   "originalTitle": "Virtual CEO Program. #umangratani #virtualceo",
+   "related": [
+    {
+     "label": "About Dr. CA Umang Ratani",
+     "href": "/about/umang-ratani"
+    },
+    {
+     "label": "AI consulting",
+     "href": "/ai-consulting"
+    }
+   ]
+  }
+ ],
+ "shorts": [
+  {
+   "youtubeId": "L-orw-Ohhn4",
+   "label": "A Claude prompt for business owners"
+  },
+  {
+   "youtubeId": "kNEHVv_Dpt8",
+   "label": "An AI agent that follows up pending payments"
+  },
+  {
+   "youtubeId": "EHO4_r_J5Lo",
+   "label": "AI automation: a client story"
+  },
+  {
+   "youtubeId": "AbxcHLqvWZ0",
+   "label": "AI prompts for finance professionals"
+  },
+  {
+   "youtubeId": "x8Cw0zNhOvk",
+   "label": "How brands are getting discovered through ChatGPT"
+  },
+  {
+   "youtubeId": "GRYpu2CyhT0",
+   "label": "ChatGPT prompt ideas"
+  },
+  {
+   "youtubeId": "lfvY0ZFI8jU",
+   "label": "AI tools for beginners"
+  },
+  {
+   "youtubeId": "KSCLe3qzhj8",
+   "label": "Paid versus free AI tools"
+  },
+  {
+   "youtubeId": "02g9oeiGDX8",
+   "label": "Google AI tools"
+  },
+  {
+   "youtubeId": "wOY6SKzeQBU",
+   "label": "Three AI browsers"
+  },
+  {
+   "youtubeId": "d0dusMlMyNU",
+   "label": "Building a website with Claude"
+  },
+  {
+   "youtubeId": "EX0jn4b2HMM",
+   "label": "Seven mistakes that weaken AI-built apps"
+  },
+  {
+   "youtubeId": "d-nC-9rhczQ",
+   "label": "Happenstance, an AI tool for LinkedIn lead generation"
+  },
+  {
+   "youtubeId": "WqaHIz9YdyE",
+   "label": "An AI tool for video generation"
+  }
+ ]
+}

@@ -22,6 +22,7 @@ const services = [
   ['Corporate AI Training', '/corporate-ai-training'],
   ['Scale With AI Events', '/scale-with-ai'],
   ['Free AI Guides & Brochures', '/resources'],
+  ['AI for Business Videos', '/videos'],
   ['AI Agent Development', '/ai-agent-development'],
   ['Free Tool: Where Is My Money Stuck?', '/tools/where-is-my-money-stuck'],
   ['Pricing', '/pricing'],

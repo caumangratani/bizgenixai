@@ -3,11 +3,12 @@ import { caseStudies } from './case-studies/content';
 import { articles } from './blog/articles';
 import { guides } from './guides/content';
 import { resources } from './resources/content';
+import { videos, thumb } from './videos/content';
 import { editions } from './scale-with-ai/editions';
 
 const BASE = 'https://bizgenix.ai';
 // Last substantive update of the page group. Change it when those pages change.
-const SITE_UPDATED = new Date('2026-11-25');
+const SITE_UPDATED = new Date('2026-11-28');
 const CASE_STUDIES_UPDATED = new Date('2026-11-14');
 
 const routes: { path: string; priority: number }[] = [
@@ -33,6 +34,7 @@ const routes: { path: string; priority: number }[] = [
   { path: '/corporate-ai-training', priority: 0.9 },
   { path: '/scale-with-ai', priority: 0.9 },
   { path: '/resources', priority: 0.8 },
+  { path: '/videos', priority: 0.8 },
   { path: '/about/umang-ratani', priority: 0.8 },
   { path: '/faq', priority: 0.8 },
   { path: '/pricing', priority: 0.8 },
@@ -56,5 +58,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const studies = caseStudies.map(study => ({ url: `${BASE}/case-studies/${study.slug}`, lastModified: CASE_STUDIES_UPDATED, priority: 0.6 }));
   const posts = articles.map(article => ({ url: `${BASE}/blog/${article.slug}`, lastModified: new Date(article.modified || article.date), priority: 0.7 }));
   const guidePages = guides.map(guide => ({ url: `${BASE}/guides/${guide.slug}`, lastModified: new Date(guide.updated), priority: 0.8 }));
-  return [...pages, ...guidePages, ...posts, ...studies].map(entry => (entry.lastModified ? { ...entry, lastModified: notFuture(new Date(entry.lastModified)) } : entry));
+  const videoPages = videos.map(video => ({
+    url: `${BASE}/videos/${video.slug}`,
+    lastModified: SITE_UPDATED,
+    priority: 0.7,
+    videos: [{ title: video.title, thumbnail_loc: thumb(video.youtubeId), description: video.summary.slice(0, 2000), player_loc: `https://www.youtube.com/embed/${video.youtubeId}`, duration: Math.min(video.durationSec, 28800), publication_date: video.published, family_friendly: 'yes' as const, live: 'no' as const }],
+  }));
+  return [...pages, ...guidePages, ...videoPages, ...posts, ...studies].map(entry => (entry.lastModified ? { ...entry, lastModified: notFuture(new Date(entry.lastModified)) } : entry));
 }

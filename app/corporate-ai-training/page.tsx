@@ -56,6 +56,7 @@ const content: ServiceContent = {
   proofIntro: 'Our public programme and what members built in it.',
   proof: [
     { label: 'Scale With AI events and programme', href: '/scale-with-ai' },
+    { label: 'Watch Umang teach: video library', href: '/videos' },
     { label: 'All courses and learning paths', href: '/courses' },
     { label: 'Scale With AI recorded programme (course.bizgenix.ai)', href: 'https://course.bizgenix.ai/' },
     { label: 'Free AI prompt library (109 prompts)', href: '/resources/ai-prompt-library-for-business' },

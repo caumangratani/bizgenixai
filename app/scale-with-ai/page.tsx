@@ -83,6 +83,7 @@ const content: ServiceContent = {
     { q: 'Can a company book Scale With AI for its team?', a: 'Yes. Corporate AI training uses the same build-along method with examples from your own departments. See the corporate AI training page or send an enquiry.' },
   ],
   related: [
+    { label: 'Watch Umang teach: video library', href: '/videos' },
     { label: 'Corporate AI training', href: '/corporate-ai-training' },
     { label: 'All courses', href: '/courses' },
     { label: 'Choosing an AI course in India', href: '/guides/how-to-choose-an-ai-course-india' },
