@@ -1,0 +1,90 @@
+Business Brain: use Claude Code and Obsidian as your company memory
+Bizgenix AI playbook · checked 2026-11-28 · https://bizgenix.ai/playbooks/business-brain-claude-code-obsidian
+
+What this is
+A way to give Claude a memory of your business. You keep your knowledge as plain notes in Obsidian (a free note-taking app that stores files on your own computer) and open that folder in Claude Code. The assistant then answers from your clients, SOPs, meetings and research instead of from general internet knowledge.
+
+
+Step 1: Create the vault
+Download Obsidian from obsidian.md, install it and create a new vault called "Business Brain".
+
+
+Step 2: Create the folders
+Business Brain
+├── Raw Sources
+├── Wiki
+├── Clients
+├── SOPs
+├── Meetings
+├── Content
+├── Research
+├── Prompts
+└── Projects
+
+
+Step 3: Fill Raw Sources
+Everything goes here first: books and PDFs you own, articles, transcripts of talks you learn from, podcast notes, industry reports and client documents.
+
+
+Step 4: Build the Wiki
+The Wiki is your company's own reference: lead generation, sales process, client onboarding, SOP library, marketing frameworks and offers. Anything important should end up here in your own words.
+
+
+Step 5: Connect Claude Code
+Open Claude Code and point it at the vault folder. It can now search your notes, organise them, write summaries and documentation, and draft workflows.
+
+
+Step 6: Add your business knowledge
+- Clients: goals, problems, offers and deliverables.
+- Meetings: discovery calls, team meetings and client feedback.
+- SOPs: outreach, sales and delivery.
+- Research: competitors, industry reports and trends.
+
+Keep confidential client data out unless your agreement with the client and your own data rules allow it.
+
+
+Step 7: Link the notes
+Inside Obsidian, link related notes, for example Lead Generation → Cold Outreach → Message Scripts → Client Acquisition. The links show the assistant how topics relate.
+
+
+Step 8: Ask for a knowledge map
+Analyze my entire vault and create a structured knowledge map.
+Identify:
+- Missing information
+- Duplicate information
+- Weak systems
+- Improvement opportunities
+Provide recommendations.
+
+
+Step 9: Use it as an advisor
+Act as my business advisor.
+Use only information found inside my vault.
+Reference supporting notes whenever possible.
+Challenge weak assumptions and suggest improvements.
+
+
+Step 10: A weekly review prompt
+Act as my Chief Operating Officer.
+Analyze my entire Obsidian vault.
+Identify:
+- Bottlenecks
+- Growth opportunities
+- Missing systems
+- Revenue leaks
+- Content opportunities
+Use evidence from my notes and provide an action plan with priorities.
+Reference the source notes used for every recommendation.
+
+
+A weekly rhythm
+- Monday: add new notes.
+- Tuesday: tidy the Wiki.
+- Wednesday: review research.
+- Thursday: draft content from the vault.
+- Friday: update SOPs.
+- Saturday: run the knowledge-map prompt.
+
+The more of your own knowledge the vault holds, the more specific the answers become.
+
+Bizgenix AI · https://bizgenix.ai · AI automation, custom AI solutions and corporate AI training

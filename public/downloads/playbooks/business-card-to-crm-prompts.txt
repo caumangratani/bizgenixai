@@ -1,0 +1,154 @@
+Business card to CRM: 10 AI prompts for event follow-up
+Bizgenix AI playbook · checked 2026-11-28 · https://bizgenix.ai/playbooks/business-card-to-crm-prompts
+
+What this set does
+After a trade show or business event you come back with a stack of visiting cards. These ten prompts turn photos of those cards into a clean contact sheet, a follow-up message for each person and a priority list, using any AI assistant that reads images (ChatGPT, Claude or Gemini).
+
+Use them in order: extract, clean, score, then write the follow-ups. Check the extracted phone numbers and emails against the card before you send anything.
+
+
+
+1. Business Card Data Extraction
+Analyze this business card image.
+Extract and return the following fields in JSON format:
+{
+"full_name":"",
+"job_title":"",
+"company":"",
+"email":"",
+"phone":"",
+"website":"",
+"linkedin":"",
+"address":""
+}
+Rules:
+- Return only valid JSON.
+- If information is missing use null.
+- Fix OCR mistakes when obvious.
+- Maintain proper capitalization.
+- Verify email formatting.
+
+
+2. Google Sheets Formatter
+You are a CRM data cleaning assistant.
+Convert extracted business card data into spreadsheet-ready rows.
+Columns:
+Name
+Company
+Position
+Email
+Phone
+Website
+LinkedIn
+Lead Score
+Assign Lead Score:
+10 = Founder / CEO
+8 = Director / VP
+6 = Manager
+4 = Executive
+2 = Other
+Output CSV format.
+
+
+3. Personalized Follow-Up Email
+Using this contact information:
+Name: [NAME]
+Company: [COMPANY]
+Position: [POSITION]
+Write a personalized networking follow-up email.
+Requirements:
+- Professional
+- Under 120 words
+- Mention meeting at an event
+- Create curiosity
+- End with a clear CTA
+Output:
+Subject Line
+Email Body
+
+
+4. CRM Notes Generator
+Analyze this business card.
+Generate:
+- Industry
+- Potential Pain Points
+- Estimated Company Size
+- Lead Priority
+- Suggested Follow-Up Angle
+Output concise CRM notes.
+
+
+5. Lead Qualification Prompt
+Evaluate this contact.
+Score:
+- Buying Power
+- Authority
+- Relevance
+- Partnership Potential
+Provide:
+- Total Score
+- Reasoning
+- Recommended Next Action
+
+
+6. LinkedIn Connection Request
+Create a LinkedIn connection request.
+Maximum 300 characters.
+Context:
+Met at [EVENT NAME]
+Goal:
+Build relationship without selling.
+
+
+7. AI Sales Outreach
+Create a personalized cold email using:
+Name:
+Company:
+Role:
+Requirements:
+- Personalized opener
+- Business-focused value proposition
+- Soft CTA
+- Human tone
+Maximum 150 words.
+
+
+8. Event Networking Summary
+Analyze all extracted business cards.
+Create:
+- Top 10 highest-value leads
+- Quick win opportunities
+- Potential partnerships
+- Follow-up priority list
+Output as an action plan.
+
+
+9. Google Sheets Automation Prompt
+Create a workflow that:
+1. Receives business card images
+2. Extracts contact details
+3. Cleans the data
+4. Pushes data into Google Sheets
+5. Sends a personalized follow-up email
+6. Logs outreach status
+Generate step-by-step workflow instructions.
+
+
+10. Bulk Follow-Up Generator
+Using this spreadsheet of contacts:
+Generate unique follow-up emails for each contact.
+Requirements:
+- Avoid repetitive language
+- Personalize by role
+- Mention company
+- Include CTA
+Output in spreadsheet format.
+
+
+A sensible routine after an event
+1. Photograph every card the same evening.
+2. Run prompt 1 on each photo, then prompt 2 to get one sheet.
+3. Run prompt 8 to pick the ten people worth a personal message.
+4. Send those ten a message you have read and corrected yourself. Use the bulk prompt only for the rest.
+
+Bizgenix AI · https://bizgenix.ai · AI automation, custom AI solutions and corporate AI training

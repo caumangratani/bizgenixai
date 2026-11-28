@@ -1,0 +1,34 @@
+AI image upscale prompt that does not change the face
+Bizgenix AI playbook · checked 2026-11-28 · https://bizgenix.ai/playbooks/ai-image-upscale-prompt-without-changing-face
+
+What the prompt is for
+You have a photo that is soft, low resolution or badly lit, and you want a sharper version without the AI changing the person. Most "enhance" prompts quietly alter the face. This one tells the model what it must not change, then what to improve.
+
+It works in image tools that accept an uploaded photo and an instruction. Results vary by tool, so compare the output with the original before you use it.
+
+
+The prompt
+Upgrade the uploaded image into a pristine, ultra-high-definition cinematic version while preserving the subject with absolute fidelity. The person’s identity, facial anatomy, expression, body posture, clothing, accessories, environment, framing, and overall composition must remain completely unchanged. Do not modify, reinterpret, replace, or introduce any new visual elements. Reconstruct and refine micro-level details including precise facial contours, authentic skin texture with naturally visible pores, individually defined hair strands, sharp and lifelike eyes, and clean, well-resolved edges throughout the image. Enhance dynamic range, contrast, and dimensional depth using balanced, studio-quality cinematic lighting.
+
+
+What it tells the model to keep
+- The person's identity, facial proportions and expression.
+- Body posture and position.
+- Clothing and accessories.
+- Background, framing and overall composition.
+- Nothing added, removed or replaced.
+
+
+What it asks the model to improve
+- Facial contours and real skin texture, with visible pores and no artificial smoothing.
+- Individual hair strands and sharp, natural eyes.
+- Clean edges and fine detail across the frame, with compression marks removed.
+- Dynamic range, contrast, depth and balanced studio-style lighting.
+
+
+Check before you publish
+1. Put the result next to the original and look at the eyes, teeth and hands first.
+2. If the face has changed at all, run it again or use the original.
+3. Never present an enhanced photo of a real person as an untouched photograph where that matters, such as identity documents or evidence.
+
+Bizgenix AI · https://bizgenix.ai · AI automation, custom AI solutions and corporate AI training

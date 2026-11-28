@@ -4,6 +4,7 @@ import { articles } from './blog/articles';
 import { guides } from './guides/content';
 import { resources } from './resources/content';
 import { videos, thumb } from './videos/content';
+import { playbooks } from './playbooks/content';
 import { editions } from './scale-with-ai/editions';
 
 const BASE = 'https://bizgenix.ai';
@@ -35,6 +36,7 @@ const routes: { path: string; priority: number }[] = [
   { path: '/scale-with-ai', priority: 0.9 },
   { path: '/resources', priority: 0.8 },
   { path: '/videos', priority: 0.8 },
+  { path: '/playbooks', priority: 0.8 },
   { path: '/about/umang-ratani', priority: 0.8 },
   { path: '/faq', priority: 0.8 },
   { path: '/pricing', priority: 0.8 },
@@ -64,5 +66,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
     videos: [{ title: video.title, thumbnail_loc: thumb(video.youtubeId), description: video.summary.slice(0, 2000), player_loc: `https://www.youtube.com/embed/${video.youtubeId}`, duration: Math.min(video.durationSec, 28800), publication_date: video.published, family_friendly: 'yes' as const, live: 'no' as const }],
   }));
-  return [...pages, ...guidePages, ...videoPages, ...posts, ...studies].map(entry => (entry.lastModified ? { ...entry, lastModified: notFuture(new Date(entry.lastModified)) } : entry));
+  const playbookPages = playbooks.map(item => ({ url: `${BASE}/playbooks/${item.slug}`, lastModified: new Date(item.checked), priority: 0.8 }));
+  return [...pages, ...guidePages, ...playbookPages, ...videoPages, ...posts, ...studies].map(entry => (entry.lastModified ? { ...entry, lastModified: notFuture(new Date(entry.lastModified)) } : entry));
 }

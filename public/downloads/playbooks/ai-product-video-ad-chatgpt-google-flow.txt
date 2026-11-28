@@ -1,0 +1,94 @@
+How to make a product video ad with ChatGPT and Google Flow
+Bizgenix AI playbook · checked 2026-11-28 · https://bizgenix.ai/playbooks/ai-product-video-ad-chatgpt-google-flow
+
+What you need
+- One clean photo of your product.
+- ChatGPT, to write the video prompt.
+- Google Flow, Google's AI video tool, to generate the clip.
+- Optional: your brand name, offer and audience.
+
+
+Step 1: Take a clean product photo
+Use one front-facing image: plain background if possible, product clearly visible, good light, no blur, no collage.
+
+
+Step 2: Ask ChatGPT for the video prompt
+Upload the photo to ChatGPT and paste this:
+
+I want to turn this product image into a premium 8-second AI video ad.
+Analyze the product image and create a Google Flow video prompt for a cinematic product commercial.
+The output should include:
+1) Product analysis
+Identify:
+- what the product is
+- likely target audience
+- visual style that would suit it
+- premium emotions / brand vibe it should communicate
+2) Ad concept
+Create 3 different ad angles for this product:
+- Luxury / premium
+- Problem-solution / performance
+- Aesthetic / viral social ad
+3) Final Google Flow prompt
+Write one polished Google Flow video prompt for the strongest ad concept.
+The prompt should include:
+- camera movement
+- lighting
+- environment / background
+- product motion
+- cinematic details
+- texture / reflections / atmosphere
+- premium ad style
+- vertical 9:16 framing for social media
+4) Shot direction
+Give me a short shot breakdown:
+- opening shot
+- hero close-up
+- motion / reveal shot
+- ending brand shot
+Keep the final video prompt clean and ready to paste into Google Flow.
+
+
+Step 3: Pick one angle
+- Luxury: perfumes, skincare, watches, jewellery, fashion.
+- Problem and solution: gadgets, kitchen tools, supplements, utility products.
+- Social: trend-led products and reels.
+
+
+Step 4: Generate in Google Flow
+1. Open Google Flow and start a new project.
+2. Choose Video.
+3. Upload your product photo as the reference image.
+4. Paste the prompt ChatGPT wrote.
+5. Set the aspect ratio to 9:16 for reels and Shorts, and a length of 6 to 8 seconds.
+
+Menu names in Flow change from time to time; look for the option that adds an image as a reference or start frame.
+
+
+Step 5: Make several versions
+Generate three to five versions with small changes: stronger lighting, a different camera move, a cleaner hero shot, more atmosphere. The quality comes from this iteration, not from one prompt.
+
+
+Step 6: Judge the result
+1. Product clarity: can you see the product clearly, and is it your product, with the right label and shape?
+2. Feel: does it look like an advertisement or like random AI footage?
+3. Motion: is the camera move smooth?
+4. Brand fit: would you post it under your brand name?
+
+If any answer is no, generate again. Add your text and call to action in your normal video editor.
+
+
+The prompt formula
+[product] + [setting] + [lighting] + [camera movement] + [texture details] + [brand feel] + [aspect ratio]
+
+
+Three example prompts
+A luxury perfume bottle on a glossy black reflective surface, golden rim lighting, floating mist, slow cinematic push-in, premium reflections, ultra-detailed glass texture, high-end commercial look, 9:16 vertical ad
+A premium skincare serum bottle on wet stone with soft water droplets, clean beauty ad aesthetic, gentle camera orbit, bright luxury lighting, minimal background, realistic product texture, 9:16 vertical
+A premium sneaker floating above a dark textured floor, dynamic side lighting, slow rotation, dust particles, sporty cinematic ad look, crisp product details, bold contrast, 9:16 social ad framing
+
+
+Before you run it as a paid ad
+AI video can change a label, a logo or the shape of a product. Check every frame against the real product, and do not show a result or feature the product does not have.
+
+Bizgenix AI · https://bizgenix.ai · AI automation, custom AI solutions and corporate AI training

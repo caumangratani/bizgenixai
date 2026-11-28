@@ -1,0 +1,136 @@
+handoff.md template: continue a long Claude session in a new chat
+Bizgenix AI playbook · checked 2026-11-28 · https://bizgenix.ai/playbooks/handoff-md-template-for-long-claude-sessions
+
+Why a long AI session goes wrong
+When one Claude or ChatGPT session runs for hours, the context gets messy. Wrong assumptions pile up and approaches that already failed get tried again. You get slower replies, weaker output and more rework.
+
+The fix is simple: before you stop, ask the assistant to write a handoff file, then start a fresh session with that file.
+
+
+How to use it
+1. Before ending a session, say: "Create a complete handoff.md file for this project."
+2. Save the file.
+3. Start a new chat and upload the file.
+4. Say: "Read this handoff file and continue from where we left off."
+
+
+The handoff.md template
+Copy this into a file and fill it in, or give it to the assistant as the format to follow.
+
+# Project Handoff
+
+Project Name
+[Project Name]
+---
+
+Objective
+What are we trying to achieve?
+Example:
+Build an AI automation agency website with premium animations and lead generation systems.
+---
+
+Current Status
+What has already been completed?
+Example:
+- Homepage completed
+- Contact form completed
+- Mobile responsiveness completed
+- Hosting configured
+---
+
+Current Problem
+What specific issue are we solving right now?
+Example:
+Navigation animation breaks on mobile devices.
+---
+
+Successful Attempts
+Things that worked:
+- Framer Motion animation setup
+- Responsive layout fixes
+- Form validation system
+---
+
+Failed Attempts
+Things that failed:
+- CSS transform approach
+- Animation library X
+- Previous navigation implementation
+Do NOT repeat these approaches.
+---
+
+Key Decisions
+Important decisions already made:
+- React frontend
+- Tailwind CSS
+- Dark theme
+- Minimal design style
+---
+
+Constraints
+Requirements that must be respected:
+- Mobile first
+- Fast loading
+- SEO friendly
+- No paid plugins
+---
+
+Relevant Files
+List important files:
+- App.jsx
+- Navbar.jsx
+- Hero.jsx
+- styles.css
+---
+
+Next Recommended Steps
+1. Investigate mobile animation issue
+2. Test alternative animation approach
+3. Validate performance impact
+4. Deploy updated version
+---
+
+Lessons Learned
+Important findings:
+- Library X causes conflicts
+- Mobile Safari behaves differently
+- Animation duration over 600ms feels slow
+---
+
+Open Questions
+Questions still unanswered:
+- Best animation strategy?
+- Alternative library?
+- Performance tradeoffs?
+---
+
+Final Instruction
+Continue from the current state.
+Avoid failed approaches.
+Respect all constraints.
+Focus only on solving the current problem.
+
+
+The one-line command
+Paste this at the end of any long session:
+
+Create a detailed handoff.md file for this entire session.
+Include:
+- Objective
+- Current State
+- Successful Attempts
+- Failed Attempts
+- Constraints
+- Lessons Learned
+- Relevant Files
+- Next Steps
+Optimize it for a completely fresh Claude session so no context is lost and no failed approaches are repeated.
+
+
+Where it helps
+- Software work: debugging, product builds, AI agents and automations.
+- Content work: research, scripts, newsletters and course material.
+- Business work: SOPs, strategy documents, operations and client projects.
+- Agency work: any client project that runs over several days and several people.
+
+Bizgenix AI · https://bizgenix.ai · AI automation, custom AI solutions and corporate AI training

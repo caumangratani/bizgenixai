@@ -1,0 +1,64 @@
+The LLM Council prompt: five expert views before one answer
+Bizgenix AI playbook · checked 2026-11-28 · https://bizgenix.ai/playbooks/llm-council-prompt
+
+The idea
+Most people ask an AI assistant one question and take one answer. A single answer misses risks and better options. This prompt makes the assistant argue with itself first: five advisors look at your problem from five angles, then a chairman weighs them and gives one recommendation.
+
+
+The five advisors
+- The Contrarian looks for flaws: risks, weak assumptions and ways the plan fails.
+- The First Principles Thinker ignores industry habits and rebuilds the answer from basics.
+- The Expansionist looks for the bigger opportunity and points of leverage.
+- The Outsider knows nothing about your industry and questions what insiders take for granted.
+- The Executor cares only about what to do next: priorities, resources and an action plan.
+
+
+The chairman
+After the five have spoken, the chairman reviews every view, lists where they agree and disagree, settles the conflicts and gives a final recommendation with key insights, major risks, biggest opportunities and clear next actions.
+
+
+The prompt
+Act as an LLM Council.
+I want five advisors to analyze my problem before providing a final answer.
+Advisor 1: Contrarian
+Find flaws, risks, weak assumptions and reasons this may fail.
+Advisor 2: First Principles Thinker
+Ignore conventional wisdom and rebuild the solution from first principles.
+Advisor 3: Expansionist
+Identify larger opportunities, leverage points and upside scenarios.
+Advisor 4: Outsider
+Analyze the problem as someone completely unfamiliar with the industry.
+Advisor 5: Executor
+Create a practical action plan focused on implementation.
+After all advisors finish:
+Act as Chairman.
+Review every viewpoint.
+Identify agreements and disagreements.
+Resolve conflicts.
+Provide a final recommendation.
+Finish with:
+- Top 3 Risks
+- Top 3 Opportunities
+- Next 7 Days Action Plan
+- Final Verdict
+My problem is:
+[INSERT PROBLEM HERE]
+
+
+Make them debate
+Add this line at the end:
+
+Challenge each other's reasoning before the Chairman provides the final verdict.
+
+The advisors then argue with each other instead of giving five separate answers, which usually gives a deeper and more balanced result.
+
+
+Questions it suits
+- A business decision: should we open a second branch this year?
+- Marketing: how should we win our first ten clients for a new service?
+- Hiring: should we hire a manager or promote from inside?
+- Product: should we build this feature or buy a tool?
+
+It is a thinking aid. The decision, and the facts you feed it, stay with you.
+
+Bizgenix AI · https://bizgenix.ai · AI automation, custom AI solutions and corporate AI training

@@ -90,6 +90,19 @@ Guides for owners and CAs whose books are in Tally. Hub: https://bizgenix.ai/tal
 - Training in Gujarati, Hindi or English: https://bizgenix.ai/guides/ai-training-in-gujarati-for-small-businesses
 - Guides: https://bizgenix.ai/guides/corporate-ai-training-plan, https://bizgenix.ai/guides/one-day-ai-workshop-for-business-owners, https://bizgenix.ai/guides/how-to-choose-an-ai-course-india
 
+## Playbooks
+
+Free, open guides with ready-to-paste prompts and templates, by Dr. CA Umang Ratani and the Bizgenix AI team. These are the guides sent to people who ask for them on Umang's Instagram reels.
+
+- [All playbooks](https://bizgenix.ai/playbooks)
+- [handoff.md template: continue a long Claude session in a new chat](https://bizgenix.ai/playbooks/handoff-md-template-for-long-claude-sessions): Ask the assistant to write a handoff file before you stop, then upload that file to a fresh chat. A good handoff lists the goal, what is done, what failed, the constraints and the next steps, so the new session does not repeat old mistakes.
+- [The LLM Council prompt: five expert views before one answer](https://bizgenix.ai/playbooks/llm-council-prompt): Ask the assistant to act as a council: five advisors with different jobs (contrarian, first principles, expansionist, outsider, executor) analyse the problem, then a chairman settles their disagreements and gives one recommendation. The full prompt is below.
+- [Business card to CRM: 10 AI prompts for event follow-up](https://bizgenix.ai/playbooks/business-card-to-crm-prompts): Photograph each card and ask an AI assistant to extract the details as structured data, then clean them into a sheet, score the leads and draft a personal follow-up for each. The ten prompts below cover every step.
+- [AI image upscale prompt that does not change the face](https://bizgenix.ai/playbooks/ai-image-upscale-prompt-without-changing-face): Use a prompt that first lists what must stay identical (identity, facial proportions, expression, clothing, background and framing) and only then asks for sharper detail, better lighting and more depth. The full prompt is below.
+- [Business Brain: use Claude Code and Obsidian as your company memory](https://bizgenix.ai/playbooks/business-brain-claude-code-obsidian): Keep your SOPs, client notes, meeting notes and research as files in an Obsidian vault and open that folder in Claude Code. The assistant can then search, summarise and advise from your own material; the ten steps and prompts are below.
+- [How to make a product video ad with ChatGPT and Google Flow](https://bizgenix.ai/playbooks/ai-product-video-ad-chatgpt-google-flow): Upload a clean product photo to ChatGPT and ask it to write a cinematic video prompt, then paste that prompt into Google Flow with the photo as the reference image. Generate several versions in 9:16 and keep the one where the product is shown accurately.
+- [100 ChatGPT prompt shortcuts (and how to make them work)](https://bizgenix.ai/playbooks/chatgpt-prompt-shortcuts): No. ChatGPT has no hidden commands of that kind. They are short names for instructions, and they work once you paste the instruction or save the list in Custom Instructions; the 100 shortcuts and their instructions are below.
+
 ## Videos
 
 Dr. CA Umang Ratani teaches AI for business on video in Hindi and Hinglish. Each page below has a written English summary, key points and chapters of one video.

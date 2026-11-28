@@ -5,7 +5,9 @@ import styles from './resources.module.css';
 const SAVED = 'bizgenix-downloader';
 
 /** Short form in front of each download. Sends a "Resource Download" enquiry, then opens the file. */
-export default function DownloadForm({ title, file }: { title: string; file: string }) {
+type Labels = { heading?: string; intro?: string; button?: string; done?: string };
+
+export default function DownloadForm({ title, file, labels = {} }: { title: string; file: string; labels?: Labels }) {
   const idRef = useRef('');
   const attribution = useRef<Record<string, string>>({});
   const formRef = useRef<HTMLFormElement>(null);
@@ -65,12 +67,12 @@ export default function DownloadForm({ title, file }: { title: string; file: str
   if (done) return <div className={styles.formCard} role="status">
     <h2>Your download has started.</h2>
     <p>If it did not open, use the button below. Our team may follow up on WhatsApp or email with related material; reply “stop” any time.</p>
-    <a className={styles.button} href={file} download>Download the PDF <span aria-hidden="true">↓</span></a>
+    <a className={styles.button} href={file} download>{labels.done || 'Download the PDF'} <span aria-hidden="true">↓</span></a>
   </div>;
 
   return <form ref={formRef} className={styles.formCard} onSubmit={submit}>
-    <h2>Get the free PDF</h2>
-    <p>Tell us where to reach you. The download starts straight away.</p>
+    <h2>{labels.heading || 'Get the free PDF'}</h2>
+    <p>{labels.intro || 'Tell us where to reach you. The download starts straight away.'}</p>
     <label><span className={styles.labelText}>Name<b>*</b></span><input name="name" autoComplete="name" required minLength={2} maxLength={200} /></label>
     <label><span className={styles.labelText}>Email<b>*</b></span><input name="email" type="email" autoComplete="email" required maxLength={254} /></label>
     <label><span className={styles.labelText}>Mobile / WhatsApp<b>*</b></span><input name="phone" type="tel" autoComplete="tel" required placeholder="98765 43210, or +971 50 123 4567" /></label>
@@ -87,7 +89,7 @@ export default function DownloadForm({ title, file }: { title: string; file: str
     </label>
     <input className={styles.trap} name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" />
     {error && <p className={styles.error} role="alert">{error}</p>}
-    <button className={styles.button} type="submit" disabled={busy}>{busy ? 'Sending…' : 'Download free PDF'} <span aria-hidden="true">↓</span></button>
+    <button className={styles.button} type="submit" disabled={busy}>{busy ? 'Sending…' : labels.button || 'Download free PDF'} <span aria-hidden="true">↓</span></button>
     <p className={styles.small}>We use these details to send the file and related material from Bizgenix AI. See our <a href="/privacy-policy">privacy policy</a>.</p>
   </form>;
 }

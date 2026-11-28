@@ -1,0 +1,138 @@
+100 ChatGPT prompt shortcuts (and how to make them work)
+Bizgenix AI playbook · checked 2026-11-28 · https://bizgenix.ai/playbooks/chatgpt-prompt-shortcuts
+
+Read this first
+These are not hidden commands built into ChatGPT. Each one is a short name for an instruction. ChatGPT only behaves this way when it knows what the name means.
+
+There are two ways to make them work:
+1. Paste the instruction. Copy the sentence next to the shortcut into your message.
+2. Save the list once. Paste the shortcuts you use into ChatGPT's Custom Instructions (Settings → Personalization), or into a Project, with the line "When I type one of these shortcuts, follow the instruction next to it." After that, typing the shortcut alone is enough.
+
+They work the same way in Claude and Gemini.
+
+
+Thinking and strategy
+- /Expose Reveal the real problem behind my question, the assumptions I’m making, and what I’m actually trying to solve. Then answer from that deeper level.
+- /KillCritique Don’t be polite. Critique my idea brutally. Tell me what’s weak, unrealistic, likely to fail, and how to fix it.
+- /10xThink Think 10x deeper before answering. Give me the most strategic, nuanced, high-leverage response possible.
+- /IQ200 Answer like a world-class expert with elite reasoning, but keep it practical and actionable.
+- /AutoSpy Analyze my prompt for hidden biases, weak assumptions, blind spots, and flawed logic before answering.
+- /DevilsAdvocate Argue against my idea like a smart skeptic. Show me the downside, the flaws, and the counterarguments.
+- /ReverseEngineer Reverse engineer how a top 1% operator would solve this from scratch.
+- /FirstPrinciples Strip away assumptions and explain this from first principles.
+- /BlindSpots Tell me what I’m not seeing, what I’m ignoring, and what could hurt me later.
+- /StressTest Stress test this plan under worst-case scenarios, competition, low budget, and bad execution.
+- /DecisionMode Compare the options, show the tradeoffs, and tell me which path has the highest upside.
+- /SecondOrder Go beyond the obvious and explain the second-order consequences of this decision.
+- /RootCause Don’t treat the symptom. Find the real root cause of the problem.
+- /NoMercy Be direct. Don’t protect my feelings. Give me the answer I need, not the one I want.
+- /OperatorMode Answer like a founder/operator who only cares about leverage, speed, and ROI.
+- /PatternRecognition Identify the pattern behind this problem and show me where it usually leads.
+- /LeverageFirst Show me the highest-leverage moves first instead of the easiest moves.
+- /ConstraintBreak Find the bottleneck stopping growth and show me how to remove it.
+- /TruthFilter Remove hype, cope, and wishful thinking. Tell me what’s actually true.
+- /SimplifyHard Make this simple without making it dumb.
+
+Writing and copy
+- /RewriteBetter Rewrite this to sound sharper, cleaner, more persuasive, and more human.
+- /HookMode Turn this idea into 10 high-retention hooks using curiosity, shock, authority, and outcome angles.
+- /SalesMode Rewrite this to sell better without sounding pushy. Focus on pain, desire, proof, and action.
+- /Shorten Cut the fluff and make this 50% shorter while keeping the punch.
+- /Humanize Make this sound less robotic and more like a smart human wrote it.
+- /CTAUpgrade Give me 10 stronger CTAs that increase comments, clicks, or replies.
+- /HeadlineLab Write 20 headline variations with different angles: curiosity, fear, benefit, speed, status.
+- /ClarityPass Make this easier to understand, tighter, and cleaner.
+- /MakeItPunchy Increase rhythm, sharpness, and memorability line by line.
+- /StoryMode Turn this into a story with a stronger setup, conflict, payoff, and lesson.
+- /AuthorityTone Rewrite this so it sounds credible, calm, and high-status.
+- /CasualTone Make this sound conversational, natural, and not over-polished.
+- /LuxuryTone Rewrite this to feel premium, exclusive, and high-value.
+- /ControversyMode Make this more polarizing and scroll-stopping without sounding stupid.
+- /EmotionalPunch Increase emotional weight, tension, and relatability.
+- /Skimmable Rewrite this so it’s easy to scan on mobile.
+- /HookAudit Score these hooks out of 10, explain why they’re weak, and rewrite the best 5.
+- /BodyFix Fix the middle of this script so retention doesn’t drop after the hook.
+- /CloserFix Rewrite the ending so it feels stronger, cleaner, and more persuasive.
+- /OneLiner Turn this into a punchy one-liner or quote.
+
+Content creation
+- /Virality Turn this into a viral short-form content idea with hook, body, payoff, and CTA.
+- /ContentMachine Turn this one idea into 10 reels, 5 carousels, 3 lead magnets, and 3 email ideas.
+- /CarouselMode Turn this topic into a high-retention Instagram carousel slide by slide.
+- /ReelScript Write a 30–45 second reel script with a text hook, verbal hook, body, and CTA.
+- /ThumbnailIdeas Give me 10 thumbnail concepts with emotion, curiosity, and contrast.
+- /TitleBank Write 20 titles for this content idea across YouTube, Reels, and carousels.
+- /HookVariations Write 25 hook variations for this same idea in different styles.
+- /BrollPlan Tell me exactly what to show on screen for every line of this script.
+- /CommentCTA Give me comment CTAs that drive replies and DMs without sounding desperate.
+- /DMLeadMagnet Turn this piece of content into a “comment X and I’ll DM you” funnel.
+- /ContentGap Tell me what this script is missing to make it actually worth watching.
+- /RetentionFix Rewrite this script for higher retention with faster pacing and stronger open loops.
+- /CreatorClone Study this creator’s style and write content in a similar structure without copying them.
+- /TrendAngle Turn this topic into a trend-based content piece that feels current.
+- /SeriesMode Break this topic into a 7-part content series.
+- /AuthorityBuilder Turn this topic into content that makes me look smarter, more credible, and more trusted.
+- /MythBuster Turn this into a myth-busting post with strong “you’ve been lied to” energy.
+- /ContrarianTake Give me a non-obvious, contrarian angle on this topic that still makes sense.
+- /DemoMode Turn this into a step-by-step demo video idea with visuals.
+- /Repurpose Turn this YouTube script into a reel, carousel, tweet thread, and email.
+
+Business and sales
+- /Monetize Show me how to turn this idea, audience, skill, or asset into revenue.
+- /OfferAudit Audit my offer. Tell me why it’s weak, unclear, low-value, or hard to sell.
+- /PositioningFix Fix my positioning so the right buyers instantly understand why I matter.
+- /LeadGenPlan Give me a lead generation plan for this niche with channels, messaging, and daily actions.
+- /PricingHelp Tell me how to price this offer based on value, demand, and positioning.
+- /ClientCloser Help me close clients for this service with offer framing, objections, and call flow.
+- /ObjectionCrusher List the top objections buyers will have and give me responses that actually work.
+- /NicheResearch Break down this niche: pain points, buying triggers, offers, and content opportunities.
+- /CompetitorTearDown Analyze my competitors, show me where they’re weak, and how I can position against them.
+- /AcquisitionPlan Give me a realistic client acquisition strategy for the next 30 days.
+- /RevenueMap Show me the fastest path from where I am now to my target monthly revenue.
+- /OfferStack Build me a ladder of offers: free, low-ticket, core offer, upsell, and premium.
+- /CashFlowFix Show me how to increase cash flow fast with what I already have.
+- /RetentionPlan How do I keep clients longer, increase LTV, and reduce churn?
+- /UpsellEngine Find upsell opportunities inside my current service or product.
+- /DMCloser Write DM conversations that move leads from interest to booked call.
+- /SalesPageFix Audit this sales page and tell me exactly what’s killing conversions.
+- /MarketMessageFit Make sure the messaging matches what the market actually wants to hear.
+- /ProofBuilder Show me how to create stronger proof, case studies, and credibility if I’m still small.
+- /LeadsToday Give me the fastest ways to get leads today, not “build a brand for 12 months.”
+
+Productivity and execution
+- /StepByStep Break this into a step-by-step action plan with zero fluff.
+- /SOPMode Turn this process into a clean SOP someone else can follow.
+- /AutomationIdeas Show me what parts of this workflow can be automated with AI or no-code tools.
+- /PriorityStack Tell me what to do first, second, and third based on ROI and urgency.
+- /TimeSaver Cut this workflow down to the minimum time required without losing output quality.
+- /ExecutionPlan Turn this goal into a 7-day, 30-day, and 90-day execution plan.
+- /DailySystem Build me a daily operating system to make progress on this consistently.
+- /DelegationMode Tell me what to delegate, what to keep, and what to automate.
+- /TemplateBuilder Turn this repeated task into a reusable template.
+- /ChecklistMode Turn this into a checklist I can run every time.
+- /DeepWork Structure this project so I can finish it with focused work blocks.
+- /EnergyAware Build this workflow around low energy, distraction, and inconsistency.
+- /MomentumFix Tell me why I keep stalling and how to create momentum again.
+- /BottleneckAudit Find the one bottleneck slowing everything down.
+- /WeeklyReview Create a weekly review system so I don’t drift or waste time.
+- /SpeedRun Give me the fastest possible version of this plan if I only have 7 days.
+- /MinimalViable What’s the smallest version of this I can launch or test immediately?
+- /AntiOverwhelm Turn this messy plan into something simple and executable.
+- /FocusFilter Tell me what to ignore so I stop doing fake work.
+- /DoneByTonight Give me the exact plan to make meaningful progress on this before tonight.
+
+Examples
+/KillCritique I want to start a second showroom in Surat. Here is my plan…
+Here is my sales page. /SalesPageFix /ObjectionCrusher /PositioningFix
+/SOPMode Turn this voice note on how we dispatch orders into an SOP.
+
+
+Shortcuts that work well together
+- Decisions: /Expose + /AutoSpy + /DecisionMode + /SecondOrder
+- Writing: /RewriteBetter + /ClarityPass + /MakeItPunchy
+- Getting work done: /StepByStep + /PriorityStack + /DoneByTonight
+- Business review: /OfferAudit + /PositioningFix + /LeadGenPlan
+
+The value is in the instruction behind each name. A shortcut does not make the answer true: check facts, numbers and names before you use them.
+
+Bizgenix AI · https://bizgenix.ai · AI automation, custom AI solutions and corporate AI training
