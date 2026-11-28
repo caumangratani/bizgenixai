@@ -1011,60 +1011,36 @@
  ],
  "shorts": [
   {
+   "youtubeId": "d-nC-9rhczQ",
+   "label": "Happenstance: find a warm introduction before a cold message"
+  },
+  {
    "youtubeId": "L-orw-Ohhn4",
-   "label": "A Claude prompt for business owners"
-  },
-  {
-   "youtubeId": "kNEHVv_Dpt8",
-   "label": "An AI agent that follows up pending payments"
-  },
-  {
-   "youtubeId": "EHO4_r_J5Lo",
-   "label": "AI automation: a client story"
+   "label": "Finding business owners to contact with a Claude connector"
   },
   {
    "youtubeId": "AbxcHLqvWZ0",
-   "label": "AI prompts for finance professionals"
-  },
-  {
-   "youtubeId": "x8Cw0zNhOvk",
-   "label": "How brands are getting discovered through ChatGPT"
-  },
-  {
-   "youtubeId": "GRYpu2CyhT0",
-   "label": "ChatGPT prompt ideas"
+   "label": "Ready-made AI prompts for accounting and audit work"
   },
   {
    "youtubeId": "lfvY0ZFI8jU",
-   "label": "AI tools for beginners"
+   "label": "AI tools by task: design, images, invoices, websites"
   },
   {
    "youtubeId": "KSCLe3qzhj8",
-   "label": "Paid versus free AI tools"
+   "label": "Paid AI tools and their free alternatives"
   },
   {
    "youtubeId": "02g9oeiGDX8",
-   "label": "Google AI tools"
+   "label": "Google AI tools for marketing, design and documents"
   },
   {
    "youtubeId": "wOY6SKzeQBU",
-   "label": "Three AI browsers"
-  },
-  {
-   "youtubeId": "d0dusMlMyNU",
-   "label": "Building a website with Claude"
-  },
-  {
-   "youtubeId": "EX0jn4b2HMM",
-   "label": "Seven mistakes that weaken AI-built apps"
-  },
-  {
-   "youtubeId": "d-nC-9rhczQ",
-   "label": "Happenstance, an AI tool for LinkedIn lead generation"
+   "label": "Three AI browsers that carry out tasks"
   },
   {
    "youtubeId": "WqaHIz9YdyE",
-   "label": "An AI tool for video generation"
+   "label": "Comparing image and video AI models side by side"
   }
  ]
 }
