@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
         </header>
         <div className={styles.content}>
           <article className={styles.policy} aria-labelledby="privacy-title">
-            <p><strong>Effective Date:</strong> 14 November 2026<br/><strong>Company Name:</strong> Bizgenix Ai Solution Pvt Ltd<br/><strong>Website:</strong> https://bizgenix.ai/</p>
+            <p><strong>Effective Date:</strong> 14 November 2026<br/><strong>Last updated:</strong> 28 November 2026 (section 7: Microsoft Clarity)<br/><strong>Company Name:</strong> Bizgenix Ai Solution Pvt Ltd<br/><strong>Website:</strong> https://bizgenix.ai/</p>
             <h2>1. Introduction</h2>
             <p>Bizgenix Ai Solution Pvt Ltd (&quot;Company&quot;, &quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and protect information when you interact with our website, services, and communication channels including WhatsApp Business.</p>
             <p>By using our website or communicating with us through WhatsApp, phone, email, or any other platform, you agree to the terms outlined in this Privacy Policy.</p>
@@ -47,6 +47,7 @@ export default function PrivacyPolicyPage() {
             <p>However, no method of internet transmission or electronic storage is completely secure, and we cannot guarantee absolute security.</p>
             <h2>7. Cookies and Tracking Technologies</h2>
             <p>Our website may use cookies and analytics tools to improve user experience, monitor website traffic, and analyze performance.</p>
+            <p>We use Microsoft Clarity to understand how visitors use this website. Clarity records usage data such as pages viewed, clicks, scrolling and device type, and can replay a visit, so that we can find and fix pages that are hard to use. What you type into our forms is masked and is not recorded by Clarity. Clarity uses cookies for this; for visitors in the European Economic Area, the United Kingdom and Switzerland it sets no cookies without consent. Microsoft processes this data as described in the <a href="https://www.microsoft.com/privacy/privacystatement" rel="noopener noreferrer" target="_blank">Microsoft Privacy Statement</a>. We do not use Clarity data for advertising.</p>
             <p>Users can disable cookies through their browser settings.</p>
             <h2>8. Data Retention</h2>
             <p>We retain personal information only for as long as necessary to fulfill business, legal, and operational requirements.</p>

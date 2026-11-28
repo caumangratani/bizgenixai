@@ -164,3 +164,9 @@ Found while scoring the site against a 40-point check (workspace `playbook/COVER
 - `app/HeroAnimation.tsx`: each `<source>` carries `media` at the CSS breakpoint (760px), so a device fetches one hero video, not both. Home page on a phone: 2,502 KB → 1,206 KB (Lighthouse 13.6, mobile).
 - `app/layout.tsx`: favicon is `/favicon-192.png` (22 KB). `/favicon.svg` was 703 KB (an embedded bitmap) and loaded on every page. The SVG file is left in place.
 - Not changed: the one-time splash intro (`app/SplashIntro.tsx`, ~2.9 s). It is the largest element on the home page and the reason lab LCP is 3.7 s on a phone. Search Console (28 Nov): 32 mobile URLs "need improvement" for LCP, 0 good. Design decision for Umang.
+
+## 28 Nov 2026 (night) — Microsoft Clarity added (Claude, on Umang's instruction)
+
+- `app/Clarity.tsx` (new) loads Microsoft Clarity project `zkqdrvfjms` (owner info@bizgenix.ai) after the page is interactive, only on host `bizgenix.ai`. Rendered from `app/layout.tsx`.
+- `/privacy-policy` section 7 names Clarity, what it records, that form entries are masked, and links the Microsoft Privacy Statement; "Last updated: 28 November 2026" added under the effective date.
+- No cookie banner exists on the site. Clarity's own default sets no cookies for EEA, UK and Swiss visitors without a consent signal; other visitors get its first-party cookies, as disclosed.
