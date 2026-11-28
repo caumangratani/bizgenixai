@@ -58,6 +58,7 @@ Bizgenix AI works remotely with businesses in the United States, United Kingdom,
 
 - [Hiring an AI development company in India: buyer guide for US, UK, UAE and Singapore businesses](https://bizgenix.ai/guides/hire-ai-development-company-india)
 - [AI agents for small business: what they can do today](https://bizgenix.ai/guides/ai-agents-for-small-business)
+- [Cost to build an AI automation or agent: what drives the price in USD](https://bizgenix.ai/guides/cost-to-build-ai-automation-or-agent)
 
 ## Tally, finance and Growth Intelligence
 
@@ -103,6 +104,7 @@ Free, open guides with ready-to-paste prompts and templates, by Dr. CA Umang Rat
 - [Business Brain: use Claude Code and Obsidian as your company memory](https://bizgenix.ai/playbooks/business-brain-claude-code-obsidian): Keep your SOPs, client notes, meeting notes and research as files in an Obsidian vault and open that folder in Claude Code. The assistant can then search, summarise and advise from your own material; the ten steps and prompts are below.
 - [How to make a product video ad with ChatGPT and Google Flow](https://bizgenix.ai/playbooks/ai-product-video-ad-chatgpt-google-flow): Upload a clean product photo to ChatGPT and ask it to write a cinematic video prompt, then paste that prompt into Google Flow with the photo as the reference image. Generate several versions in 9:16 and keep the one where the product is shown accurately.
 - [100 ChatGPT prompt shortcuts (and how to make them work)](https://bizgenix.ai/playbooks/chatgpt-prompt-shortcuts): No. ChatGPT has no hidden commands of that kind. They are short names for instructions, and they work once you paste the instruction or save the list in Custom Instructions; the 100 shortcuts and their instructions are below.
+- [73 Claude prompt shortcuts (and the exact instruction behind each)](https://bizgenix.ai/playbooks/claude-prompt-shortcuts): No. Claude has no hidden commands or secret modes. Each shortcut is a short label for a concrete instruction you save in a Claude Project or paste at the start of your prompt; all 73 shortcuts and their full instructions are below.
 
 ## Videos
 

@@ -17,9 +17,9 @@ export const globalGuides: Guide[] = [
     title: 'Hiring an AI Development Company in India: Buyer Guide',
     h1: 'How to hire an AI development company in India: a buyer’s guide for US, UK, UAE and Singapore businesses',
     description: 'What to check before you hire an Indian AI development or automation partner: scope, pricing models, time zones, data protection, ownership, and the questions that separate a working system from a demo.',
-    answer: 'Hire an Indian AI development company the way you would hire any supplier for a critical system: start with one workflow and a written definition of done, ask to see a working prototype on your own data before committing to the full build, and agree in writing who owns the code, where your data lives and how changes are handled. Price follows scope; the cheapest quote is often the one that has not understood the work.',
+    answer: 'Hire an Indian AI development company around 1 clear workflow and a written definition of done: insist on a working prototype on your own data in 7–10 working days before committing to a full build, and put code ownership and data access in writing. Small single-workflow builds with an Indian team of 24 like Bizgenix AI start from USD 500 or EUR 500; for what drives quotes, see our AI automation cost guide.',
     date: '2026-11-22',
-    updated: '2026-11-22',
+    updated: '2026-11-28',
     tags: ['AI Development', 'Outsourcing', 'Custom AI Solutions'],
     minutes: 7,
     html: `
@@ -91,7 +91,7 @@ export const globalGuides: Guide[] = [
 </ul>
 
 <h2>How Bizgenix AI works with clients outside India</h2>
-<p>We are an AI consulting and AI development company in Ahmedabad with a team of 24. We start with one workflow, put a working first version in front of your team, and refine it from real use. International projects start from USD 500 or EUR 500 for a small, clearly scoped workflow; larger systems are quoted after a written scope. Systems run on your accounts, and data access and handover are agreed before work starts.</p>
+<p>We are an AI consulting and AI development company in Ahmedabad with a team of 24. We start with one workflow, put a working first version in front of your team, and refine it from real use. International projects start from USD 500 or EUR 500 for a small, clearly scoped workflow; larger systems are quoted after a written scope. Systems run on your accounts, and data access and handover are agreed before work starts. See <a href="/guides/cost-to-build-ai-automation-or-agent">what drives the cost to build an AI automation or agent</a>.</p>
 `,
     faqs: [
       ['How much does it cost to hire an AI development company in India?', 'It depends on scope. A single, clearly defined workflow can start in the hundreds of US dollars; larger systems are priced after a written scope. Running costs such as hosting, AI usage and messaging are billed separately by those providers.'],
@@ -107,9 +107,9 @@ export const globalGuides: Guide[] = [
     title: 'AI Agents for Small Business: What They Can Do Today',
     h1: 'AI agents for small business: what they can do today, what they cannot, and how to start',
     description: 'A plain guide for small and mid-size business owners anywhere: what an AI agent is, five jobs agents do well today, where they fail, the controls to insist on, and a 30-day way to start.',
-    answer: 'An AI agent is software that is given a goal and a set of tools, decides the steps, and carries them out, for example reading new enquiries, looking up the customer and drafting a reply. In a small business today agents work best on narrow, repetitive jobs with a person approving anything that reaches a customer or moves money. Start with one job, measure it for a month, then add the next.',
+    answer: 'An AI agent is software given a goal and narrow tools to carry out steps—such as reading an enquiry, checking the CRM and drafting a reply. Small businesses today get reliable results on 5 jobs—enquiry handling, follow-up, document checking, inbox triage and weekly reporting—with human approval on anything external. Start with 1 workflow over a 30-day rollout before adding the next.',
     date: '2026-11-22',
-    updated: '2026-11-22',
+    updated: '2026-11-28',
     tags: ['AI Agents', 'AI Automation', 'Custom AI Solutions'],
     minutes: 6,
     html: `
@@ -167,5 +167,61 @@ export const globalGuides: Guide[] = [
       ['How long does it take to set up an AI agent?', 'A first working version of a single, narrow job can often be built in a couple of weeks; most of the effort is in defining the job, connecting data and testing beside the person who does it today.'],
     ],
     next: globalNext('Start your first AI agent with one job', 'We build agents with narrow tools, approval steps and a log, starting from a working prototype on your own data.'),
+  },
+  {
+    slug: 'cost-to-build-ai-automation-or-agent',
+    title: 'Cost to Build an AI Automation or Agent: What Drives Price',
+    h1: 'How much does it cost to build an AI automation or AI agent? What drives the price in USD',
+    description: 'What decides the price of a custom AI automation or AI agent: build fee versus running costs, the six scope drivers, pricing models compared, and how to compare quotes without guessing.',
+    answer: 'Custom AI automation and agent builds vary strictly by workflow scope: a small, single-workflow build with Bizgenix AI starts from USD 500 or EUR 500 with a working prototype in 7–10 working days, while multi-system agents with approval queues and custom dashboards are quoted after a written scope. Separate one-time build fees from recurring model, hosting and messaging costs billed on your own accounts.',
+    date: '2026-11-28',
+    updated: '2026-11-28',
+    tags: ['AI Pricing', 'AI Automation', 'AI Agents', 'Custom AI Solutions'],
+    minutes: 7,
+    html: `
+<h2>Why flat price lists mislead buyers</h2>
+<p>Two companies ask for “an AI follow-up agent”. The first wants new website enquiries read, checked against one Google Sheet, and a draft reply placed in email for a salesperson to approve. The second wants WhatsApp Business Platform webhooks, CRM two-way sync, voice-call fallback, exception escalation across three regions, and role-based audit logs. Giving both the same price tag either hides missing work or pads the small job.</p>
+<p>Instead of chasing generic industry averages, break any quote into two buckets: the <strong>one-time build scope</strong> and the <strong>ongoing running costs</strong>.</p>
+
+<h2>One-time build versus ongoing running costs</h2>
+<div class="tableWrap"><table>
+<thead><tr><th>Cost bucket</th><th>What sits inside it</th><th>Who should hold the billing</th></tr></thead>
+<tbody>
+<tr><td>Discovery &amp; workflow mapping</td><td>Documenting triggers, exceptions, approval rules and definition of done</td><td>Included in project scope</td></tr>
+<tr><td>Build &amp; integrations</td><td>Connectors, prompts/tools, exception handling, testing on sample records</td><td>Supplier milestone fee (e.g. 50% start, 50% milestone)</td></tr>
+<tr><td>AI model &amp; API usage</td><td>Token charges from OpenAI, Anthropic or Google per document or message</td><td>Your own provider account</td></tr>
+<tr><td>Cloud hosting &amp; database</td><td>Servers, queues and logs where the workflow runs</td><td>Your own cloud account</td></tr>
+<tr><td>Messaging &amp; voice telephony</td><td>Official WhatsApp Business Platform conversation fees and voice minutes</td><td>Your own provider account</td></tr>
+<tr><td>Post-launch support</td><td>Fixing edge cases when source formats or third-party APIs change</td><td>Optional monthly retainer or your internal team</td></tr>
+</tbody></table></div>
+
+<h2>Six things that drive the build price up or down</h2>
+<ol>
+<li><strong>Number of systems connected.</strong> Reading one inbox and writing to one sheet costs far less than syncing an ERP, a CRM, WhatsApp and an email server.</li>
+<li><strong>Messiness of the input data.</strong> Clean form submissions are straightforward; scanned PDFs, mixed-language voice notes or inconsistent spreadsheets need verification and fallback steps.</li>
+<li><strong>Human approval and exception rules.</strong> Anything touching customers, pricing or money needs a review step, an override log and a clear fallback when the model is unsure.</li>
+<li><strong>Volume and reliability targets.</strong> Ten enquiries a day can run on a light workflow; thousands of events an hour need queuing, retries and monitoring.</li>
+<li><strong>Custom user interface.</strong> Running inside tools you already use (email, Slack, WhatsApp, Sheets) avoids building a separate web dashboard.</li>
+<li><strong>Compliance and hosting rules.</strong> Private deployments, role-based permissions and regional data residency add setup and documentation work.</li>
+</ol>
+
+<h2>How to compare two quotes fairly</h2>
+<ul>
+<li>Check whether both quotes include a <strong>prototype on your own records</strong> before the main build commitment.</li>
+<li>Check whether code, prompts and cloud accounts transfer to you on payment.</li>
+<li>Confirm which third-party subscriptions (CRM, WhatsApp BSP, AI APIs) sit outside the build fee.</li>
+<li>Ask what happens when a third-party API changes or an unexpected document format arrives.</li>
+</ul>
+
+<h2>How Bizgenix AI scopes and prices international builds</h2>
+<p>Bizgenix AI operates remotely from Ahmedabad with a team of 24, serving clients in the US, UK, UAE, Singapore, Australia and Canada. Small, single-workflow automations start from <strong>USD 500 or EUR 500</strong>, with a working first version on your data typically ready in <strong>7–10 working days</strong>. Larger multi-step systems are scoped in writing first, billed in milestones, and deployed onto your own cloud and AI provider accounts. See our <a href="/global">clients outside India</a> page and our <a href="/guides/hire-ai-development-company-india">buyer guide to hiring an Indian AI development team</a>.</p>
+`,
+    faqs: [
+      ['What is the minimum budget to build a custom AI workflow?', 'At Bizgenix AI, small single-workflow builds for international clients start from USD 500 or EUR 500, scoped in writing before work begins. Larger multi-system agents depend on integrations, approval rules and UI requirements.'],
+      ['Are AI API and WhatsApp fees included in the build price?', 'Keep them separate. Model usage, cloud hosting, WhatsApp Business Platform fees and voice call minutes are recurring provider charges that should run on your own accounts so you see and control actual usage.'],
+      ['How long does it take to see a working version?', 'For a clearly scoped workflow, a working prototype on your own records is typically ready in 7–10 working days before committing to full rollout.'],
+      ['Should I pay fixed price or a monthly retainer?', 'Fixed milestone pricing suits one well-defined workflow with clear acceptance criteria. A monthly retainer makes sense after launch when you want ongoing improvements and new workflows added each month.'],
+    ],
+    next: globalNext('Get a written USD/EUR scope for one workflow', 'Send us what triggers the task, which tools it touches and what done looks like. We reply with a clear scope and prototype plan.'),
   },
 ];

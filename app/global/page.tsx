@@ -65,6 +65,7 @@ const content: ServiceContent = {
     { label: 'AI automation', href: '/ai-automation' },
     { label: 'AI consulting', href: '/ai-consulting' },
     { label: 'Hire an AI development company in India: buyer guide', href: '/guides/hire-ai-development-company-india' },
+    { label: 'Cost to build an AI automation or agent', href: '/guides/cost-to-build-ai-automation-or-agent' },
     { label: 'Corporate AI training', href: '/courses' },
   ],
 };

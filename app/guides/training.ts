@@ -168,9 +168,9 @@ export const trainingGuides: Guide[] = [
     title: 'How to Choose an AI Course in India: A Buyer’s Checklist',
     h1: 'How to choose an AI course in India: a checklist for business owners and professionals',
     description: 'A practical checklist for choosing an AI course in India as a business owner, CA, manager or student: who teaches it, live vs recorded, language, what you build, tools covered, access, support and price.',
-    answer: 'Choose an AI course by what you will be able to do at the end, not by the number of hours or the certificate. Check that the teacher implements AI in real businesses, that you build working things on your own work, that the language and pace suit you, that the tools are current, and that notes, prompts and support continue after the videos end.',
+    answer: 'Choose an AI course by what you will build by the end, not by hours of video or a certificate. Verify that the teacher implements real systems (Bizgenix AI has built 110+ AI solutions across 60+ organisations), that modules end in working tools on your own tasks, and that pricing and access are transparent—such as our 12-module recorded programme at ₹15,000 + GST for 12 months.',
     date: '2026-11-22',
-    updated: '2026-11-22',
+    updated: '2026-11-28',
     tags: ['AI Course', 'AI Education', 'Learning'],
     minutes: 7,
     photo: { src: '/training/group-cohort-demo-day.jpg', alt: 'A Scale With AI cohort group photo after demo day', caption: 'A Scale With AI cohort after its demo day, where members presented what they built.' },
@@ -323,7 +323,7 @@ export const trainingGuides: Guide[] = [
 
 <h2>Using both together</h2>
 <p>A pattern we teach in <a href="/scale-with-ai">Scale With AI</a>: build the thinking in a Project (the format, the rules, the examples), then hand the repetitive production to Cowork with the same instructions saved in a context file in its folder.</p>
-<p>Both are covered in depth in our free guides: the <a href="/resources/complete-claude-ai-guide">Complete Claude AI Guide</a> and the <a href="/resources/claude-cowork-guide">Complete Claude Cowork Guide</a>.</p>
+<p>Both are covered in depth in our free guides: the <a href="/resources/complete-claude-ai-guide">Complete Claude AI Guide</a>, the <a href="/resources/claude-cowork-guide">Complete Claude Cowork Guide</a>, and our <a href="/playbooks/claude-prompt-shortcuts">73 Claude prompt shortcuts playbook</a>.</p>
 `,
     faqs: [
       ['What is the difference between Claude Projects and Cowork?', 'Projects are chat workspaces with your instructions and reference files, for drafting and answering. Cowork carries out multi-step tasks on files on your computer and saves finished outputs to a folder.'],

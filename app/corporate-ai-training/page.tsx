@@ -77,6 +77,8 @@ const content: ServiceContent = {
     { q: 'Can the training be delivered online or outside India?', a: 'Yes. Sessions can be online, at your office or hybrid, in English, Hindi or Gujarati. Teams outside India are trained online across time zones, or on site with travel and stay at actuals.' },
     { q: 'Which AI tools do you train on?', a: 'The tools your organisation allows. Typically ChatGPT, Claude and Gemini, plus automation and AI-agent tools where relevant. Where company policy restricts cloud tools, we cover private and local AI options.' },
     { q: 'How much does corporate AI training cost?', a: 'A customised full-day on-site workshop is ₹1,40,000 + GST for the group, not per seat, for 20 to 150 people. 50% confirms the date and the balance is due on the day; travel and stay outside Ahmedabad are at actuals. Other formats are quoted after a scoping call.' },
+    { q: 'How many people can attend and what languages do you train in?', a: 'A full-day on-site corporate workshop accommodates 20 to 150 participants at one flat group fee (₹1,40,000 + GST). Sessions run in English, Hindi or Gujarati, or a mix that suits the room.' },
+    { q: 'What does each participant leave with after the session?', a: 'Every participant leaves with tested prompts for their own role, a 30-day action plan with three quick wins, and each department leaves with a ranked list of workflows ready to automate.' },
     { q: 'What happens after the training?', a: 'Each team keeps its prompt library and a ranked list of automation opportunities. If you want those built, Bizgenix AI can scope and build them as a separate project.' },
   ],
   related: [

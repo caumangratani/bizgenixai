@@ -28,6 +28,17 @@ Rules that apply to every entry:
 
 ---
 
+## 28 Nov 2026 (late night) — Keyword-map fixes, quotable answers, GI cash handoff, R038 playbook, global cost guide (Gemini)
+
+- `/ai-automation`: strengthened for "AI automation agency in India" with agency comparison points, 110+ solutions / 60+ organisations / 20+ industries / 7–10 working days prototype facts, and expanded FAQs.
+- `/guides/chief-value-officer`: updated title and opening for "CVO meaning" with a structured CVO definition box (citing ACCA & BDO June 2023) and owner-led MSME context.
+- `/guides/cash-flow-forecast-from-tally`: integrated Codex's prepared cash-planning handoff (separating reconciled balances from assumptions, illustrative 1-week scenario table, weekly review and GI demo checks).
+- `/guides/mis-report-in-tally`: added an 8-step Tally preparation checklist and an illustrative one-page monthly MIS summary table.
+- Quotable-answer retrofit across `tally-finance.ts`, `global.ts` and `training.ts` guides using approved facts and dated November 2026 vendor figures.
+- New international guide `/guides/cost-to-build-ai-automation-or-agent` (starting from USD/EUR 500, 7–10 working days prototype, build vs running costs), linked from `/global`, `/ai-automation` and `/guides/hire-ai-development-company-india`.
+- `/products/growth-intelligence`: updated layout title (`Growth Intelligence | Business Analytics & AI CVO for Tally`) and added `FAQPage` JSON-LD + visible CVO and read-only MCP sub-questions; `/corporate-ai-training`: added group size, language and deliverable FAQs.
+- `/playbooks/claude-prompt-shortcuts`: reworked R038 into "73 Claude prompt shortcuts (and the exact instruction behind each)" with full explicit instructions for every shortcut, no "secret codes" or anti-detection claims, and copy-ready `.txt` download.
+
 ## 28 Nov 2026 — Playbook library `/playbooks` (Claude)
 
 - New hub `/playbooks` and 7 pages `/playbooks/<slug>`: the guides sent by DM to people who comment on Umang's reels, edited and published as open pages (handoff.md template, LLM Council prompt, business card to CRM prompts, image upscale prompt, Business Brain with Claude Code and Obsidian, product video ad with ChatGPT and Google Flow, 100 ChatGPT prompt shortcuts). Article + FAQPage schema, "checked" date, optional form that downloads a copy-ready text file (`/downloads/playbooks/*.txt`, noindexed).

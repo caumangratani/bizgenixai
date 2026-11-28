@@ -503,10 +503,10 @@ export const guides: Guide[] = [
     slug: 'mis-report-in-tally',
     title: 'MIS Report in Tally: Format, Reports to Use and What to Read',
     h1: 'MIS report in Tally: the format, the reports to use and what an owner should read',
-    description: 'What an MIS report is, which TallyPrime reports go into it, a simple monthly format for business owners, and the settings that must be on before the numbers can be trusted.',
-    answer: 'An MIS report is a short monthly summary of the numbers a business owner uses to decide: profit, cash, receivables, payables, stock and expenses. Tally has no single report called “MIS”. You build it from reports Tally already has, mainly Profit & Loss, Balance Sheet, Cash Flow, Ratio Analysis, Outstandings and Stock Summary, and then compare them with last month and last year.',
+    description: 'What an MIS report is, which TallyPrime reports go into it, a simple monthly format and illustrative sample report for business owners, and the settings needed first.',
+    answer: 'An MIS report turns 8 core TallyPrime reports—Profit & Loss, Balance Sheet, Cash Flow, Funds Flow, Ratio Analysis, Bills Receivable, Bills Payable and Stock Summary—into one monthly decision summary for the owner. Tally has no single built-in report called “MIS”, so you assemble these views side by side against last month and last year before acting.',
     date: '2026-11-15',
-    updated: '2026-11-15',
+    updated: '2026-11-28',
     tags: ['Tally', 'MIS Reporting', 'Business Intelligence'],
     minutes: 6,
     html: `
@@ -560,6 +560,31 @@ export const guides: Guide[] = [
 
 <h2>What to read first</h2>
 <p>If you read only three things each month, read these: the receivables over 90 days, the cash closing balance against next month’s payables, and gross profit % against last month. Most unpleasant surprises show up in one of the three.</p>
+
+<h2>Step-by-step: how to prepare a monthly MIS in Tally</h2>
+<ol>
+<li><strong>Confirm book completeness first:</strong> verify bank reconciliation, purchase bills, sales invoices and stock entries up to month-end.</li>
+<li><strong>Set the period and comparison columns:</strong> open Profit &amp; Loss A/c and use <code>Alt+C</code> or <code>Alt+N</code> to place this month beside last month and the same month last year.</li>
+<li><strong>Check key ratios:</strong> open Ratio Analysis from the Gateway of Tally and note gross profit %, net profit %, current ratio and receivable turnover.</li>
+<li><strong>Capture liquidity:</strong> record bank and cash balances plus Cash Flow / Funds Flow movements for the month.</li>
+<li><strong>Export age-wise receivables:</strong> open Outstandings → Receivables, press <code>F6</code> for age-wise buckets (0–30, 31–60, 61–90, 90+ days) and list the top overdue parties.</li>
+<li><strong>Export payables due next 30 days:</strong> open Outstandings → Payables with <code>F6</code> so supplier commitments sit next to available cash.</li>
+<li><strong>Flag slow stock:</strong> check Stock Summary and Ageing Analysis for items with no movement in 90 days.</li>
+<li><strong>Summarise on one page:</strong> put the headline table first, attach three named owner actions with dates, and review it in a fixed monthly meeting.</li>
+</ol>
+
+<h2>Illustrative monthly MIS summary (fictional example, ₹ lakh)</h2>
+<p>The figures below are fictional, shown only to illustrate how a one-page owner summary reads:</p>
+<div class="tableWrap"><table>
+<thead><tr><th>Metric</th><th>This month</th><th>Last month</th><th>Same month last year</th><th>Owner question to ask</th></tr></thead>
+<tbody>
+<tr><td>Net sales</td><td>120.0</td><td>108.0</td><td>98.0</td><td>Which products or dealers drove the ₹12.0L jump?</td></tr>
+<tr><td>Gross profit (and %)</td><td>30.0 (25.0%)</td><td>28.1 (26.0%)</td><td>23.5 (24.0%)</td><td>Why did gross margin slip 1.0 point despite higher sales?</td></tr>
+<tr><td>Net profit (and %)</td><td>10.8 (9.0%)</td><td>10.2 (9.4%)</td><td>7.8 (8.0%)</td><td>Which operating expenses grew faster than sales?</td></tr>
+<tr><td>Closing cash &amp; bank</td><td>14.5</td><td>18.2</td><td>11.0</td><td>Does ₹14.5L cover next month’s salaries and supplier dues?</td></tr>
+<tr><td>Receivables &gt; 60 days</td><td>22.4</td><td>15.6</td><td>14.0</td><td>Which 5 dealers account for the ₹6.8L jump in overdue bills?</td></tr>
+<tr><td>Slow stock &gt; 90 days</td><td>18.0</td><td>16.5</td><td>12.5</td><td>Which items should be paused from the next purchase order?</td></tr>
+</tbody></table></div>
 `,
     faqs: [
       ['Does Tally have a built-in MIS report?', 'No single report in TallyPrime is called MIS. Profit & Loss, Balance Sheet, Cash Flow, Funds Flow, Ratio Analysis, Outstandings, Stock Summary and Cost Centre reports together make up an MIS report. You compare periods with Alt+C or Alt+N and export with Alt+E.'],
